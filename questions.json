@@ -1,0 +1,5552 @@
+[
+    {
+        "Answer": "Surah e Al-Imran",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah e Al-baqarah",
+        "Choice2": "Surah e Hajj",
+        "Choice3": "Surah e Al-Imran",
+        "Choice4": "Surah e Fatah",
+        "Question": "_____ is the Surah in Holy Quran in which Hajj is commanded:",
+        "id": 0
+    },
+    {
+        "Answer": "86",
+        "Categ": "Quran Majeed",
+        "Choice1": "87",
+        "Choice2": "77",
+        "Choice3": "86",
+        "Choice4": "76",
+        "Question": "There are ____ Makki Surahs in Holy Quran:",
+        "id": 1
+    },
+    {
+        "Answer": "28",
+        "Categ": "Quran Majeed",
+        "Choice1": "28",
+        "Choice2": "38",
+        "Choice3": " 48",
+        "Choice4": " 18",
+        "Question": "There are ____ Madni Surahs in Holy Quran:",
+        "id": 2
+    },
+    {
+        "Answer": "558",
+        "Categ": "Quran Majeed",
+        "Choice1": "548",
+        "Choice2": "558",
+        "Choice3": "568",
+        "Choice4": "578",
+        "Question": "There are ____ Rukus in Holy Quran:",
+        "id": 3
+    },
+    {
+        "Answer": "Surah-e-Al Baqarah",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah-e-Al Imran",
+        "Choice2": " Surah-e- Maryam",
+        "Choice3": "Surah-e-Yousuf",
+        "Choice4": "Surah-e-Al Baqarah",
+        "Question": "The longest Surah in Holy Quran is:",
+        "id": 4
+    },
+    {
+        "Answer": "Al- Kausar ",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah e Ahad",
+        "Choice2": " Surah e Nasr",
+        "Choice3": "Al- Kausar",
+        "Choice4": "Surah e Lahab",
+        "Question": "_____ is the shortest Surah in Holy Quran:",
+        "id": 5
+    },
+    {
+        "Answer": "Surah e An Naas ",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah e Ahad",
+        "Choice2": "Surah e Nasr",
+        "Choice3": "Surah e An Naas",
+        "Choice4": "Surah e Lahab",
+        "Question": "The last Surah of Holy Quran is:",
+        "id": 6
+    },
+    {
+        "Answer": "Al-Faitha",
+        "Categ": "Quran Majeed",
+        "Choice1": " Al-Baqarah",
+        "Choice2": " Al-Faitha",
+        "Choice3": "Surah e yaseen",
+        "Choice4": "Surah e Lahab",
+        "Question": "  ___ is the preface of the Holy Quran.",
+        "id": 7
+    },
+    {
+        "Answer": "5",
+        "Categ": "Quran Majeed",
+        "Choice1": "5",
+        "Choice2": "7",
+        "Choice3": " 9",
+        "Choice4": "3",
+        "Question": "______  verses were reveled in the first wahi: ",
+        "id": 8
+    },
+    {
+        "Answer": "700 ",
+        "Categ": "Quran Majeed",
+        "Choice1": "500",
+        "Choice2": "300",
+        "Choice3": "700",
+        "Choice4": "900",
+        "Question": "Namaz commanded in Holy Quran for:",
+        "id": 9
+    },
+    {
+        "Answer": "6666",
+        "Categ": "Quran Majeed",
+        "Choice1": "7777",
+        "Choice2": "8888",
+        "Choice3": "6666",
+        "Choice4": "5555",
+        "Question": " The number of Ayats in Holy Quran are: ",
+        "id": 10
+    },
+    {
+        "Answer": "Hazrat Usman Ghani (R.A)",
+        "Categ": "Quran Majeed",
+        "Choice1": "Hazrat Abu Bakar (R.A)",
+        "Choice2": " Hazrat Umer (R.A)",
+        "Choice3": "Hazrat Zaid (R.A)",
+        "Choice4": "Hazrat Usman Ghani (R.A)",
+        "Question": " Who was the first Hafiz Quran among Sahaba:",
+        "id": 11
+    },
+    {
+        "Answer": "6",
+        "Categ": "Quran Majeed",
+        "Choice1": "4",
+        "Choice2": "6",
+        "Choice3": "8",
+        "Choice4": "10",
+        "Question": " Gap between first wahy and second wahy was _____ months:",
+        "id": 12
+    },
+    {
+        "Answer": "12",
+        "Categ": "Quran Majeed",
+        "Choice1": "10",
+        "Choice2": "12",
+        "Choice3": "14",
+        "Choice4": "16",
+        "Question": "______ Ghazawahs described in Holy Quran:",
+        "id": 13
+    },
+    {
+        "Answer": " Al Saf  ",
+        "Categ": "Quran Majeed",
+        "Choice1": "Al Saf",
+        "Choice2": "Muhammad",
+        "Choice3": "Zuha",
+        "Choice4": "Surah Al Teen",
+        "Question": "Holy Prophet Hazrat Muhammad ﷺ  is addressed as Ahmed in Surah:",
+        "id": 14
+    },
+    {
+        "Answer": "5",
+        "Categ": "Quran Majeed",
+        "Choice1": "3",
+        "Choice2": "6",
+        "Choice3": "4",
+        "Choice4": "5",
+        "Question": "How many Surah in Holy Quran started with the word Qul:",
+        "id": 15
+    },
+    {
+        "Answer": "Hazrat Umer (R.A)",
+        "Categ": "Quran Majeed",
+        "Choice1": " Hazrat Abu Bakar (R.A)",
+        "Choice2": "Hazrat Umer (R.A)",
+        "Choice3": "Hazrat Zaid (R.A)",
+        "Choice4": " Hazrat Usman Ghani (R.A)",
+        "Question": " Who  proposed the compilation of Holy Quran:",
+        "id": 16
+    },
+    {
+        "Answer": " Surah e Al Nasr ",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah e Fatah",
+        "Choice2": "Surah e Al Nasr",
+        "Choice3": "Surah e Al Naas",
+        "Choice4": "None Of These",
+        "Question": " Which Surah in Holy Quran is known as Surah Widah?",
+        "id": 17
+    },
+    {
+        "Answer": "6 ",
+        "Categ": "Quran Majeed",
+        "Choice1": "5",
+        "Choice2": "3",
+        "Choice3": "6",
+        "Choice4": "7",
+        "Question": "The word Islam Occurs _____ times in Holy Quran is:",
+        "id": 18
+    },
+    {
+        "Answer": "Abdul Malik Marwan",
+        "Categ": "Quran Majeed",
+        "Choice1": " Hujaj Bin Yousuf",
+        "Choice2": "Hazrat Umar",
+        "Choice3": "Hazrat Usman",
+        "Choice4": "Abdul Malik Marwan",
+        "Question": "______________ applied the dots in the Holy Quran?",
+        "id": 19
+    },
+    {
+        "Answer": "8",
+        "Categ": "Quran Majeed",
+        "Choice1": "8",
+        "Choice2": "6",
+        "Choice3": "4",
+        "Choice4": "10",
+        "Question": "How many Sapara in Holy Quran starts with bismillah?",
+        "id": 20
+    },
+    {
+        "Answer": "3",
+        "Categ": "Quran Majeed",
+        "Choice1": "3",
+        "Choice2": "4",
+        "Choice3": "5",
+        "Choice4": "6",
+        "Question": " _____ Surah starts with “Ya Ayananabiyau” in Holy Quran:",
+        "id": 21
+    },
+    {
+        "Answer": "Surah Yaseen",
+        "Categ": "Quran Majeed",
+        "Choice1": "Suran Zuha",
+        "Choice2": "Surah Fatiah",
+        "Choice3": "Surah Rehman",
+        "Choice4": "Surah Yaseen",
+        "Question": " Which Surah in Holy Quran is known as Heart of Quran?",
+        "id": 22
+    },
+    {
+        "Answer": "Surah Rehman",
+        "Categ": "Quran Majeed",
+        "Choice1": "Suran Zuha",
+        "Choice2": "Surah Fatiah",
+        "Choice3": "Surah Rehman",
+        "Choice4": "Surah Yaseen",
+        "Question": " Which Surah in Holy Quran is known as  beauty of Quran?",
+        "id": 23
+    },
+    {
+        "Answer": "Surah e Alaq",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah e Alaq",
+        "Choice2": "Surah e Rehman",
+        "Choice3": "Surah e Fatiah",
+        "Choice4": "Surah e Al Teen",
+        "Question": " First revealed surah was:",
+        "id": 24
+    },
+    {
+        "Answer": "26",
+        "Categ": "Quran Majeed",
+        "Choice1": "25",
+        "Choice2": "26",
+        "Choice3": "27",
+        "Choice4": "28",
+        "Question": "How many Prophets mentioned in holy Quran?",
+        "id": 25
+    },
+    {
+        "Answer": " Surah Al Baqarah",
+        "Categ": "Quran Majeed",
+        "Choice1": " Surah Al Baqarah",
+        "Choice2": "Surah Al Imran",
+        "Choice3": "Surah Al Yousuf",
+        "Choice4": "None of these",
+        "Question": "Longest Ayat of Holy Quran is in:",
+        "id": 26
+    },
+    {
+        "Answer": "6",
+        "Categ": "Quran Majeed",
+        "Choice1": "4",
+        "Choice2": "5",
+        "Choice3": "6",
+        "Choice4": " 7",
+        "Question": "How many Surah start with the name of Prophets (A.S) in Holy Quran:",
+        "id": 27
+    },
+    {
+        "Answer": "Women  ",
+        "Categ": "Quran Majeed",
+        "Choice1": "Men",
+        "Choice2": "Women",
+        "Choice3": "Widow",
+        "Choice4": "None of These",
+        "Question": "Surah Maryam wholly revealed for a:",
+        "id": 28
+    },
+    {
+        "Answer": "22 years and 5 months",
+        "Categ": "Quran Majeed",
+        "Choice1": "18 years and 10 months",
+        "Choice2": "23 years and 5 months",
+        "Choice3": "22 years and 5 months",
+        "Choice4": " 21 years and 5 months",
+        "Question": "Holy Quran was reveled in how many years and months?",
+        "id": 29
+    },
+    {
+        "Answer": " 7",
+        "Categ": "Quran Majeed",
+        "Choice1": "8",
+        "Choice2": "7",
+        "Choice3": "6",
+        "Choice4": "5",
+        "Question": "There are _____ stages in Holy Quran:",
+        "id": 30
+    },
+    {
+        "Answer": "Surah-e-Al Imran",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah-e-Al Imran",
+        "Choice2": " Surah-e- Maryam",
+        "Choice3": "Surah-e-Yousuf",
+        "Choice4": " Surah-e-Al Baqarah",
+        "Question": "Second longest Surah in Holy Quran is:",
+        "id": 31
+    },
+    {
+        "Answer": "Surah-e-Al Baqarah",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah-e-Al Imran",
+        "Choice2": "Surah-e- Maryam",
+        "Choice3": "Surah-e-Yousuf",
+        "Choice4": " Surah-e-Al Baqarah",
+        "Question": "The longest Surah in Holy Quran is:",
+        "id": 32
+    },
+    {
+        "Answer": "2",
+        "Categ": "Quran Majeed",
+        "Choice1": "3",
+        "Choice2": "2",
+        "Choice3": " 1",
+        "Choice4": "None Of These",
+        "Question": "How many number of stones mentioned in Holy Quran?",
+        "id": 33
+    },
+    {
+        "Answer": "Surah e namal",
+        "Categ": "Quran Majeed",
+        "Choice1": "Surah e namal",
+        "Choice2": "Surah e Nasr",
+        "Choice3": "Surah e An Naas",
+        "Choice4": "Surah e Lahab",
+        "Question": "In which Surah of Holy Quran Ant is mentioned:",
+        "id": 34
+    },
+    {
+        "Answer": "Spider",
+        "Categ": "Quran Majeed",
+        "Choice1": "Ant",
+        "Choice2": "Pigeon",
+        "Choice3": "Spider",
+        "Choice4": "None Of These",
+        "Question": "Surah e Ankaboot in Holy Quran Means:",
+        "id": 35
+    },
+    {
+        "Answer": "4",
+        "Categ": "Quran Majeed",
+        "Choice1": "5",
+        "Choice2": "4",
+        "Choice3": "6",
+        "Choice4": "3",
+        "Question": "How many times name of Muhammad mentioned in Holy Quran:",
+        "id": 36
+    },
+    {
+        "Answer": "Hazrat Zaid Bin Haris(R.A) ",
+        "Categ": "Quran Majeed",
+        "Choice1": "Hazrat Abu Bakar (R.A)",
+        "Choice2": "Hazrat Umer (R.A)",
+        "Choice3": "Hazrat Zaid Bin Haris(R.A)",
+        "Choice4": "Hazrat Usman Ghani (R.A)",
+        "Question": "Only Sahabi  mentioned in Holy Quran is:",
+        "id": 37
+    },
+    {
+        "Answer": "92",
+        "Categ": "Quran Majeed",
+        "Choice1": "92",
+        "Choice2": "82",
+        "Choice3": "72",
+        "Choice4": "62",
+        "Question": "The word islam  has been used at _____ places in Holy Quran:",
+        "id": 38
+    },
+    {
+        "Answer": "Saff",
+        "Categ": "Quran Majeed",
+        "Choice1": "Ya-Seen",
+        "Choice2": "Muhammad",
+        "Choice3": "Saff",
+        "Choice4": "Muzzammil",
+        "Question": "Prophet Muhammad (PBUH) is called with the name “Ahmed” in Surah",
+        "id": 39
+    },
+    {
+        "Answer": "Fath",
+        "Categ": "Quran Majeed",
+        "Choice1": "Ya-Seen",
+        "Choice2": "Muhammad",
+        "Choice3": "Muzzammil",
+        "Choice4": "Fath",
+        "Question": "“Muhammad is the messenger of Allah” is stated in Surah",
+        "id": 40
+    },
+    {
+        "Answer": " Ahzaab",
+        "Categ": "Quran Majeed",
+        "Choice1": "Aal-e-Imraan",
+        "Choice2": "Yaaseen",
+        "Choice3": " Muhammad",
+        "Choice4": " Ahzaab",
+        "Question": "Allah says, “Wives of Prophet Muhammad (PBUH) are mothers of believers” in Surah",
+        "id": 41
+    },
+    {
+        "Answer": "4",
+        "Categ": "Quran Majeed",
+        "Choice1": "1",
+        "Choice2": "2",
+        "Choice3": " 3",
+        "Choice4": "4",
+        "Question": "The name “Muhammad” has been mentioned _________ times in the Holy Quran.",
+        "id": 42
+    },
+    {
+        "Answer": "Al-Namal",
+        "Categ": "Quran Majeed",
+        "Choice1": "Aal-e-Imraan",
+        "Choice2": "Al-Namal",
+        "Choice3": "Yaaseen",
+        "Choice4": "Muhammad",
+        "Question": "Which Surah of Quran has Bismillah twice?.",
+        "id": 43
+    },
+    {
+        "Answer": "Al-Toba",
+        "Categ": "Quran Majeed",
+        "Choice1": " Al-Baqara",
+        "Choice2": "Al-Nisa",
+        "Choice3": "Al-Toba",
+        "Choice4": "Al-Ikhlas",
+        "Question": "Which surah starts without “Bismillah” ?",
+        "id": 44
+    },
+    {
+        "Answer": "114",
+        "Categ": "Quran Majeed",
+        "Choice1": "124",
+        "Choice2": " 109",
+        "Choice3": "114",
+        "Choice4": "220",
+        "Question": "How many surah does the Holy Quran contain?",
+        "id": 45
+    },
+    {
+        "Answer": "Al-Maidah",
+        "Categ": "Quran Majeed",
+        "Choice1": "Al-Maidah",
+        "Choice2": "Al-Baqara",
+        "Choice3": "Al-Mominoon",
+        "Choice4": " Al-Nisa",
+        "Question": "Which surah contains the orders about Wuzu, Ghusal and Tayammum?",
+        "id": 46
+    },
+    {
+        "Answer": "Ghazwah Ohad",
+        "Categ": "Quran Majeed",
+        "Choice1": "Ghazwah Ohad",
+        "Choice2": " Ghazwah Badar",
+        "Choice3": "Ghazwah Khaibar",
+        "Choice4": "Ghazwah Khandaq",
+        "Question": "Which famous Ghazwah is mentioned in surah Al-Imran?",
+        "id": 47
+    },
+    {
+        "Answer": "Dog",
+        "Categ": "Quran Majeed",
+        "Choice1": "Dog",
+        "Choice2": "Cat",
+        "Choice3": "Horse",
+        "Choice4": "Woodpecker",
+        "Question": "In surah kahf, which animal is mentioned along with the Ashaab-e-Kahf?",
+        "id": 48
+    },
+    {
+        "Answer": "Human",
+        "Categ": "Quran Majeed",
+        "Choice1": "Universe",
+        "Choice2": "Earth",
+        "Choice3": "Animal",
+        "Choice4": "Human",
+        "Question": "Subject of Holy Quran is ?",
+        "id": 49
+    },
+    {
+        "Answer": "30",
+        "Categ": "Quran Majeed",
+        "Choice1": "30",
+        "Choice2": "20",
+        "Choice3": "25",
+        "Choice4": "None Of These",
+        "Question": " Al-Quran is divided into how many parts?",
+        "id": 50
+    },
+    {
+        "Answer": " 571 A.D ",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " 571 A.D ",
+        "Choice2": " 561 A.D ",
+        "Choice3": " 551 A.D ",
+        "Choice4": " 575 A.D ",
+        "Question": "Holy Prophet Hazrat Muhammad ﷺ was born in :",
+        "id": 51
+    },
+    {
+        "Answer": "3",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " 1",
+        "Choice2": "2",
+        "Choice3": "3",
+        "Choice4": "4",
+        "Question": "Prophet Muhammad (PBUH) had __________ sons.",
+        "id": 52
+    },
+    {
+        "Answer": "12",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "12",
+        "Choice2": "15",
+        "Choice3": "24",
+        "Choice4": "35",
+        "Question": "Hazrat Muhammad (SAW) went to syria with Abu-Talib at the age of",
+        "id": 53
+    },
+    {
+        "Answer": " Hazrat Halema (RA)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Hazrat Halema (RA)",
+        "Choice2": "Hazrat Sobia (RA)",
+        "Choice3": " Hazrat Khola (RA)",
+        "Choice4": "None Of These",
+        "Question": "Name the foster mother(s) of the Holy Prophet (SAW)!",
+        "id": 54
+    },
+    {
+        "Answer": "Six months",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Two months",
+        "Choice2": "Four months",
+        "Choice3": "Six months",
+        "Choice4": "One month",
+        "Question": "How many months prior to the birth of Hazrat Muhammad (SAW), Hazrat Abdullah Ibn-e-Abdul Matalib died?",
+        "id": 55
+    },
+    {
+        "Answer": "Rabi-ul-Awal",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Jamadi-ul-Awwal",
+        "Choice2": "Rabi-us-Sani",
+        "Choice3": "Jamadi-us-Sani",
+        "Choice4": "Rabi-ul-Awal",
+        "Question": "The Holy prophet (SAW) was born in the month of",
+        "id": 56
+    },
+    {
+        "Answer": " Eight years",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Six years",
+        "Choice2": "Eight years",
+        "Choice3": "Ten years",
+        "Choice4": "two years",
+        "Question": "How many years after the birth of Holy Prophet (SAW), Hazrat Aamina died?",
+        "id": 57
+    },
+    {
+        "Answer": "Hazrat Ismaeel (AS)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Hazrat Ismaeel (AS)",
+        "Choice2": "Hazrat Eesaa (AS)",
+        "Choice3": "Hazrat Da'ood (AS)",
+        "Choice4": "Hazrat Saleh (AS)",
+        "Question": "The Holy Prophet (SAW) was a direct descendent of ......",
+        "id": 58
+    },
+    {
+        "Answer": "Hazrat Abu-Bakr (RA)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Hazrat Abu-Bakr (RA)",
+        "Choice2": "Hazrat usman (RA)",
+        "Choice3": "Hazrat Arqam (RA)",
+        "Choice4": "Hazrat Talha (RA)",
+        "Question": "Name the person whose house became the center of preaching of Islam?",
+        "id": 59
+    },
+    {
+        "Answer": "615 AD",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "605 AD",
+        "Choice2": "615 AD",
+        "Choice3": "630 AD",
+        "Choice4": "620 AD",
+        "Question": "When did the second Migration to Habshah take place?",
+        "id": 60
+    },
+    {
+        "Answer": "7th year of Nabavi",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "8th year of Nabavi",
+        "Choice2": "5th year of Nabavi",
+        "Choice3": "6th year of Nabavi",
+        "Choice4": "7th year of Nabavi",
+        "Question": "When did the event of the social boycott of Banu Hashim take place?",
+        "id": 61
+    },
+    {
+        "Answer": " Hazrat Ibraheem (A.S)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Hazrat Ismaeel (A.S)",
+        "Choice2": "Hazrat Ibraheem (A.S)",
+        "Choice3": "Hazrat Moosa (A.S)",
+        "Choice4": "Hazrat Eessaa (A.S)",
+        "Question": " Hazrat Muhammad (PBUH) was born about three thousands years, after:",
+        "id": 62
+    },
+    {
+        "Answer": "25",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "25",
+        "Choice2": "35",
+        "Choice3": "20",
+        "Choice4": "27",
+        "Question": "At ____ age Holy Prophet (PBUH)  married to Hazrat Khadija ",
+        "id": 63
+    },
+    {
+        "Answer": "4",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "1",
+        "Choice2": "2",
+        "Choice3": "3",
+        "Choice4": "4",
+        "Question": "Prophet Muhammad (PBUH) had __________daughters.",
+        "id": 64
+    },
+    {
+        "Answer": "6",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "4",
+        "Choice2": "5",
+        "Choice3": "6",
+        "Choice4": "8",
+        "Question": "For_____ years Haleema took care of Prophet",
+        "id": 65
+    },
+    {
+        "Answer": "Qaswa",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Buldul",
+        "Choice2": "Anza",
+        "Choice3": "Qaswa",
+        "Choice4": "Zulifqar",
+        "Question": "What is the name of the camel which the Holy Prophet (SAW) was riding in the migration of Madina?",
+        "id": 66
+    },
+    {
+        "Answer": "1st",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "1st",
+        "Choice2": "2nd",
+        "Choice3": "3rd",
+        "Choice4": "4th",
+        "Question": "Prophet was born in ___________ Year of Elephant.",
+        "id": 67
+    },
+    {
+        "Answer": "Banu Saad",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Banu Saad",
+        "Choice2": " Banu Asad",
+        "Choice3": "Banu Ummayya",
+        "Choice4": "Banu Makhzoom",
+        "Question": "In the beginning Prophet Muhammad (PBUH) worked as a shepherd for __________?",
+        "id": 68
+    },
+    {
+        "Answer": "Khalid bin Waleed (R.A)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Abu Bakr Siddique (R.A)",
+        "Choice2": "Umar Farooque (R.A)",
+        "Choice3": " Ali Al-Murtaza (R.A)",
+        "Choice4": "Khalid bin Waleed (R.A)",
+        "Question": "What companion of Prophet (PBUH) was awarded with the title of “The sword of Allah”?",
+        "id": 69
+    },
+    {
+        "Answer": "Ali Al-Murtaza (R.A)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Umar Farooque (R.A)",
+        "Choice2": "Ali Al-Murtaza (R.A)",
+        "Choice3": "Hamza bin Abdul Mattalib (R.A)",
+        "Choice4": "Khalid bin Waleed (R.A)",
+        "Question": "What companion of Prophet (PBUH) was awarded with the title of “The lion of Allah”?",
+        "id": 70
+    },
+    {
+        "Answer": "10",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "8",
+        "Choice2": "9",
+        "Choice3": "10",
+        "Choice4": "11",
+        "Question": "Prophet Muhammad (PBUH) lived in Madina for __________ years.",
+        "id": 71
+    },
+    {
+        "Answer": " Jibrael (A.S)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Jibrael (A.S)",
+        "Choice2": "Mikael (A.S)",
+        "Choice3": "Israfeel (A.S)",
+        "Choice4": " Izraeel (A.S)",
+        "Question": "The Angel who delivered messages to Prophet Muhammad (PBUH) from Allah was?",
+        "id": 72
+    },
+    {
+        "Answer": "4",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "1",
+        "Choice2": "2",
+        "Choice3": "3",
+        "Choice4": "4",
+        "Question": "The name “Muhammad” has been mentioned _________ times in the Holy Quran.",
+        "id": 73
+    },
+    {
+        "Answer": " Zainab",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Ayesha",
+        "Choice2": "Razia",
+        "Choice3": " Zainab",
+        "Choice4": " Fatima",
+        "Question": "Lady named ___________ tried to poison the Holy Prophet ?",
+        "id": 74
+    },
+    {
+        "Answer": "surah Al-Fatha",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " surah Al-Fatha",
+        "Choice2": "Surah Al-Kausar",
+        "Choice3": "Surah Al-Anfal",
+        "Choice4": "Surah Al-Ankaboot",
+        "Question": "Prophet recited ____________ at the conquest of Makkah.",
+        "id": 75
+    },
+    {
+        "Answer": "15",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " 5",
+        "Choice2": "10",
+        "Choice3": "15",
+        "Choice4": "20",
+        "Question": "Prophet stayed at Makkah for __________ days after its conquest ?",
+        "id": 76
+    },
+    {
+        "Answer": "Hazrat Abu Talha",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Hazrat Abu Bakar",
+        "Choice2": "Hazrat Umar",
+        "Choice3": "Hazrat Usman",
+        "Choice4": "Hazrat Abu Talha",
+        "Question": "The grave of the Prophet was prepared by ?",
+        "id": 77
+    },
+    {
+        "Answer": "Hafsa",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Ayesha",
+        "Choice2": " Summaya",
+        "Choice3": "Fatima",
+        "Choice4": "Hafsa",
+        "Question": "Daughter of Umer who married to Prophet was ?",
+        "id": 78
+    },
+    {
+        "Answer": "40 Years",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "38 Years",
+        "Choice2": "39 Years",
+        "Choice3": "40 Years",
+        "Choice4": "41 Years",
+        "Question": "At age of ___________ holy Prophet received first Wahi.",
+        "id": 79
+    },
+    {
+        "Answer": "Haleema",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Haleema",
+        "Choice2": "Ruqya",
+        "Choice3": "Summaya",
+        "Choice4": " Bushra",
+        "Question": "Hazrat ___________ was the foster mother of Holy Prophet.",
+        "id": 80
+    },
+    {
+        "Answer": " Holy Prophet Hazrat Muhammad (PBUH)",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Holy Prophet Hazrat Muhammad (PBUH)",
+        "Choice2": " Hazrat Ibrahim (A.S)",
+        "Choice3": "Hazrat Ismaeel (A.S)",
+        "Choice4": " Hazrat Yaqoob (A.S)",
+        "Question": "To which Prohpet Muslim Ummah Belongs?",
+        "id": 81
+    },
+    {
+        "Answer": " Miraj",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Miraj",
+        "Choice2": " Hijrat",
+        "Choice3": "Ghazwa Badar",
+        "Choice4": "None of them",
+        "Question": "On Which time the Holy Prohpet(PBUH) was gifted with Namaz?",
+        "id": 82
+    },
+    {
+        "Answer": " Sunnat",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": " Farz",
+        "Choice2": " Wajib",
+        "Choice3": " Nafl",
+        "Choice4": " Sunnat",
+        "Question": "The part of prayer the Holy Prophet ﷺ did is called_____________?",
+        "id": 83
+    },
+    {
+        "Answer": " Hira Cave",
+        "Categ": "Hazrat Muhammad PBUH",
+        "Choice1": "Sore Cave",
+        "Choice2": " Hira Cave",
+        "Choice3": "Khana-Kaaba",
+        "Choice4": "None of them",
+        "Question": "On which place, first Wahi was decended?",
+        "id": 84
+    },
+    {
+        "Answer": "Prophet Shoaib (A.S)",
+        "Categ": "Sahabee",
+        "Choice1": "Prophet Dawood (A.S)",
+        "Choice2": "Prophet Nooh (A.S)",
+        "Choice3": "Prophet Yaqoob (A.S)",
+        "Choice4": "Prophet Shoaib (A.S)",
+        "Question": "Khateeb-ul-Ambia was the title of __________.",
+        "id": 85
+    },
+    {
+        "Answer": "Ali Al-Murtaza (R.A)",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakr Siddique (R.A)",
+        "Choice2": "Umar Farooq (R.A)",
+        "Choice3": "Usman Ghani (R.A)",
+        "Choice4": "Ali Al-Murtaza (R.A)",
+        "Question": "Al-Hudaibiyah Treaty was scribed by __________.",
+        "id": 86
+    },
+    {
+        "Answer": "Ameer Muawiyah (R.A)",
+        "Categ": "Sahabee",
+        "Choice1": "Khalid bin Waleed (R.A)",
+        "Choice2": "Ameer Muawiyah (R.A)",
+        "Choice3": "Abu Ubaidah (R.A)",
+        "Choice4": "Amr bin Al-Aas (R.A)",
+        "Question": "The first Ummayed Caliph was _________ ?",
+        "id": 87
+    },
+    {
+        "Answer": "578",
+        "Categ": "Sahabee",
+        "Choice1": "578",
+        "Choice2": " 579",
+        "Choice3": "580",
+        "Choice4": " 581",
+        "Question": "Abdul Mutalib died in ___________ A.D.",
+        "id": 88
+    },
+    {
+        "Answer": " Umar",
+        "Categ": "Sahabee",
+        "Choice1": "Ali",
+        "Choice2": "Usman",
+        "Choice3": "Abu Bakar",
+        "Choice4": " Umar",
+        "Question": "Hazrat __________ proposed Azan for the first time ?",
+        "id": 89
+    },
+    {
+        "Answer": "Hazrat Abu Talha",
+        "Categ": "Sahabee",
+        "Choice1": " Hazrat Abu Bakar",
+        "Choice2": " Hazrat Umar",
+        "Choice3": "Hazrat Usman",
+        "Choice4": "Hazrat Abu Talha",
+        "Question": "The grave of the Prophet was prepared by ?",
+        "id": 90
+    },
+    {
+        "Answer": "Asad",
+        "Categ": "Sahabee",
+        "Choice1": "Ali",
+        "Choice2": "Abu Bakar",
+        "Choice3": "Umar",
+        "Choice4": "Asad",
+        "Question": "Hazrat __________ died first among the Sahabah.",
+        "id": 91
+    },
+    {
+        "Answer": "Talha",
+        "Categ": "Sahabee",
+        "Choice1": "Qasim",
+        "Choice2": "Saad",
+        "Choice3": "Talha",
+        "Choice4": "Asad",
+        "Question": "Hazrat Usman Bin _________ was the Key holder of Kaaba.",
+        "id": 92
+    },
+    {
+        "Answer": "Cloth",
+        "Categ": "Sahabee",
+        "Choice1": "Steel",
+        "Choice2": "Cloth",
+        "Choice3": "Coal",
+        "Choice4": "Wheat",
+        "Question": "Hazrat Abu Bakar was the merchant of ?",
+        "id": 93
+    },
+    {
+        "Answer": " 1st Muharram",
+        "Categ": "Sahabee",
+        "Choice1": "1st Muharram",
+        "Choice2": " 2nd Muharram",
+        "Choice3": "3rd Muharram",
+        "Choice4": "4th Muharram",
+        "Question": "Hazrat Umar Farooq was martyred on ___________ 24 A.H.",
+        "id": 94
+    },
+    {
+        "Answer": "Umar",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakar",
+        "Choice2": "Usman",
+        "Choice3": " Ali",
+        "Choice4": "Umar",
+        "Question": "Hazrat ____________ added As Salato Khairum Min Noum in Azan.",
+        "id": 95
+    },
+    {
+        "Answer": " Awais Karni",
+        "Categ": "Sahabee",
+        "Choice1": " Abdurreham",
+        "Choice2": "Qasim",
+        "Choice3": " Awais Karni",
+        "Choice4": "Usman",
+        "Question": "Only sahabi without seeing Prophet is ?",
+        "id": 96
+    },
+    {
+        "Answer": "Umar",
+        "Categ": "Sahabee",
+        "Choice1": "Umar",
+        "Choice2": "Abu Bakar",
+        "Choice3": "Usman",
+        "Choice4": "Ali",
+        "Question": "Hazrat _____________ levied zakat on horses.",
+        "id": 97
+    },
+    {
+        "Answer": "Ali",
+        "Categ": "Sahabee",
+        "Choice1": " Abu Bakar",
+        "Choice2": "Umar",
+        "Choice3": "Usman",
+        "Choice4": "Ali",
+        "Question": "Hazrat ________ lifted zakat on horses.",
+        "id": 98
+    },
+    {
+        "Answer": "Abu Bakar",
+        "Categ": "Sahabee",
+        "Choice1": "Umar",
+        "Choice2": "Abu Bakar",
+        "Choice3": "Usman",
+        "Choice4": "Ali",
+        "Question": "Hazrat __________ had knowledge of dreams.",
+        "id": 99
+    },
+    {
+        "Answer": " Hazrat Usman (R.A)",
+        "Categ": "Sahabee",
+        "Choice1": "Hazrat Abu Bakr (R.A)",
+        "Choice2": " Hazrat Umar (R.A)",
+        "Choice3": " Hazrat Usman (R.A)",
+        "Choice4": "Hazrat Ali (R.A)",
+        "Question": "Hazrat ___________ added 2nd Azan for Friday prayers.",
+        "id": 100
+    },
+    {
+        "Answer": "Hazrat Abu Bakar",
+        "Categ": "Sahabee",
+        "Choice1": "Hazrat Abu Bakar",
+        "Choice2": " Hazrat Umar",
+        "Choice3": "Hazrat Usman",
+        "Choice4": " Hazrat Ali",
+        "Question": "Atique is the title of ?",
+        "id": 101
+    },
+    {
+        "Answer": "Hazrat Umar",
+        "Categ": "Sahabee",
+        "Choice1": "Hazrat Abu Bakar",
+        "Choice2": "Hazrat Umar",
+        "Choice3": "Hazrat Usman",
+        "Choice4": "Hazrat Ali",
+        "Question": "Hazrat __________ established Department of Police.",
+        "id": 102
+    },
+    {
+        "Answer": "Usman",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakar",
+        "Choice2": "Umar",
+        "Choice3": "Usman",
+        "Choice4": "Ali",
+        "Question": "Ghani was the title of Hazrat _________ (RA).",
+        "id": 103
+    },
+    {
+        "Answer": "Ali",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakar",
+        "Choice2": "Umar",
+        "Choice3": "Usman",
+        "Choice4": "Ali",
+        "Question": "Hazrat ____________ has the title the gateway to knowledge.",
+        "id": 104
+    },
+    {
+        "Answer": "Ayub A.S",
+        "Categ": "Sahabee",
+        "Choice1": "Musa A.S",
+        "Choice2": "Ayub A.S",
+        "Choice3": "Haroon A.S",
+        "Choice4": " Essa A.S",
+        "Question": "For 18 years Hazrat _____________ suffered from skin disease.",
+        "id": 105
+    },
+    {
+        "Answer": "Zirr Ghaffari",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakar",
+        "Choice2": "Abu Lahab",
+        "Choice3": "Abu Jehl",
+        "Choice4": "Zirr Ghaffari",
+        "Question": "Hazrat ____________ is known as the first Dervish.",
+        "id": 106
+    },
+    {
+        "Answer": "Umar’s",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakar’s",
+        "Choice2": "Umar’s",
+        "Choice3": "Usman’s",
+        "Choice4": " Ali’s",
+        "Question": "First census of Islamic world in __________ period.",
+        "id": 107
+    },
+    {
+        "Answer": "Hazrat Usman (R.A.)",
+        "Categ": "Sahabee",
+        "Choice1": "Hazrat Abu Bakar (R.A.)",
+        "Choice2": " Hazrat  Umar (R.A.)",
+        "Choice3": "Hazrat Usman (R.A.)",
+        "Choice4": " Hazrat Ali (R.A.)",
+        "Question": "Hazrat ____________ was the first Hafiz of the Holy Quran.",
+        "id": 108
+    },
+    {
+        "Answer": "Umar",
+        "Categ": "Sahabee",
+        "Choice1": "Abu Bakar",
+        "Choice2": "Umar",
+        "Choice3": "Usman",
+        "Choice4": "Ali",
+        "Question": "Hazrat ___________ proposed the compilation of Holy Quran.",
+        "id": 109
+    },
+    {
+        "Answer": "Khadija",
+        "Categ": "Sahabee",
+        "Choice1": "Amina",
+        "Choice2": "Khadija",
+        "Choice3": "Hafsa",
+        "Choice4": "Ruqya",
+        "Question": "Hazrat ___________ accepted Islam first in Women.",
+        "id": 110
+    },
+    {
+        "Answer": "Abu Bakar",
+        "Categ": "Sahabee",
+        "Choice1": "Usman",
+        "Choice2": "Abu Bakar",
+        "Choice3": "Umar",
+        "Choice4": "Ali",
+        "Question": "Hazrat ______________ accepted Islam first in Men.",
+        "id": 111
+    },
+    {
+        "Answer": "Hazrat Usman (R.A)",
+        "Categ": "Sahabee",
+        "Choice1": "Hazrat Abu Bakr (R.A)",
+        "Choice2": "Hazrat Umar (R.A)",
+        "Choice3": "Hazrat Usman (R.A)",
+        "Choice4": "Hazrat Ali (R.A)",
+        "Question": "who added 2nd Azan for friday prayers ?",
+        "id": 112
+    },
+    {
+        "Answer": "Hafsah (R.A)",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Aisha (R.A)",
+        "Choice2": " Juwairyyah (R.A)",
+        "Choice3": "Hafsah (R.A)",
+        "Choice4": "Maimoonah (R.A)",
+        "Question": "Name the wife of Prophet Muhammad (PBUH) who was daughter of Umar Farooq (R.A)?",
+        "id": 116
+    },
+    {
+        "Answer": "Hazrat Zainab (RA)",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Hazrat Ummay Habiba (RA)",
+        "Choice2": "Hazrat Ummay Salma (RA)",
+        "Choice3": "Hazrat Zainab (RA)",
+        "Choice4": "Hazrat Zainab Bint-t-Jahsh",
+        "Question": "Name the wife of the Holy prophet (SAW) who was titled as Umm-ul-Masakeen?",
+        "id": 117
+    },
+    {
+        "Answer": " Siddiqa ",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Tahira",
+        "Choice2": " Siddiqa ",
+        "Choice3": "Umm-ul-Masakeen",
+        "Choice4": "All of them",
+        "Question": "What was the title of Hazrat Ayesha (RA)?",
+        "id": 118
+    },
+    {
+        "Answer": "Hazrat Umm-e-Salma (RA)",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Hazrat safia (RA)",
+        "Choice2": " Hazrat Ayesha (RA)",
+        "Choice3": "Hazrat Umm-e-Salma (RA)",
+        "Choice4": " Hazrat Javeria( RA)",
+        "Question": "Which Umm-ul-Momineen died last?",
+        "id": 119
+    },
+    {
+        "Answer": "Hazrat Zainab bente Khuzima (RA)",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Harat Sauda (RA)",
+        "Choice2": " Hazrat Zainab bente Jehash (RA)",
+        "Choice3": "Hazrat Zainab bente Khuzima (RA)",
+        "Choice4": "Hazrat Safia (RA)",
+        "Question": "Umm-ul-Masakeen was the title given to one of the wives of the Prophet (SAW) ?",
+        "id": 120
+    },
+    {
+        "Answer": "Umal Mumneen Hafsah bint-e-Umar (R.A)",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Umal Mumneen Hazrat Aysha (R.A)",
+        "Choice2": "Umal Mumneen Hazrat Zainab (R.A)",
+        "Choice3": "Umal Mumneen Hafsah bint-e-Umar (R.A)",
+        "Choice4": "None of them",
+        "Question": "Who was the First Women “Hafiz e Quran” to memorize the Holy Quran?",
+        "id": 121
+    },
+    {
+        "Answer": "Hazart Ayesha(RA)",
+        "Categ": "azwaj e mutahira",
+        "Choice1": "Hazart Fatma(RA)",
+        "Choice2": "Hazart Ayesha(RA)",
+        "Choice3": "Hazart Abu Bakar (RA)",
+        "Choice4": "Hazart Umer(RA)",
+        "Question": "Who was the first person who counted the Aayath (verses) of the Qur’an?",
+        "id": 122
+    },
+    {
+        "Answer": "Prophet Dawood (A.S)",
+        "Categ": "Islam",
+        "Choice1": "Prophet Ibraheem (A.S)",
+        "Choice2": "Prophet Dawood (A.S)",
+        "Choice3": "Prophet Moosa (A.S)",
+        "Choice4": "Prophet Essa (A.S)",
+        "Question": "To what Prophet the Zabur was revealed by Allah?",
+        "id": 123
+    },
+    {
+        "Answer": " Prophet Essa (A.S)",
+        "Categ": "Islam",
+        "Choice1": "Prophet Ibraheem (A.S)",
+        "Choice2": "Prophet Dawood (A.S)",
+        "Choice3": "Prophet Moosa (A.S)",
+        "Choice4": " Prophet Essa (A.S)",
+        "Question": "To what Prophet the Injeel was revealed by Allah?",
+        "id": 124
+    },
+    {
+        "Answer": "Muhammad bin Ismaeel",
+        "Categ": "Islam",
+        "Choice1": "Muhammad bin Ismaeel",
+        "Choice2": "Muhammad Ismaeel",
+        "Choice3": "Muhammad Ibraheem",
+        "Choice4": "Ismaeel bin Ibraheem",
+        "Question": "What was the name of Imam Bukhari (R.A)?",
+        "id": 125
+    },
+    {
+        "Answer": "Prophet Shoaib (A.S)",
+        "Categ": "Islam",
+        "Choice1": " Prophet Dawood (A.S)",
+        "Choice2": "Prophet Nooh (A.S)",
+        "Choice3": "Prophet Yaqoob (A.S)",
+        "Choice4": "Prophet Shoaib (A.S)",
+        "Question": "Khateeb-ul-Ambia was the title of __________.",
+        "id": 126
+    },
+    {
+        "Answer": "Lunar eclipse",
+        "Categ": "Islam",
+        "Choice1": "Lunar eclipse",
+        "Choice2": "Solar eclipse",
+        "Choice3": "earthquake",
+        "Choice4": "heavy rain",
+        "Question": "Namaz-e-Khasoof is offered at the time of __________ ?",
+        "id": 127
+    },
+    {
+        "Answer": "Izraeel (A.S)",
+        "Categ": "Islam",
+        "Choice1": "Jibrael (A.S)",
+        "Choice2": "Mikael (A.S)",
+        "Choice3": "Israfeel (A.S)",
+        "Choice4": "Izraeel (A.S)",
+        "Question": "__________ takes out souls of life bearing creatures.",
+        "id": 128
+    },
+    {
+        "Answer": "Jibrael (A.S)",
+        "Categ": "Islam",
+        "Choice1": " Jibrael (A.S)",
+        "Choice2": "Mikael (A.S)",
+        "Choice3": "Israfeel (A.S)",
+        "Choice4": "Izraeel (A.S)",
+        "Question": "Name the Angel who was appointed to deliver messages to Prophet Muhammad (PBUH) from Allah?",
+        "id": 129
+    },
+    {
+        "Answer": " An-Noor",
+        "Categ": "Islam",
+        "Choice1": "As-Safa",
+        "Choice2": "Sil",
+        "Choice3": "Uhud",
+        "Choice4": " An-Noor",
+        "Question": "Cave Hira is in the _________ mountain.",
+        "id": 130
+    },
+    {
+        "Answer": "Masjid-ul-Haram",
+        "Categ": "Islam",
+        "Choice1": "Masjid-ul-Haram",
+        "Choice2": " Masjid-e-Nabavi",
+        "Choice3": "Masjid-e-Aqsa",
+        "Choice4": "Masjid e Quba",
+        "Question": "The first Msjid (Mosque) on the surface of Earth is?",
+        "id": 131
+    },
+    {
+        "Answer": "Ali Al-Murtaza (R.A)",
+        "Categ": "Islam",
+        "Choice1": "Abu Bakr Siddique (R.A)",
+        "Choice2": "Umar Farooq (R.A)",
+        "Choice3": "Usman Ghani (R.A)",
+        "Choice4": "Ali Al-Murtaza (R.A)",
+        "Question": "Al-Hudaibiyah Treaty was scribed by __________.",
+        "id": 132
+    },
+    {
+        "Answer": "Jibrael (A.S)",
+        "Categ": "Islam",
+        "Choice1": "Jibrael (A.S)",
+        "Choice2": "Mikael (A.S)",
+        "Choice3": "Israfeel (A.S)",
+        "Choice4": "Izraeel (A.S)",
+        "Question": "The Angel who delivered messages to Prophet Muhammad (PBUH) from Allah was?",
+        "id": 133
+    },
+    {
+        "Answer": "40",
+        "Categ": "Islam",
+        "Choice1": "36",
+        "Choice2": "38",
+        "Choice3": "40",
+        "Choice4": "42",
+        "Question": "Hazrat Ali (R.A) was martyred in __________ Hijrah?",
+        "id": 134
+    },
+    {
+        "Answer": "Palestine",
+        "Categ": "Islam",
+        "Choice1": "Saudi Arabia",
+        "Choice2": " Syria",
+        "Choice3": "Palestine",
+        "Choice4": "Iraq",
+        "Question": "Which country is called the “Land of Prophets”?",
+        "id": 135
+    },
+    {
+        "Answer": "6",
+        "Categ": "Islam",
+        "Choice1": "5",
+        "Choice2": "6",
+        "Choice3": " 7",
+        "Choice4": "8",
+        "Question": "Siha e Sitta are __________ books of Hadith ?",
+        "id": 136
+    },
+    {
+        "Answer": "Wajib",
+        "Categ": "Islam",
+        "Choice1": "Wajib",
+        "Choice2": "Farz",
+        "Choice3": "Sunnat",
+        "Choice4": "Mustahib",
+        "Question": "Eid Prayer is __________ ?",
+        "id": 137
+    },
+    {
+        "Answer": "Imam Malik (R.A)",
+        "Categ": "Islam",
+        "Choice1": "Imam Abu Haneefa (R.A)",
+        "Choice2": " Imam Shafi (R.A)",
+        "Choice3": "Imam Ahmad bin Hambal (R.A)",
+        "Choice4": "Imam Malik (R.A)",
+        "Question": "The book of Hadith, Al-Muwatta, was compiled by __________ ?",
+        "id": 138
+    },
+    {
+        "Answer": " Imam Abu Haneefa (R.A)",
+        "Categ": "Islam",
+        "Choice1": "Imam Abu Haneefa (R.A)",
+        "Choice2": "Imam Shafi (R.A)",
+        "Choice3": "Imam Ahmad bin Hambal (R.A)",
+        "Choice4": "Imam Malik (R.A)",
+        "Question": "The book of Hadith, Kitaab-ul-Aathaar, was compiled by __________ ?",
+        "id": 139
+    },
+    {
+        "Answer": "Istilam",
+        "Categ": "Islam",
+        "Choice1": "Istilam",
+        "Choice2": "Sayee",
+        "Choice3": "Ramee",
+        "Choice4": "Tawaf",
+        "Question": "In Hajj, touching the Black Stone, is called__________ ?",
+        "id": 140
+    },
+    {
+        "Answer": "Abyssinia (Ethopia)",
+        "Categ": "Islam",
+        "Choice1": "Makkah",
+        "Choice2": "Madina",
+        "Choice3": "Abyssinia (Ethopia)",
+        "Choice4": "Baghdad",
+        "Question": "The first migration of the Companions and relatives of the Prophet Muhammad (PBUH) was to __________ ?",
+        "id": 141
+    },
+    {
+        "Answer": "Jews",
+        "Categ": "Islam",
+        "Choice1": "Muslims",
+        "Choice2": "Christians",
+        "Choice3": "Jews",
+        "Choice4": "None of these",
+        "Question": "Banu Quraiza, Banu Nadir and Banu Qainuqa were three tribes of the_________?",
+        "id": 142
+    },
+    {
+        "Answer": "Ahzaab",
+        "Categ": "Islam",
+        "Choice1": " Aal-e-Imraan",
+        "Choice2": "Yaaseen",
+        "Choice3": "Muhammad",
+        "Choice4": "Ahzaab",
+        "Question": "Allah says, “Wives of Prophet Muhammad (PBUH) are mothers of believers” in Surah _________ .",
+        "id": 143
+    },
+    {
+        "Answer": "Al-Maidah",
+        "Categ": "Islam",
+        "Choice1": "Al-Maidah",
+        "Choice2": "Al-Baqara",
+        "Choice3": "Al-Mominoon",
+        "Choice4": "Al-Nisa",
+        "Question": "Which surah contains the orders about Wuzu, Ghusal and Tayammum ?",
+        "id": 144
+    },
+    {
+        "Answer": "Ghazwah Ohad",
+        "Categ": "Islam",
+        "Choice1": "Ghazwah Ohad",
+        "Choice2": "Ghazwah Badar",
+        "Choice3": "Ghazwah Khaibar",
+        "Choice4": "Ghazwah Khandaq",
+        "Question": "Which famous Ghazwah is mentioned in surah Al-Imran ?",
+        "id": 145
+    },
+    {
+        "Answer": "Dog",
+        "Categ": "Islam",
+        "Choice1": "Dog",
+        "Choice2": "Cat",
+        "Choice3": "Horse",
+        "Choice4": " woodpecker",
+        "Question": "In surah kahf, which animal is mentioned along with the Ashaab e kahf ?",
+        "id": 146
+    },
+    {
+        "Answer": "Romans",
+        "Categ": "Islam",
+        "Choice1": "Romans",
+        "Choice2": "Jews",
+        "Choice3": "Iranis",
+        "Choice4": "Christians",
+        "Question": "The “Battle of Yermuk” was fought between Muslims and _________ ?",
+        "id": 147
+    },
+    {
+        "Answer": "Madina",
+        "Categ": "Islam",
+        "Choice1": "Makkah",
+        "Choice2": "Madina",
+        "Choice3": "Taif",
+        "Choice4": "Palestine",
+        "Question": "Masjid Qiblatain is in _________ ?",
+        "id": 148
+    },
+    {
+        "Answer": "Ramee",
+        "Categ": "Islam",
+        "Choice1": "Istilam",
+        "Choice2": "Sayee",
+        "Choice3": "Ramee",
+        "Choice4": "Tawaf",
+        "Question": "In Hajj, stoning the Devil, is called __________ ?",
+        "id": 149
+    },
+    {
+        "Answer": "Sayee",
+        "Categ": "Islam",
+        "Choice1": "Istilam",
+        "Choice2": "Sayee",
+        "Choice3": "Ramee",
+        "Choice4": "Tawaf",
+        "Question": "In Hajj, traveling seven times between Mount Safa and Mount Marwah, is called __________ ?",
+        "id": 150
+    },
+    {
+        "Answer": "7th",
+        "Categ": "Islam",
+        "Choice1": "3rd",
+        "Choice2": "4th",
+        "Choice3": "6th",
+        "Choice4": "7th",
+        "Question": "Baitul Mamoor is on___________ Heaven?",
+        "id": 151
+    },
+    {
+        "Answer": "Zarar",
+        "Categ": "Islam",
+        "Choice1": "Quba",
+        "Choice2": "Harmain",
+        "Choice3": "Nabavi",
+        "Choice4": "Zarar",
+        "Question": "Mosque of ________ was demolished by prophet?",
+        "id": 152
+    },
+    {
+        "Answer": "Ali",
+        "Categ": "Islam",
+        "Choice1": "Ali",
+        "Choice2": "Abu Bakar",
+        "Choice3": "Umar",
+        "Choice4": "Usman",
+        "Question": "Hazrat ____________ conquered the fort of Qamus.",
+        "id": 153
+    },
+    {
+        "Answer": "Zainab",
+        "Categ": "Islam",
+        "Choice1": "Ayesha",
+        "Choice2": "Razia",
+        "Choice3": "Zainab",
+        "Choice4": "Fatima",
+        "Question": "Lady named ___________ tried to poison the Holy Prophet ?",
+        "id": 154
+    },
+    {
+        "Answer": "Nafeesa",
+        "Categ": "Islam",
+        "Choice1": "Fatima",
+        "Choice2": "Kulsoom",
+        "Choice3": "Nafeesa",
+        "Choice4": "Sobia",
+        "Question": "Friend of Khadija ____________ carried message of Nikah ?",
+        "id": 155
+    },
+    {
+        "Answer": "578",
+        "Categ": "Islam",
+        "Choice1": "578",
+        "Choice2": "579",
+        "Choice3": "580",
+        "Choice4": "581",
+        "Question": "Abdul Mutalib died in ___________ A.D.",
+        "id": 156
+    },
+    {
+        "Answer": "Omar",
+        "Categ": "Islam",
+        "Choice1": "Abha",
+        "Choice2": "Saleh",
+        "Choice3": "Omar",
+        "Choice4": "Ali",
+        "Question": "Original name of Abu Jehl was ___________ bin Hisham.",
+        "id": 157
+    },
+    {
+        "Answer": "Abu jehl",
+        "Categ": "Islam",
+        "Choice1": " Abu jehl",
+        "Choice2": "Abu bakar",
+        "Choice3": "Abu Lahab",
+        "Choice4": "Abu Hurairah",
+        "Question": "Abu-al-Hikm is the title of ?",
+        "id": 158
+    },
+    {
+        "Answer": "Iran",
+        "Categ": "Islam",
+        "Choice1": "Iraq",
+        "Choice2": "Egypt",
+        "Choice3": "Syria",
+        "Choice4": "Iran",
+        "Question": "King of __________ tore away the message of Prophet.",
+        "id": 159
+    },
+    {
+        "Answer": " 6",
+        "Categ": "Islam",
+        "Choice1": " 5",
+        "Choice2": " 6",
+        "Choice3": "7",
+        "Choice4": "8",
+        "Question": "After __________ years of the birth of Holy prophet Bibi Amina died ?",
+        "id": 160
+    },
+    {
+        "Answer": " Rabiul Awal",
+        "Categ": "Islam",
+        "Choice1": "Muharram",
+        "Choice2": "Shaaban",
+        "Choice3": "Ramzan",
+        "Choice4": " Rabiul Awal",
+        "Question": "____________ was called month of migration ?",
+        "id": 162
+    },
+    {
+        "Answer": "1st",
+        "Categ": "Islam",
+        "Choice1": "1st",
+        "Choice2": "2nd",
+        "Choice3": "3rd",
+        "Choice4": " 4th",
+        "Question": "Prophet addressed Khutba-e-Jumaa for first time in _________ Hijrah ?",
+        "id": 163
+    },
+    {
+        "Answer": "9th",
+        "Categ": "Islam",
+        "Choice1": "8th",
+        "Choice2": "9th",
+        "Choice3": "10th",
+        "Choice4": "11th",
+        "Question": "Year of Deputation is ________________ Hijrah.",
+        "id": 164
+    },
+    {
+        "Answer": "1st",
+        "Categ": "Islam",
+        "Choice1": "1st",
+        "Choice2": "2nd",
+        "Choice3": "3rd",
+        "Choice4": "4th",
+        "Question": "Moawakhat (the brotherhood) took place in __________ Hijrah ?",
+        "id": 165
+    },
+    {
+        "Answer": "2nd",
+        "Categ": "Islam",
+        "Choice1": "1st",
+        "Choice2": "2nd",
+        "Choice3": "3rd",
+        "Choice4": "4th",
+        "Question": "Jehad was allowed in ______________ Hijrah ?",
+        "id": 166
+    },
+    {
+        "Answer": "Cat",
+        "Categ": "Islam",
+        "Choice1": "Goat",
+        "Choice2": "Ant",
+        "Choice3": "Camel",
+        "Choice4": "Cat",
+        "Question": "Hurrirah means a ?",
+        "id": 167
+    },
+    {
+        "Answer": "1400",
+        "Categ": "Islam",
+        "Choice1": "1300",
+        "Choice2": "1400",
+        "Choice3": "1500",
+        "Choice4": "1600",
+        "Question": "Companions of Prophet at Hudabiya were ?",
+        "id": 168
+    },
+    {
+        "Answer": "15",
+        "Categ": "Islam",
+        "Choice1": "5",
+        "Choice2": "10",
+        "Choice3": " 15",
+        "Choice4": "20",
+        "Question": "Prophet stayed at Makkah for __________ days after its conquest ?",
+        "id": 169
+    },
+    {
+        "Answer": "619 A.D",
+        "Categ": "Islam",
+        "Choice1": "618 A.D",
+        "Choice2": "619 A.D",
+        "Choice3": " 620 A.D",
+        "Choice4": "621 A.D",
+        "Question": "Hazrat Khadija and Hazrat Abu Talib died in ?",
+        "id": 170
+    },
+    {
+        "Answer": "Umar",
+        "Categ": "Islam",
+        "Choice1": "Ali",
+        "Choice2": "Usman",
+        "Choice3": "Abu Bakar",
+        "Choice4": "Umar",
+        "Question": "Hazrat __________ proposed Azan for the first time ?",
+        "id": 171
+    },
+    {
+        "Answer": "313",
+        "Categ": "Islam",
+        "Choice1": "313",
+        "Choice2": "314",
+        "Choice3": "315",
+        "Choice4": "316",
+        "Question": "_______ Muslims fought in the battle of Ghazwa-e-Badr ?",
+        "id": 172
+    },
+    {
+        "Answer": "4",
+        "Categ": "Islam",
+        "Choice1": "2",
+        "Choice2": " 3",
+        "Choice3": " 4",
+        "Choice4": " 5",
+        "Question": "_________ Kings accepted Islam when holy prophet sent them letters ?",
+        "id": 173
+    },
+    {
+        "Answer": "360",
+        "Categ": "Islam",
+        "Choice1": "340",
+        "Choice2": "350",
+        "Choice3": "360",
+        "Choice4": "370",
+        "Question": "Idols in Kaba before Islam numbered ?",
+        "id": 174
+    },
+    {
+        "Answer": "Hubal",
+        "Categ": "Islam",
+        "Choice1": "Hubal",
+        "Choice2": "jabal",
+        "Choice3": "Tabal",
+        "Choice4": "Haleeb",
+        "Question": "The largest idol named in kaaba was ?",
+        "id": 175
+    },
+    {
+        "Answer": "Nabvi",
+        "Categ": "Islam",
+        "Choice1": "Zarar",
+        "Choice2": "Quba",
+        "Choice3": "Hanafia",
+        "Choice4": "Nabvi",
+        "Question": "At Masjid-e-___________ first Muslim University was established ?",
+        "id": 176
+    },
+    {
+        "Answer": "yellow",
+        "Categ": "Islam",
+        "Choice1": "Black",
+        "Choice2": "Red",
+        "Choice3": "Green",
+        "Choice4": "yellow",
+        "Question": "The flag color of the Holy Prophet was white and __________ at the time of conquest of Makkah ?",
+        "id": 177
+    },
+    {
+        "Answer": "65",
+        "Categ": "Islam",
+        "Choice1": "63",
+        "Choice2": "64",
+        "Choice3": "65",
+        "Choice4": " 66",
+        "Question": "Hazrat Khadija died at _______ years age?",
+        "id": 178
+    },
+    {
+        "Answer": "Hafsa",
+        "Categ": "Islam",
+        "Choice1": "Ayesha",
+        "Choice2": "Summaya",
+        "Choice3": "Fatima",
+        "Choice4": "Hafsa",
+        "Question": "Daughter of Umer who married to Prophet was ?",
+        "id": 179
+    },
+    {
+        "Answer": "11",
+        "Categ": "Islam",
+        "Choice1": "10",
+        "Choice2": "11",
+        "Choice3": "12",
+        "Choice4": "13",
+        "Question": "Qasim was born in ___________ years before Prophethood.",
+        "id": 180
+    },
+    {
+        "Answer": "Asad",
+        "Categ": "Islam",
+        "Choice1": "Ali",
+        "Choice2": "Abu Bakar",
+        "Choice3": "Umar",
+        "Choice4": "Asad",
+        "Question": "Hazrat __________ died first among the Sahabah.",
+        "id": 181
+    },
+    {
+        "Answer": "Refuge",
+        "Categ": "Islam",
+        "Choice1": "Flower",
+        "Choice2": "Peace",
+        "Choice3": "Rocks",
+        "Choice4": "Refuge",
+        "Question": "Surah means city of ?",
+        "id": 182
+    },
+    {
+        "Answer": "3",
+        "Categ": "Islam",
+        "Choice1": "1",
+        "Choice2": "2",
+        "Choice3": " 3",
+        "Choice4": "4",
+        "Question": "How many surahs of the Holy Quran start with the word Sab-baha (سَبَّحَ)?",
+        "id": 183
+    },
+    {
+        "Answer": "Hazrat Khadija (RA)",
+        "Categ": "Islam",
+        "Choice1": "Hazrat Ali (RA)",
+        "Choice2": "Hazrat Abu Bakar (RA)",
+        "Choice3": "Hazrat Khadija (RA)",
+        "Choice4": "Hazrat Ayesha (RA)",
+        "Question": "_________ was the first person to offer Namaz amongst the Ummah of the Prophet (SA W).",
+        "id": 184
+    },
+    {
+        "Answer": "Hazrat Khadija (RA)",
+        "Categ": "Islam",
+        "Choice1": "Hazrat Ayesha (RA)",
+        "Choice2": "Hazrat Khadija (RA)",
+        "Choice3": " Hazrat Maria Qibtiya (RA)",
+        "Choice4": "Hazrat Safia (RA)",
+        "Question": "_____________ Umm-ul-Momineen received salutation from Allah.",
+        "id": 185
+    },
+    {
+        "Answer": " Hazrat Khadija (RA)",
+        "Categ": "Islam",
+        "Choice1": "Hazrat Ayesha (RA)",
+        "Choice2": "Hazrat Safia (RA)",
+        "Choice3": "Hazrat Maria Qibtiya (RA)",
+        "Choice4": " Hazrat Khadija (RA)",
+        "Question": "___________ was the only Ummul Momineen who was not buried in Jannatul Baqi.",
+        "id": 186
+    },
+    {
+        "Answer": "40",
+        "Categ": "Islam",
+        "Choice1": "25",
+        "Choice2": "30",
+        "Choice3": "35",
+        "Choice4": "40",
+        "Question": "What was the age of Hazrat Khadija (RA) when married to Hazrat Muhammad (SAW)?",
+        "id": 187
+    },
+    {
+        "Answer": "15",
+        "Categ": "Islam",
+        "Choice1": " 5",
+        "Choice2": "9",
+        "Choice3": " 13",
+        "Choice4": "15",
+        "Question": "Hazrat Khadija (RA) was _______ years older than Hazrat Muhammad (SAW).",
+        "id": 188
+    },
+    {
+        "Answer": "Hazrat Khadija (RA)",
+        "Categ": "Islam",
+        "Choice1": " Hazrat Salma (RA)",
+        "Choice2": "Hazrat Khadija (RA)",
+        "Choice3": "Hazrat Memona (RA)",
+        "Choice4": "Hazrat Safia (RA)",
+        "Question": "____________ died on the tenth of Ramadan 10 Nabvi.",
+        "id": 189
+    },
+    {
+        "Answer": "Hazrat Khadija (RA)",
+        "Categ": "Islam",
+        "Choice1": "Hazrat Ayesha (RA)",
+        "Choice2": "Hazrat Khadija (RA)",
+        "Choice3": "Hazrat Maria Qibtiya (RA)",
+        "Choice4": "Hazrat Safia (RA)",
+        "Question": "_____________ was buried at Jannat-e-Moalla in Macca.",
+        "id": 190
+    },
+    {
+        "Answer": "Banu Asad",
+        "Categ": "Islam",
+        "Choice1": " Banu Hashim",
+        "Choice2": "Banu Khazeema",
+        "Choice3": " Banu Asad",
+        "Choice4": "Banu Atiyah",
+        "Question": "Hazrat Khadija (RA) belonged to the tribe of __________.",
+        "id": 191
+    },
+    {
+        "Answer": "Hazrat Khadija (RA)",
+        "Categ": "Islam",
+        "Choice1": "Hazrat Ruqia (RA)",
+        "Choice2": "Hazrat Khadija (RA)",
+        "Choice3": "Hazrat Maria Qibtiya (RA)",
+        "Choice4": "Hazrat Safia (RA)",
+        "Question": "Prophet (SAW) not offered funeral prayer of _________ due to Allah‘s will.",
+        "id": 192
+    },
+    {
+        "Answer": "Ibrahim (R.A)",
+        "Categ": "Islam",
+        "Choice1": "Ibrahim (R.A)",
+        "Choice2": " Abdullah (R.A)",
+        "Choice3": "Hazrat Fatima (R.A)",
+        "Choice4": "Hazrat Ruqaiyah (R.A)",
+        "Question": "Hazrat Khadija (R.A) bore all the children of Prophet Muhammad (PBUH) except?",
+        "id": 193
+    },
+    {
+        "Answer": "First",
+        "Categ": "Islam",
+        "Choice1": "First",
+        "Choice2": "Second",
+        "Choice3": "Third",
+        "Choice4": "Fourth",
+        "Question": "Hazrat Khadija (RA) was the ________ person to convert to Islam.",
+        "id": 194
+    },
+    {
+        "Answer": "Khuwaylid ibn Asad",
+        "Categ": "Islam",
+        "Choice1": "Awwam bint khuwaylid",
+        "Choice2": "Zubair ibn al-awam",
+        "Choice3": "Asad ibne abd-ul- Uzza",
+        "Choice4": "Khuwaylid ibn Asad",
+        "Question": "What was the name of Hazrat Khadija (RA) father?",
+        "id": 195
+    },
+    {
+        "Answer": "First",
+        "Categ": "Islam",
+        "Choice1": "First",
+        "Choice2": "Second",
+        "Choice3": "Third",
+        "Choice4": "Fourth",
+        "Question": "Hazrat Khadija (RA) was the ________ wife of Hazrat Muhammad (SAW).",
+        "id": 196
+    },
+    {
+        "Answer": "Two",
+        "Categ": "Islam",
+        "Choice1": "Two",
+        "Choice2": "Three",
+        "Choice3": "One",
+        "Choice4": "Four",
+        "Question": "How many sons Hazrat Khadija (RA) had with Hazrat Muhammad (SAW)?",
+        "id": 197
+    },
+    {
+        "Answer": "Friend",
+        "Categ": "Islam",
+        "Choice1": "Father",
+        "Choice2": "Mother",
+        "Choice3": "Brother",
+        "Choice4": "Friend",
+        "Question": "Who did Hazrat Khadija (RA) sent to ask Hazrat Muhammad (SAW) about marrying her?",
+        "id": 198
+    },
+    {
+        "Answer": "Fatima bint za’idah",
+        "Categ": "Islam",
+        "Choice1": "Fatima bint za’idah",
+        "Choice2": "Umm kulthum",
+        "Choice3": "Ruqiya bint Nawfal",
+        "Choice4": "Zainab bint Hashim",
+        "Question": "What was the name of Hazrat Khadija (RA) mother?",
+        "id": 199
+    },
+    {
+        "Answer": " 25",
+        "Categ": "Islam",
+        "Choice1": "20",
+        "Choice2": "23",
+        "Choice3": " 25",
+        "Choice4": "28",
+        "Question": "Hazrat Khadija (RA) remained married monogamously with Hazrat Muhammad (SAW) for __________ years.",
+        "id": 200
+    },
+    {
+        "Answer": "Amman",
+        "Categ": "Islam",
+        "Choice1": "Syria",
+        "Choice2": "Lebanon",
+        "Choice3": "Amman",
+        "Choice4": "Jordan",
+        "Question": "Where is the grave of Hazrat Ayuob (AS)?",
+        "id": 201
+    },
+    {
+        "Answer": "Palestine",
+        "Categ": "Islam",
+        "Choice1": "Syria",
+        "Choice2": "Lebanon",
+        "Choice3": "Saudi Arabia",
+        "Choice4": "Palestine",
+        "Question": "Where is the grave of Hazrat Yaqub (AS)?",
+        "id": 202
+    },
+    {
+        "Answer": "Iraq",
+        "Categ": "Islam",
+        "Choice1": "Syria",
+        "Choice2": "Lebanon",
+        "Choice3": "Saudi Arabia",
+        "Choice4": "Iraq",
+        "Question": "Where is the grave of Hazrat Loot (A.S)?",
+        "id": 203
+    },
+    {
+        "Answer": "7th",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "7th",
+        "Choice2": "8th",
+        "Choice3": "9th",
+        "Choice4": "10th",
+        "Question": "Quaid-e-Azam reached Pakistan on……..August, 1947",
+        "id": 204
+    },
+    {
+        "Answer": "79",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "78",
+        "Choice2": "80",
+        "Choice3": "79",
+        "Choice4": "72",
+        "Question": "The First Constituent Assembly of Pakistan consisted of……..members at the time of the creation of Pakistan:",
+        "id": 205
+    },
+    {
+        "Answer": "December 25, 1876 ",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "December 24, 1876 ",
+        "Choice2": "December 25, 1876 ",
+        "Choice3": "December 20, 1876 ",
+        "Choice4": "December 22, 1876 ",
+        "Question": "What is the date of birth of Quaid-e-Azam\"",
+        "id": 206
+    },
+    {
+        "Answer": "Karachi",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Lahore",
+        "Choice2": "Karachi",
+        "Choice3": "Delhi",
+        "Choice4": "Mumbai",
+        "Question": "Where was Quaid-e-Azam born?",
+        "id": 207
+    },
+    {
+        "Answer": "1892",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1890",
+        "Choice2": "1895",
+        "Choice3": "1892",
+        "Choice4": "1898",
+        "Question": "When did Quaid-e-Azam first marry?",
+        "id": 208
+    },
+    {
+        "Answer": "December 1892",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "December 1892",
+        "Choice2": "December 1894",
+        "Choice3": "December 1895",
+        "Choice4": "December 1893",
+        "Question": "When did Quaid-e-Azam leave for England for higher studies?",
+        "id": 209
+    },
+    {
+        "Answer": "1896",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1897",
+        "Choice2": "1895",
+        "Choice3": "1892",
+        "Choice4": "1896",
+        "Question": " When did he return from England after completing his education?",
+        "id": 210
+    },
+    {
+        "Answer": "1902",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1897",
+        "Choice2": "1895",
+        "Choice3": "1892",
+        "Choice4": "1902",
+        "Question": "When did he become a member of Orient Club Bombay?",
+        "id": 211
+    },
+    {
+        "Answer": "1903",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1897",
+        "Choice2": "1895",
+        "Choice3": "1892",
+        "Choice4": "1903",
+        "Question": "When did he join Municipal Corporation Bombay as a legal advisor?",
+        "id": 212
+    },
+    {
+        "Answer": "Moulan Mazharuddin Shaheed",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Moulana Muhammad Ali Johar",
+        "Choice2": "Moulan Mazharuddin Shaheed",
+        "Choice3": "Allama Iqbal",
+        "Choice4": "Sir Syed Ahmed Khan",
+        "Question": "Who give the title “Quaid-e-Azam” to Muhammad Ali Jinnah?",
+        "id": 213
+    },
+    {
+        "Answer": "Valika Textile Mills",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Karachi Steel Mill",
+        "Choice2": "Karachi Nuclear Power Plant",
+        "Choice3": "Valika Textile Mills",
+        "Choice4": "None",
+        "Question": "After independence, the first industrial unit inaugurated by Quaid-e-Azam was__________ ?",
+        "id": 214
+    },
+    {
+        "Answer": "Rs 1",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Rs 1",
+        "Choice2": "Rs 3",
+        "Choice3": "Rs 4",
+        "Choice4": "None of these",
+        "Question": "Quaid-e-Azam Muhammad Ali Jinnah fixed his salary as the Governor General of Pakistan at:",
+        "id": 215
+    },
+    {
+        "Answer": "Bombay ",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Delhi",
+        "Choice2": "Calcutta",
+        "Choice3": "Bombay ",
+        "Choice4": "Dhaka",
+        "Question": "Quaid-e-Azam started practice in which city of subcontinent?",
+        "id": 216
+    },
+    {
+        "Answer": "Ziarat",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Quetta",
+        "Choice2": "Sibi",
+        "Choice3": "Ziarat",
+        "Choice4": "Makran",
+        "Question": "The Quaid-e-Azam stayed during his last illness in 1948 in ________ ?",
+        "id": 217
+    },
+    {
+        "Answer": "Allama Shabbir Ahmed Usmani",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Mufti Taqi Usmani",
+        "Choice2": "Allama Shabbir Ahmed Usmani",
+        "Choice3": "Mufti Rafi Usmani",
+        "Choice4": "None of these",
+        "Question": "Who led the funeral prayer of Quaid-e-Azam Muhammad Ali Jinnah ?",
+        "id": 218
+    },
+    {
+        "Answer": "Gujrati",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Sindhi",
+        "Choice2": "Baluchi",
+        "Choice3": "Punjabi",
+        "Choice4": "Gujrati",
+        "Question": "Mother tongue of Quaid-e-Azam was ____________?",
+        "id": 219
+    },
+    {
+        "Answer": "1893",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1893",
+        "Choice2": "1894",
+        "Choice3": "1895",
+        "Choice4": "1896",
+        "Question": "Quaid-e-Azam first wife died in ________?",
+        "id": 220
+    },
+    {
+        "Answer": " Emibai",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Sakshi bai",
+        "Choice2": "Ratan bai",
+        "Choice3": " Emibai",
+        "Choice4": "None",
+        "Question": "_______ was the first wife of Quaid-e-Azam?",
+        "id": 221
+    },
+    {
+        "Answer": "Dawn daily",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Dawn weekly",
+        "Choice2": "Pioneer",
+        "Choice3": "Al Aman",
+        "Choice4": "Dawn daily",
+        "Question": "First Newspaper to use the title “Quaid-e-Azam” was ______________?",
+        "id": 222
+    },
+    {
+        "Answer": "1896",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1796",
+        "Choice2": "1996",
+        "Choice3": "1896",
+        "Choice4": "1895",
+        "Question": "When did Quaid-e-Azam start his legal practice in Bombay (Mumbai) ?",
+        "id": 223
+    },
+    {
+        "Answer": " Mithibai jinnah",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Emibai jinnah",
+        "Choice2": "Rattanbai jinnah",
+        "Choice3": " Mithibai jinnah",
+        "Choice4": "Dinna Wadia",
+        "Question": "Quaid-e-Azam mother name was___________?",
+        "id": 224
+    },
+    {
+        "Answer": "cricket",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "football",
+        "Choice2": "hockey",
+        "Choice3": "cricket",
+        "Choice4": "squash",
+        "Question": "Quaid-e-Azam trophy is the tournament of ?",
+        "id": 225
+    },
+    {
+        "Answer": "Yahya Merchant",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Yahya Merchant",
+        "Choice2": "Ahmed Saeed",
+        "Choice3": " Abdur Rab Nishtar",
+        "Choice4": "Ahmad Hasan Dani",
+        "Question": "Which one of these architect designed the Quaid-e-Azam tomb?",
+        "id": 226
+    },
+    {
+        "Answer": "98",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "87",
+        "Choice2": "88",
+        "Choice3": "97",
+        "Choice4": "98",
+        "Question": "Quaid-i-Azam’s daughter Dina Wadia passes away at the age of__________________ in New York?",
+        "id": 227
+    },
+    {
+        "Answer": "1938",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1935",
+        "Choice2": "1932",
+        "Choice3": "1938",
+        "Choice4": "1939",
+        "Question": "When Muhammad Ali jinnah was given the title of Quaid-e-Azam?",
+        "id": 228
+    },
+    {
+        "Answer": "Christopher Lee",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "Micky arther",
+        "Choice2": "Christopher Lee",
+        "Choice3": "Shashi Kapoor",
+        "Choice4": " Jamil Dehalvi",
+        "Question": "Who played role of Quaid-e-Azam in film “Jinnah” which was released 7 November 1998?",
+        "id": 229
+    },
+    {
+        "Answer": "1913",
+        "Categ": "quaid-e-Azam",
+        "Choice1": "1911",
+        "Choice2": "1912",
+        "Choice3": "1913",
+        "Choice4": "1914",
+        "Question": "When did Quaid e Azam join All India Muslim league ?",
+        "id": 230
+    },
+    {
+        "Answer": "2009",
+        "Categ": "sports",
+        "Choice1": "2008",
+        "Choice2": "2009",
+        "Choice3": "2007",
+        "Choice4": "2006",
+        "Question": "When was IPL started?",
+        "id": 231
+    },
+    {
+        "Answer": "Lacrosse/Ice hockey",
+        "Categ": "sports",
+        "Choice1": "Lacrosse/Ice hockey",
+        "Choice2": "Cricket",
+        "Choice3": "Field hockey",
+        "Choice4": "Volleyball",
+        "Question": "Which is the national sport of Canada?",
+        "id": 232
+    },
+    {
+        "Answer": "Hockey",
+        "Categ": "sports",
+        "Choice1": "Cricket",
+        "Choice2": "Hockey",
+        "Choice3": "Footbal",
+        "Choice4": "Basebal",
+        "Question": "Which is the national sport of Pakistan?",
+        "id": 233
+    },
+    {
+        "Answer": "Cricket",
+        "Categ": "sports",
+        "Choice1": "Cricket",
+        "Choice2": "Footbal",
+        "Choice3": "Hockey",
+        "Choice4": "Basebal",
+        "Question": "Which is the national sport of Pakistan?",
+        "id": 234
+    },
+    {
+        "Answer": "Bhutan",
+        "Categ": "sports",
+        "Choice1": "Afghanistan",
+        "Choice2": "Bhutan",
+        "Choice3": "Japan",
+        "Choice4": "India",
+        "Question": "Archery is the national sport of which country?",
+        "id": 235
+    },
+    {
+        "Answer": "Jamaica",
+        "Categ": "sports",
+        "Choice1": "India",
+        "Choice2": "Sri Lanka",
+        "Choice3": "Jamaica",
+        "Choice4": "United States",
+        "Question": " ____________ has Cricket as its national sports.",
+        "id": 236
+    },
+    {
+        "Answer": "Wrestling",
+        "Categ": "sports",
+        "Choice1": "Wrestling",
+        "Choice2": "Rugby union",
+        "Choice3": "Golf",
+        "Choice4": "Basketball",
+        "Question": " _____________ is the national sport of Turkey",
+        "id": 237
+    },
+    {
+        "Answer": "1930",
+        "Categ": "sports",
+        "Choice1": "1930",
+        "Choice2": "1934",
+        "Choice3": "1938",
+        "Choice4": "1950",
+        "Question": "When was the Commonwealth game started?",
+        "id": 238
+    },
+    {
+        "Answer": "Thailand",
+        "Categ": "sports",
+        "Choice1": "Thailand",
+        "Choice2": "Philippines",
+        "Choice3": "South Korea",
+        "Choice4": "China",
+        "Question": "Which was the host country in 1998 for Asian Games?",
+        "id": 239
+    },
+    {
+        "Answer": "Doha",
+        "Categ": "sports",
+        "Choice1": "Doha",
+        "Choice2": "Bangkok",
+        "Choice3": "New Delhi",
+        "Choice4": "Tokyo",
+        "Question": "Which city has hosted Asian Games in 2006?",
+        "id": 240
+    },
+    {
+        "Answer": "India",
+        "Categ": "sports",
+        "Choice1": "India",
+        "Choice2": "Canada",
+        "Choice3": "Malaysia",
+        "Choice4": "Australia",
+        "Question": "In which country commonwealth games were held in 2010?",
+        "id": 241
+    },
+    {
+        "Answer": "Kingston",
+        "Categ": "sports",
+        "Choice1": "Kuala Lumpur",
+        "Choice2": "Melbourne",
+        "Choice3": "Kingston",
+        "Choice4": "Perth",
+        "Question": "Which city hosted commonwealth games in 1966?",
+        "id": 242
+    },
+    {
+        "Answer": "Australia",
+        "Categ": "sports",
+        "Choice1": "India",
+        "Choice2": "Sri Lanka",
+        "Choice3": "Windies",
+        "Choice4": "Australia",
+        "Question": "____________ has won Cricket world cup for the maximum number of times.",
+        "id": 243
+    },
+    {
+        "Answer": "Brazil",
+        "Categ": "sports",
+        "Choice1": "Italy",
+        "Choice2": "Uruguay",
+        "Choice3": "West Germany",
+        "Choice4": "Brazil",
+        "Question": "Football World Cup has been won by which country for the maximum number of times?",
+        "id": 244
+    },
+    {
+        "Answer": "Canada",
+        "Categ": "sports",
+        "Choice1": "Canada",
+        "Choice2": "New Zealand",
+        "Choice3": "England",
+        "Choice4": "Scotland",
+        "Question": "Which country has hosted Commonwealth Games for the maximum number of times?",
+        "id": 245
+    },
+    {
+        "Answer": "1951",
+        "Categ": "sports",
+        "Choice1": "1951",
+        "Choice2": "1954",
+        "Choice3": "1958",
+        "Choice4": "1962",
+        "Question": "In which year Asian Games were started?",
+        "id": 246
+    },
+    {
+        "Answer": "Canada",
+        "Categ": "sports",
+        "Choice1": "Canada",
+        "Choice2": "New Zealand",
+        "Choice3": "England",
+        "Choice4": "Scotland",
+        "Question": "First Olympic Games was held in ________",
+        "id": 247
+    },
+    {
+        "Answer": "Golf",
+        "Categ": "sports",
+        "Choice1": "Bridge",
+        "Choice2": "Billiards",
+        "Choice3": "Golf",
+        "Choice4": "Baseball",
+        "Question": "Caddie is related to __________",
+        "id": 248
+    },
+    {
+        "Answer": "Uruguay",
+        "Categ": "sports",
+        "Choice1": "Brazil",
+        "Choice2": "Uruguay",
+        "Choice3": "West Germany",
+        "Choice4": "Italy",
+        "Question": "Which country had started Football World?",
+        "id": 249
+    },
+    {
+        "Answer": "1975",
+        "Categ": "sports",
+        "Choice1": "1975",
+        "Choice2": "1979",
+        "Choice3": "1983",
+        "Choice4": "1976",
+        "Question": "In which year Cricket world cup was first hosted by West Indies?",
+        "id": 250
+    },
+    {
+        "Answer": "Russia",
+        "Categ": "sports",
+        "Choice1": "Russia",
+        "Choice2": "Peru",
+        "Choice3": "Latvia",
+        "Choice4": "Lithuania",
+        "Question": "Bandy is national sport of which country?",
+        "id": 251
+    },
+    {
+        "Answer": "Thailand",
+        "Categ": "sports",
+        "Choice1": "China",
+        "Choice2": "India",
+        "Choice3": "Japan",
+        "Choice4": "Thailand",
+        "Question": "Asian Games have been hosted by _________for maximum number of times.",
+        "id": 252
+    },
+    {
+        "Answer": "1916",
+        "Categ": "sports",
+        "Choice1": "1912",
+        "Choice2": "1920",
+        "Choice3": "1916",
+        "Choice4": "1944",
+        "Question": "In which year Olympic Games were cancelled because of World War I?",
+        "id": 253
+    },
+    {
+        "Answer": "Deuce",
+        "Categ": "sports",
+        "Choice1": "Deuce",
+        "Choice2": "Dribble",
+        "Choice3": "Double",
+        "Choice4": "Dummy",
+        "Question": "Which term is commonly used in Badminton and Volleyball?",
+        "id": 254
+    },
+    {
+        "Answer": "Upper Cut",
+        "Categ": "sports",
+        "Choice1": " Mallet",
+        "Choice2": "Upper Cut",
+        "Choice3": "Bunder Chuckker",
+        "Choice4": "Deuce",
+        "Question": " ___________ is used in Boxing.",
+        "id": 255
+    },
+    {
+        "Answer": "Billiards",
+        "Categ": "sports",
+        "Choice1": "Baseball",
+        "Choice2": "Billiards",
+        "Choice3": "Polo",
+        "Choice4": "Bridge",
+        "Question": "If we are using the following words in a game. Which game are we playing? Break, Cannons, Cue, In off, Jigger, Scratch",
+        "id": 256
+    },
+    {
+        "Answer": "1998",
+        "Categ": "sports",
+        "Choice1": "1990",
+        "Choice2": "1995",
+        "Choice3": "1962",
+        "Choice4": "1998",
+        "Question": "In which year Football World Cup was held in France?",
+        "id": 257
+    },
+    {
+        "Answer": "Spain",
+        "Categ": "sports",
+        "Choice1": "Italy",
+        "Choice2": "Spain",
+        "Choice3": "Brazil",
+        "Choice4": "France",
+        "Question": "Who was the winner of Football World Cup in 2010?",
+        "id": 258
+    },
+    {
+        "Answer": "Greece (1896)",
+        "Categ": "sports",
+        "Choice1": " France (1894)",
+        "Choice2": "Greece (1890)",
+        "Choice3": "Greece (1896)",
+        "Choice4": "France (1924)",
+        "Question": "Olympic Games were first started by which country and in which year?",
+        "id": 259
+    },
+    {
+        "Answer": "204",
+        "Categ": "sports",
+        "Choice1": "204",
+        "Choice2": "197",
+        "Choice3": "199",
+        "Choice4": "121",
+        "Question": "How many nations participated in 2012 Olympic Games?",
+        "id": 260
+    },
+    {
+        "Answer": "1992",
+        "Categ": "sports",
+        "Choice1": "1990",
+        "Choice2": "1995",
+        "Choice3": "1962",
+        "Choice4": "1992",
+        "Question": "In __________ Olympic Games were held in Spain.",
+        "id": 261
+    },
+    {
+        "Answer": "Atlanta",
+        "Categ": "sports",
+        "Choice1": "St. Louis",
+        "Choice2": "Atlanta",
+        "Choice3": "Los Angeles",
+        "Choice4": "None of the above",
+        "Question": "Which city of United States hosted Olympic Games in 1996?",
+        "id": 262
+    },
+    {
+        "Answer": "United Kingdom",
+        "Categ": "sports",
+        "Choice1": "United Kingdom",
+        "Choice2": "China",
+        "Choice3": "Greece",
+        "Choice4": "Australia",
+        "Question": "In 2012 which country hosted Olympic Games?",
+        "id": 263
+    },
+    {
+        "Answer": "Pune",
+        "Categ": "sports",
+        "Choice1": "Delhi",
+        "Choice2": "Pune",
+        "Choice3": "Karachi",
+        "Choice4": "Tamil Nadu",
+        "Question": "Where did the game of Badminton originate?",
+        "id": 264
+    },
+    {
+        "Answer": "Don Budge",
+        "Categ": "sports",
+        "Choice1": "Bill Tilden",
+        "Choice2": "Don Budge",
+        "Choice3": "Henry Vines",
+        "Choice4": "Jack Kramer",
+        "Question": "Who was the first person to win the Grand Slam in tennis?",
+        "id": 265
+    },
+    {
+        "Answer": "Mohun Bagan",
+        "Categ": "sports",
+        "Choice1": "United Sikkim",
+        "Choice2": "Pailan Arrows",
+        "Choice3": "Mohun Bagan",
+        "Choice4": "Prayag United",
+        "Question": "Which is the oldest football club in India?",
+        "id": 266
+    },
+    {
+        "Answer": "Pierre de Coubertin",
+        "Categ": "sports",
+        "Choice1": "Demetrius Vikelas",
+        "Choice2": "Jacques Rogge",
+        "Choice3": "Juan Antonio Samaranch",
+        "Choice4": "Pierre de Coubertin",
+        "Question": "Who revived the Olympic Games?",
+        "id": 267
+    },
+    {
+        "Answer": "Goongi",
+        "Categ": "sports",
+        "Choice1": "Amar",
+        "Choice2": "Goongi",
+        "Choice3": "Sanjeevani",
+        "Choice4": "Gamini",
+        "Question": "Which one of the following does not belong to the national styles of Kabaddi?",
+        "id": 268
+    },
+    {
+        "Answer": "1971",
+        "Categ": "sports",
+        "Choice1": "1962",
+        "Choice2": "1967",
+        "Choice3": "1971",
+        "Choice4": "1973",
+        "Question": "When was the Tie-break introduced?",
+        "id": 269
+    },
+    {
+        "Answer": "1976",
+        "Categ": "sports",
+        "Choice1": "1976",
+        "Choice2": "1967",
+        "Choice3": "1971",
+        "Choice4": "1973",
+        "Question": "When did Bjorn Borg win his first singles title?",
+        "id": 270
+    },
+    {
+        "Answer": "1977",
+        "Categ": "sports",
+        "Choice1": "1977",
+        "Choice2": "1976",
+        "Choice3": "1980",
+        "Choice4": "1988",
+        "Question": "When was Wimbledon Lawn Tennis Museum opened?",
+        "id": 271
+    },
+    {
+        "Answer": "Goran Ivansevic",
+        "Categ": "sports",
+        "Choice1": "Goran Ivansevic",
+        "Choice2": "Fabrice Santoro",
+        "Choice3": "Marin Cilic",
+        "Choice4": "Mark Philippoussis",
+        "Question": "Who won the men's singles title at Wimbledon as a wildcard?",
+        "id": 272
+    },
+    {
+        "Answer": "1894",
+        "Categ": "sports",
+        "Choice1": "1854",
+        "Choice2": "1874",
+        "Choice3": "1894",
+        "Choice4": "1898",
+        "Question": "When was International Olympic Committee founded?",
+        "id": 273
+    },
+    {
+        "Answer": "1904",
+        "Categ": "sports",
+        "Choice1": "1896",
+        "Choice2": "1900",
+        "Choice3": "1904",
+        "Choice4": "1916",
+        "Question": " When were gold, silver, bronze medals at Olympics introduced?",
+        "id": 274
+    },
+    {
+        "Answer": "Nawal El Moutawakel",
+        "Categ": "sports",
+        "Choice1": "Hassiba Boulmerka",
+        "Choice2": "Nawal El Moutawakel",
+        "Choice3": "Nezha Bidouane",
+        "Choice4": "P. T. Usha",
+        "Question": "Who won the inaugural women's 400 m hurdles event?",
+        "id": 275
+    },
+    {
+        "Answer": "3",
+        "Categ": "sports",
+        "Choice1": "2",
+        "Choice2": "3",
+        "Choice3": "4",
+        "Choice4": "5",
+        "Question": "How many times did Geet Sethi win the IBSF World Billiards title?",
+        "id": 276
+    },
+    {
+        "Answer": "1946",
+        "Categ": "sports",
+        "Choice1": "1936",
+        "Choice2": "1656",
+        "Choice3": "1946",
+        "Choice4": "1666",
+        "Question": "When was Amateur Athletics Federation of India established?",
+        "id": 277
+    },
+    {
+        "Answer": "4",
+        "Categ": "sports",
+        "Choice1": "2",
+        "Choice2": "3",
+        "Choice3": "4",
+        "Choice4": "5",
+        "Question": "How many gold medals did Carl Lewis win at the 1984 Olympic games?",
+        "id": 278
+    },
+    {
+        "Answer": "4",
+        "Categ": "sports",
+        "Choice1": "1",
+        "Choice2": "2",
+        "Choice3": "3",
+        "Choice4": "4",
+        "Question": "How many gold medals did P. T. Usha win in the 1986 Seoul Asian Games?",
+        "id": 279
+    },
+    {
+        "Answer": "Nigeria",
+        "Categ": "general_knowledge",
+        "Choice1": "Kenya",
+        "Choice2": "Nigeria",
+        "Choice3": "Ethiopia",
+        "Choice4": " None of these",
+        "Question": "Jare Ijalana, a girl from _________ is dubbed as the “Most beautiful girl in the world”?",
+        "id": 282
+    },
+    {
+        "Answer": "4",
+        "Categ": "general_knowledge",
+        "Choice1": "2",
+        "Choice2": "3",
+        "Choice3": "4",
+        "Choice4": "5",
+        "Question": "The Kurdistan region spans over _____ countries?",
+        "id": 283
+    },
+    {
+        "Answer": "English and French",
+        "Categ": "general_knowledge",
+        "Choice1": "English and French",
+        "Choice2": " English and German",
+        "Choice3": "English and Spanish",
+        "Choice4": " English, French and German",
+        "Question": "The two official languages of NATO are_______________?",
+        "id": 284
+    },
+    {
+        "Answer": "New York",
+        "Categ": "general_knowledge",
+        "Choice1": "Washington",
+        "Choice2": "New York",
+        "Choice3": "Berlin",
+        "Choice4": "Brussels",
+        "Question": "The headquarter of Human Rights Watch (HRW) is located in_____________?",
+        "id": 285
+    },
+    {
+        "Answer": "London",
+        "Categ": "general_knowledge",
+        "Choice1": " New York",
+        "Choice2": "Berlin",
+        "Choice3": "Moscow",
+        "Choice4": "London",
+        "Question": "The World’s first underground railway system was built in___________?",
+        "id": 286
+    },
+    {
+        "Answer": "The Republican Party",
+        "Categ": "general_knowledge",
+        "Choice1": "The Republican Party",
+        "Choice2": "Liberal Part",
+        "Choice3": "Labour Party",
+        "Choice4": "Democratic Party",
+        "Question": "Grand Old Party is also known as _________?",
+        "id": 287
+    },
+    {
+        "Answer": "Italy",
+        "Categ": "general_knowledge",
+        "Choice1": "Germany",
+        "Choice2": "Russia",
+        "Choice3": "Italy",
+        "Choice4": "America",
+        "Question": "What country did Benito Mussolini rule?",
+        "id": 288
+    },
+    {
+        "Answer": "15",
+        "Categ": "general_knowledge",
+        "Choice1": "5",
+        "Choice2": "10",
+        "Choice3": "15",
+        "Choice4": "20",
+        "Question": "How many Judges are in the International Court of Justice (ICJ)?",
+        "id": 289
+    },
+    {
+        "Answer": "China",
+        "Categ": "general_knowledge",
+        "Choice1": "Russia",
+        "Choice2": "USA",
+        "Choice3": "China",
+        "Choice4": "India",
+        "Question": "Which Country in the World has most Neighbors ?",
+        "id": 290
+    },
+    {
+        "Answer": "Skaats Wheeler",
+        "Categ": "general_knowledge",
+        "Choice1": "Arthur Schimit",
+        "Choice2": "Alfered Nobel",
+        "Choice3": "Skaats Wheeler",
+        "Choice4": " None of these",
+        "Question": "Fan was invented by___________?",
+        "id": 291
+    },
+    {
+        "Answer": "Ameer Kror",
+        "Categ": "general_knowledge",
+        "Choice1": "Khushal Khan Khatak",
+        "Choice2": "Ameer Kror",
+        "Choice3": " Rahman Baba",
+        "Choice4": " None of these",
+        "Question": "Who is considered the first poet of Pashto Language?",
+        "id": 292
+    },
+    {
+        "Answer": "Khalid Bin Saeed",
+        "Categ": "general_knowledge",
+        "Choice1": " K. K. Aziz",
+        "Choice2": "Khalid Bin Saeed",
+        "Choice3": "Aitzaz Ahsan",
+        "Choice4": "Syed Ameer Ali",
+        "Question": "The book ” Pakistan: the Formative Phase” was written by__________?",
+        "id": 293
+    },
+    {
+        "Answer": "Sher Shah Suri",
+        "Categ": "general_knowledge",
+        "Choice1": "Altimush",
+        "Choice2": "Muhammad Taghluq",
+        "Choice3": "Feroz Taghluq",
+        "Choice4": "Sher Shah Suri",
+        "Question": "G.T Road was constructed by __________?",
+        "id": 294
+    },
+    {
+        "Answer": "Jamshoro",
+        "Categ": "general_knowledge",
+        "Choice1": "Dadu",
+        "Choice2": "Jamshoro",
+        "Choice3": "Hala",
+        "Choice4": "Sukkur",
+        "Question": "Which city of Sindh is famous for ‘Pallo’ (Fish)?",
+        "id": 295
+    },
+    {
+        "Answer": "General Ayoub Khan",
+        "Categ": "general_knowledge",
+        "Choice1": "Sir Syed Ahmed Khan",
+        "Choice2": "Liaquat Ali Khan",
+        "Choice3": "Zulfiqar Ali Bhutto",
+        "Choice4": "General Ayoub Khan",
+        "Question": "The book ” Friends not Masters” was written by____________?",
+        "id": 296
+    },
+    {
+        "Answer": "England",
+        "Categ": "general_knowledge",
+        "Choice1": "France",
+        "Choice2": "USA",
+        "Choice3": "England",
+        "Choice4": "Canada",
+        "Question": "Shakespeare beach is located in which country?",
+        "id": 297
+    },
+    {
+        "Answer": "Barometer",
+        "Categ": "general_knowledge",
+        "Choice1": "Clock",
+        "Choice2": "Airship",
+        "Choice3": "Barometer",
+        "Choice4": "Cotton gin",
+        "Question": "Which of the following was invented by Torricelli?",
+        "id": 298
+    },
+    {
+        "Answer": "Physicist",
+        "Categ": "general_knowledge",
+        "Choice1": " Physicist",
+        "Choice2": "Physician",
+        "Choice3": "Chemist",
+        "Choice4": "Biologist",
+        "Question": "Albert Einstein was a____________?",
+        "id": 299
+    },
+    {
+        "Answer": "Owl",
+        "Categ": "general_knowledge",
+        "Choice1": "Hen",
+        "Choice2": "Peacock",
+        "Choice3": "Eagle",
+        "Choice4": "Owl",
+        "Question": "Bubo bubo is the scientific name of which of the following species?",
+        "id": 300
+    },
+    {
+        "Answer": "Ameer Kror",
+        "Categ": "general_knowledge",
+        "Choice1": "Khushal Khan Khatak",
+        "Choice2": "Ameer Kror",
+        "Choice3": "Rahman Baba",
+        "Choice4": "None of these",
+        "Question": "Who is considered the first poet of Pashto Language?",
+        "id": 301
+    },
+    {
+        "Answer": "Excitement",
+        "Categ": "general_knowledge",
+        "Choice1": "Excitement",
+        "Choice2": "Class",
+        "Choice3": "Realization",
+        "Choice4": "Swiftness",
+        "Question": "Synonym of fervor is__________?",
+        "id": 302
+    },
+    {
+        "Answer": "Sad",
+        "Categ": "general_knowledge",
+        "Choice1": "Sad",
+        "Choice2": "Happy",
+        "Choice3": "Famous",
+        "Choice4": "Enemy",
+        "Question": "Synonym of Doleful is__________?",
+        "id": 303
+    },
+    {
+        "Answer": "Appropriate",
+        "Categ": "general_knowledge",
+        "Choice1": "Whole",
+        "Choice2": "Revealing",
+        "Choice3": "Cooked",
+        "Choice4": "Appropriate",
+        "Question": "Synonym of Apposite is__________?",
+        "id": 304
+    },
+    {
+        "Answer": "Shy",
+        "Categ": "general_knowledge",
+        "Choice1": "Upsetting",
+        "Choice2": "Shy",
+        "Choice3": "Responsible",
+        "Choice4": "Polite",
+        "Question": "Synonym of Diffident is__________?",
+        "id": 305
+    },
+    {
+        "Answer": "KPK",
+        "Categ": "general_knowledge",
+        "Choice1": "Sindh",
+        "Choice2": "Punjab",
+        "Choice3": "Balochistan",
+        "Choice4": "KPK",
+        "Question": "In which province Tanda Dam is located?",
+        "id": 306
+    },
+    {
+        "Answer": "Dashat River",
+        "Categ": "general_knowledge",
+        "Choice1": "Gomal River",
+        "Choice2": "Dashat River",
+        "Choice3": "Kabul River",
+        "Choice4": "Indus River",
+        "Question": "On which river the Mirani dam was constructed?",
+        "id": 307
+    },
+    {
+        "Answer": "Khalid Bin Saeed",
+        "Categ": "general_knowledge",
+        "Choice1": "K. K. Aziz",
+        "Choice2": "Khalid Bin Saeed",
+        "Choice3": "Aitzaz Ahsan",
+        "Choice4": "Syed Ameer Ali",
+        "Question": "The book ” Pakistan: the Formative Phase” was written by__________?",
+        "id": 308
+    },
+    {
+        "Answer": "William Harvey",
+        "Categ": "general_knowledge",
+        "Choice1": "Carl Linnaeus",
+        "Choice2": " Francis Crik",
+        "Choice3": "Robert. Brown",
+        "Choice4": "William Harvey",
+        "Question": "Who discovered blood circulation?",
+        "id": 309
+    },
+    {
+        "Answer": "Sher Shah Suri",
+        "Categ": "general_knowledge",
+        "Choice1": "Altimush",
+        "Choice2": "Muhammad Taghluq",
+        "Choice3": " Feroz Taghluq",
+        "Choice4": "Sher Shah Suri",
+        "Question": "G.T Road was constructed by __________?",
+        "id": 310
+    },
+    {
+        "Answer": "Robert Fluton",
+        "Categ": "general_knowledge",
+        "Choice1": " James Watt",
+        "Choice2": "Robert Fluton",
+        "Choice3": "Frank Whittle",
+        "Choice4": "George Stephenson",
+        "Question": "Who invented steamboat?",
+        "id": 311
+    },
+    {
+        "Answer": "Leukocytes",
+        "Categ": "general_knowledge",
+        "Choice1": "Erythrocytes",
+        "Choice2": "Leukocytes",
+        "Choice3": "Thrombocytes",
+        "Choice4": "None of these",
+        "Question": "Other name of white blood cells is _____________?",
+        "id": 312
+    },
+    {
+        "Answer": "Thrombocytes",
+        "Categ": "general_knowledge",
+        "Choice1": "Erythrocytes",
+        "Choice2": "Leukocytes",
+        "Choice3": "Thrombocytes",
+        "Choice4": "None of these",
+        "Question": "Other name of platelets _______?",
+        "id": 313
+    },
+    {
+        "Answer": "Erythrocytes",
+        "Categ": "general_knowledge",
+        "Choice1": "Erythrocytes",
+        "Choice2": "Leukocytes",
+        "Choice3": "Thrombocytes",
+        "Choice4": "None of these",
+        "Question": "Other name of red blood cells is ____________?",
+        "id": 314
+    },
+    {
+        "Answer": "Jamshoro",
+        "Categ": "general_knowledge",
+        "Choice1": "Dadu",
+        "Choice2": "Jamshoro",
+        "Choice3": "Hala",
+        "Choice4": "Sukkur",
+        "Question": "Which city of Sindh is famous for ‘Pallo’ (Fish)?",
+        "id": 315
+    },
+    {
+        "Answer": "General Ayoub Khan",
+        "Categ": "general_knowledge",
+        "Choice1": "Sir Syed Ahmed Khan",
+        "Choice2": "Liaquat Ali Khan",
+        "Choice3": "Zulfiqar Ali Bhutto",
+        "Choice4": "General Ayoub Khan",
+        "Question": "The book ” Friends not Masters” was written by____________?",
+        "id": 316
+    },
+    {
+        "Answer": "Discount",
+        "Categ": "general_knowledge",
+        "Choice1": "Gift",
+        "Choice2": "Charity",
+        "Choice3": "Commission",
+        "Choice4": "Discount",
+        "Question": "Synonym of rebate is ____________ ?",
+        "id": 317
+    },
+    {
+        "Answer": "Destroy",
+        "Categ": "general_knowledge",
+        "Choice1": "Destroy",
+        "Choice2": "Promote",
+        "Choice3": "Disfigure",
+        "Choice4": "Dissipate",
+        "Question": "Synonym of Decimate is _________?",
+        "id": 318
+    },
+    {
+        "Answer": "Think",
+        "Categ": "general_knowledge",
+        "Choice1": "Help",
+        "Choice2": "Discourage",
+        "Choice3": "Think",
+        "Choice4": "Provoke",
+        "Question": "Synonym of Mull is __________ ?",
+        "id": 319
+    },
+    {
+        "Answer": "Faridpur 1781",
+        "Categ": "general_knowledge",
+        "Choice1": "Faridpur 1767",
+        "Choice2": "Faridpur 1781",
+        "Choice3": "Sylhet 1767",
+        "Choice4": "Sylhet 1768",
+        "Question": "When and where did Haji Shariatullah born?",
+        "id": 320
+    },
+    {
+        "Answer": "1976",
+        "Categ": "general_knowledge",
+        "Choice1": "1974",
+        "Choice2": "1975",
+        "Choice3": "1976",
+        "Choice4": "1977",
+        "Question": "When did PTV start its colour transmission?",
+        "id": 321
+    },
+    {
+        "Answer": "Abu Sufyan",
+        "Categ": "general_knowledge",
+        "Choice1": "Shaiba",
+        "Choice2": "Abu Jahal",
+        "Choice3": "Abu Sufyan",
+        "Choice4": "Khalid bin Walid",
+        "Question": "Who was the commanders of the Infidels in the Battle of Uhud?",
+        "id": 322
+    },
+    {
+        "Answer": "England",
+        "Categ": "general_knowledge",
+        "Choice1": "France",
+        "Choice2": "USA",
+        "Choice3": "England",
+        "Choice4": "Canada",
+        "Question": "Shakespeare beach is located in which country?",
+        "id": 323
+    },
+    {
+        "Answer": "Barometer",
+        "Categ": "general_knowledge",
+        "Choice1": "Clock",
+        "Choice2": "Airship",
+        "Choice3": "Barometer",
+        "Choice4": "Cotton gin",
+        "Question": "Which of the following was invented by Torricelli?",
+        "id": 324
+    },
+    {
+        "Answer": "Physicist",
+        "Categ": "general_knowledge",
+        "Choice1": "Physicist",
+        "Choice2": "Physician",
+        "Choice3": "Chemist",
+        "Choice4": "Biologist",
+        "Question": "Albert Einstein was a____________?",
+        "id": 325
+    },
+    {
+        "Answer": "Owl",
+        "Categ": "general_knowledge",
+        "Choice1": "Hen",
+        "Choice2": "Peacock",
+        "Choice3": "Eagle",
+        "Choice4": "Owl",
+        "Question": "Bubo bubo is the scientific name of which of the following species?",
+        "id": 326
+    },
+    {
+        "Answer": "World Cancer Day",
+        "Categ": "general_knowledge",
+        "Choice1": " World Day of the Sick",
+        "Choice2": "World Alzheimer’s Day",
+        "Choice3": "World Day of Social Justice",
+        "Choice4": "World Cancer Day",
+        "Question": "Which day is celebrated on 4th February?",
+        "id": 327
+    },
+    {
+        "Answer": "N-35",
+        "Categ": "general_knowledge",
+        "Choice1": "N-655",
+        "Choice2": "N-35",
+        "Choice3": "N-25",
+        "Choice4": "N-135",
+        "Question": "Karakoram highway is also known as___________?",
+        "id": 328
+    },
+    {
+        "Answer": "Oman",
+        "Categ": "general_knowledge",
+        "Choice1": "Iran",
+        "Choice2": "Oman",
+        "Choice3": "UAE",
+        "Choice4": " Saudi Arabia",
+        "Question": "The only country with which Pakistan shares a maritime border (not the land border) is__________?",
+        "id": 329
+    },
+    {
+        "Answer": "All of these",
+        "Categ": "general_knowledge",
+        "Choice1": "James peebles",
+        "Choice2": " Michel Mayor",
+        "Choice3": "Didier Queloz",
+        "Choice4": "All of these",
+        "Question": "Which of the following has won the 2019 noble prize winner in physics?",
+        "id": 330
+    },
+    {
+        "Answer": "Hafulizullah Amin",
+        "Categ": "general_knowledge",
+        "Choice1": "Hamid Karzai",
+        "Choice2": "Barbark Kermal",
+        "Choice3": "Hafulizullah Amin",
+        "Choice4": "Haji Mohd Chamkani",
+        "Question": "Who was Afghan ruler at the time of USSR invasion?",
+        "id": 331
+    },
+    {
+        "Answer": "Deng Xiaoping",
+        "Categ": "general_knowledge",
+        "Choice1": "Deng Xiaoping",
+        "Choice2": "Li Kuwan Yu",
+        "Choice3": "Wang Yi",
+        "Choice4": "Xi Jing Ping",
+        "Question": "Who is considered as the Leader of Modern Chinese Economy?",
+        "id": 332
+    },
+    {
+        "Answer": "Chile",
+        "Categ": "general_knowledge",
+        "Choice1": "China",
+        "Choice2": "India",
+        "Choice3": "Chile",
+        "Choice4": "Russia",
+        "Question": "World’s largest Copper producer is__________?",
+        "id": 333
+    },
+    {
+        "Answer": " Banu Taym",
+        "Categ": "general_knowledge",
+        "Choice1": "Banu Sahm",
+        "Choice2": " Banu Taym",
+        "Choice3": "Banu Hashim",
+        "Choice4": " Banu Asad",
+        "Question": "Hazrat Abu Bakr (R.A) belonged to the tribe of__________?",
+        "id": 334
+    },
+    {
+        "Answer": "Lilly",
+        "Categ": "general_knowledge",
+        "Choice1": "Rose",
+        "Choice2": "Lilly",
+        "Choice3": "Rafflesia",
+        "Choice4": "Tulip",
+        "Question": "Which of the following flower is called Queen of Water?",
+        "id": 335
+    },
+    {
+        "Answer": "Rafflesia",
+        "Categ": "general_knowledge",
+        "Choice1": "Conifer",
+        "Choice2": "Fern",
+        "Choice3": "Rafflesia",
+        "Choice4": "Horsetail",
+        "Question": "What is the largest flower in the world?",
+        "id": 336
+    },
+    {
+        "Answer": "180",
+        "Categ": "general_knowledge",
+        "Choice1": "90",
+        "Choice2": "180",
+        "Choice3": "270",
+        "Choice4": "360",
+        "Question": "How many latitude lines are there?",
+        "id": 337
+    },
+    {
+        "Answer": "Carolus Linnaeus",
+        "Categ": "general_knowledge",
+        "Choice1": "Aristotle",
+        "Choice2": "Fransco Redi",
+        "Choice3": "Carolus Linnaeus",
+        "Choice4": "Rachel Carson",
+        "Question": "Who is the known as the father of taxonomy?",
+        "id": 338
+    },
+    {
+        "Answer": "ATP",
+        "Categ": "general_knowledge",
+        "Choice1": "ADP",
+        "Choice2": "DNA",
+        "Choice3": "RNA",
+        "Choice4": "ATP",
+        "Question": "Which of the following is a currency of Body cells?",
+        "id": 339
+    },
+    {
+        "Answer": "Tannic",
+        "Categ": "general_knowledge",
+        "Choice1": "Valeric",
+        "Choice2": "Acetic",
+        "Choice3": "Formic",
+        "Choice4": "Tannic",
+        "Question": "Which of the following acid is used in Ink?",
+        "id": 340
+    },
+    {
+        "Answer": " Herber process",
+        "Categ": "general_knowledge",
+        "Choice1": " Herber process",
+        "Choice2": "Regrigration process",
+        "Choice3": "Contact process",
+        "Choice4": "All of these",
+        "Question": "How is ammonia synthesized?",
+        "id": 341
+    },
+    {
+        "Answer": "Mathematics",
+        "Categ": "general_knowledge",
+        "Choice1": "Biology",
+        "Choice2": "Mathematics",
+        "Choice3": "Physics",
+        "Choice4": "Chemistry",
+        "Question": "Which of the following science is considered “mother of all sciences”?",
+        "id": 342
+    },
+    {
+        "Answer": "J",
+        "Categ": "general_knowledge",
+        "Choice1": "X",
+        "Choice2": "K",
+        "Choice3": "J",
+        "Choice4": "N",
+        "Question": "Which of the following letter does not represent in periodic table?",
+        "id": 343
+    },
+    {
+        "Answer": "South Pole",
+        "Categ": "general_knowledge",
+        "Choice1": "South Pole",
+        "Choice2": "North Pole",
+        "Choice3": "Both A and B",
+        "Choice4": "None of These",
+        "Question": "There is a hole in the Ozone Layer at__________?",
+        "id": 344
+    },
+    {
+        "Answer": "Pakistan and Saudi Arabia",
+        "Categ": "general_knowledge",
+        "Choice1": "Pakistan and Afghanistan",
+        "Choice2": "Pakistan and Saudi Arabia",
+        "Choice3": "akistan and Iran",
+        "Choice4": "Pakistan and China",
+        "Question": "The “Treaty of Friendship” was signed in 1951 between?",
+        "id": 345
+    },
+    {
+        "Answer": "1980",
+        "Categ": "general_knowledge",
+        "Choice1": "1978",
+        "Choice2": "1979",
+        "Choice3": "1980",
+        "Choice4": "1981",
+        "Question": "When the Federal Shariat Court established?",
+        "id": 346
+    },
+    {
+        "Answer": "KNESSET",
+        "Categ": "general_knowledge",
+        "Choice1": "National Assembly",
+        "Choice2": "General Council",
+        "Choice3": "KNESSET",
+        "Choice4": "Federal Parliament",
+        "Question": "What is the name of Israel’s Parliament?",
+        "id": 347
+    },
+    {
+        "Answer": "1878",
+        "Categ": "general_knowledge",
+        "Choice1": "1875",
+        "Choice2": "1876",
+        "Choice3": "1877",
+        "Choice4": "1878",
+        "Question": "When did Muhammad Ali Johar born?",
+        "id": 348
+    },
+    {
+        "Answer": "Aitzaz Ahsan",
+        "Categ": "general_knowledge",
+        "Choice1": "Aitzaz Ahsan",
+        "Choice2": "K.K Aziz",
+        "Choice3": "Chudary Muhammad Ali",
+        "Choice4": "Chudary Khaliquzzaman",
+        "Question": "Who wrote “The Indus Saga and Making of Pakistan”?",
+        "id": 349
+    },
+    {
+        "Answer": "Zulfiqar Ali Bhutto",
+        "Categ": "general_knowledge",
+        "Choice1": "Benzir Bhutto",
+        "Choice2": "Zulfiqar Ali Bhutto",
+        "Choice3": "Nelson Mandela",
+        "Choice4": "Vladimir Lenin",
+        "Question": "Who wrote book “If I am assassinated”?",
+        "id": 350
+    },
+    {
+        "Answer": "Alexander Graham Bell",
+        "Categ": "inventions",
+        "Choice1": "Thomas Alva Edison",
+        "Choice2": "Galileo",
+        "Choice3": "Alexander Graham Bell",
+        "Choice4": "G. Marconi",
+        "Question": "Who invented the telephone?",
+        "id": 351
+    },
+    {
+        "Answer": "George Stephenson",
+        "Categ": "inventions",
+        "Choice1": "Charles Babbage",
+        "Choice2": "Isaac Newton",
+        "Choice3": "James Watt",
+        "Choice4": "George Stephenson",
+        "Question": "Who invented the railway engine?",
+        "id": 352
+    },
+    {
+        "Answer": "Robert Watson Watt",
+        "Categ": "inventions",
+        "Choice1": "Henrey Backquerel",
+        "Choice2": "Max Planck",
+        "Choice3": "Robert Watson Watt",
+        "Choice4": "Humphrey Davy",
+        "Question": "Who invented Radar?",
+        "id": 353
+    },
+    {
+        "Answer": "Albert Sabin",
+        "Categ": "inventions",
+        "Choice1": "Albert Sabin",
+        "Choice2": "Burkholder",
+        "Choice3": "Luise Pasture",
+        "Choice4": "Jonas Salk",
+        "Question": "Who invented polio vaccine (oral)?",
+        "id": 354
+    },
+    {
+        "Answer": "Eduard Jenner",
+        "Categ": "inventions",
+        "Choice1": "Eduard Jenner",
+        "Choice2": "Alexander Fleming",
+        "Choice3": "Albert Einstein",
+        "Choice4": "None of these",
+        "Question": "Who developed the small pox vaccination?",
+        "id": 355
+    },
+    {
+        "Answer": "Helium",
+        "Categ": "inventions",
+        "Choice1": "Helium",
+        "Choice2": "Neon",
+        "Choice3": "Xenon",
+        "Choice4": "Krypton",
+        "Question": "Which one of the following was to be discovered first in the chromosphere of the sun",
+        "id": 356
+    },
+    {
+        "Answer": "Edwin Land",
+        "Categ": "inventions",
+        "Choice1": " Thomas Alva Edison",
+        "Choice2": "James Watt",
+        "Choice3": "Albert Einstein",
+        "Choice4": "Edwin Land",
+        "Question": "Which famous inventor ranks second in the number of patents registered?",
+        "id": 357
+    },
+    {
+        "Answer": "Jacques Cousteau",
+        "Categ": "inventions",
+        "Choice1": "Thomas Edison",
+        "Choice2": "Isaac Newton",
+        "Choice3": " Leonardo da Vinci",
+        "Choice4": "Jacques Cousteau",
+        "Question": "What famous scientist and inventor participated in the invention of the Aqua-Lung?",
+        "id": 358
+    },
+    {
+        "Answer": "Charles Goodyear",
+        "Categ": "inventions",
+        "Choice1": "Charles Goodyear",
+        "Choice2": "William Stockes",
+        "Choice3": "J.E.Lundstrom",
+        "Choice4": "Sir Joseph Swann",
+        "Question": "Vulcanised rubber was invented by",
+        "id": 359
+    },
+    {
+        "Answer": " Louis Braille",
+        "Categ": "inventions",
+        "Choice1": " Louis Braille",
+        "Choice2": "Henry Bacquerel",
+        "Choice3": "Sir J.A.Fleming",
+        "Choice4": "Dr.Charles H. Townes",
+        "Question": "The system for writing by blind people was invented by",
+        "id": 360
+    },
+    {
+        "Answer": "James Watt",
+        "Categ": "inventions",
+        "Choice1": "William Stockes",
+        "Choice2": "J.E.Lundstrom",
+        "Choice3": "Sir Joseph Swann",
+        "Choice4": "James Watt",
+        "Question": "The steam engine was invented by",
+        "id": 361
+    },
+    {
+        "Answer": "Samuel Colt",
+        "Categ": "inventions",
+        "Choice1": "Eduard Jenner",
+        "Choice2": "Alexander Fleming",
+        "Choice3": "Albert Einstein",
+        "Choice4": "Samuel Colt",
+        "Question": "The revolver was invented by",
+        "id": 362
+    },
+    {
+        "Answer": "J.Perkins",
+        "Categ": "inventions",
+        "Choice1": "J.Perkins",
+        "Choice2": "Alexander Fleming",
+        "Choice3": "Albert Einstein",
+        "Choice4": "Benjamin Franklin",
+        "Question": "The refrigerator was invented by",
+        "id": 363
+    },
+    {
+        "Answer": "Enrico Ferni",
+        "Categ": "inventions",
+        "Choice1": "Enrico Ferni",
+        "Choice2": "Eduard Jenner",
+        "Choice3": " Alexander Fleming",
+        "Choice4": "Albert Einstein Torricelli",
+        "Question": "The nuclear reactor was invented by",
+        "id": 364
+    },
+    {
+        "Answer": " Archimedes",
+        "Categ": "inventions",
+        "Choice1": "Pierre Simon de Laplace",
+        "Choice2": " Archimedes",
+        "Choice3": "Edwin Hubble",
+        "Choice4": "Joseph J. Thomson",
+        "Question": "The laws of floating bodies was discovered by",
+        "id": 365
+    },
+    {
+        "Answer": "Karl Landsteiner",
+        "Categ": "inventions",
+        "Choice1": "Richard Feynman",
+        "Choice2": "Karl Landsteiner",
+        "Choice3": "Alfred Wegener",
+        "Choice4": "Stephen Hawking",
+        "Question": "The four blood groups were discovered by",
+        "id": 366
+    },
+    {
+        "Answer": "Frederick Soddy",
+        "Categ": "inventions",
+        "Choice1": "Emil Kraepelin",
+        "Choice2": "Trofim Lysenko",
+        "Choice3": "Frederick Soddy",
+        "Choice4": "Francis Galton",
+        "Question": "The existence of isotopes was discovered by",
+        "id": 367
+    },
+    {
+        "Answer": "William Einthoven",
+        "Categ": "inventions",
+        "Choice1": "B. F. Goodrich",
+        "Choice2": "Gottlieb Daimler",
+        "Choice3": "Karl Benz",
+        "Choice4": "William Einthoven",
+        "Question": "The electro-cardiograph was invented by",
+        "id": 368
+    },
+    {
+        "Answer": "William Stockes",
+        "Categ": "inventions",
+        "Choice1": "William Shockley",
+        "Choice2": "Tim Berners Lee",
+        "Choice3": "Chester Carlson",
+        "Choice4": "William Stockes",
+        "Question": "Stethoscope was invented by",
+        "id": 369
+    },
+    {
+        "Answer": "Sir Richard Arkwright",
+        "Categ": "inventions",
+        "Choice1": "Charles Macintosh",
+        "Choice2": " Antoine Joseph Sax",
+        "Choice3": "Samuel Morse",
+        "Choice4": "Sir Richard Arkwright",
+        "Question": "Spinning frame was invented by",
+        "id": 370
+    },
+    {
+        "Answer": "Sir Humphry Davy",
+        "Categ": "inventions",
+        "Choice1": "Sir Humphry Davy",
+        "Choice2": "James Watson",
+        "Choice3": "John Bardeen",
+        "Choice4": "John von Neumann",
+        "Question": "Sodium was discovered by",
+        "id": 371
+    },
+    {
+        "Answer": "J.E.Lundstrom",
+        "Categ": "inventions",
+        "Choice1": "Levi Strauss",
+        "Choice2": "Benjamin Franklin",
+        "Choice3": "Peter Goldmark",
+        "Choice4": "J.E.Lundstrom",
+        "Question": "Safety matches was invented by",
+        "id": 372
+    },
+    {
+        "Answer": "Sir Joseph Swann",
+        "Categ": "inventions",
+        "Choice1": "Sir Joseph Swann",
+        "Choice2": "Adolph Rickenbacker",
+        "Choice3": "David Brewster",
+        "Choice4": "Christopher Cockerell",
+        "Question": "Rayon was invented by",
+        "id": 373
+    },
+    {
+        "Answer": "Marie and Pierrie Curie",
+        "Categ": "inventions",
+        "Choice1": "Willard Libby",
+        "Choice2": "Edward Teller",
+        "Choice3": " Ernst Haeckel",
+        "Choice4": "Marie and Pierrie Curie",
+        "Question": "Radium was discovered by",
+        "id": 374
+    },
+    {
+        "Answer": "Henry Bacquerel",
+        "Categ": "inventions",
+        "Choice1": "Karl Landsteiner",
+        "Choice2": "Konrad Lorenz",
+        "Choice3": "Henry Bacquerel",
+        "Choice4": "Edward O. Wilson",
+        "Question": "Radioactivity was discovered by",
+        "id": 375
+    },
+    {
+        "Answer": "Quaid-e-Azam",
+        "Categ": "pakistan",
+        "Choice1": "Liaquat Ali Khan",
+        "Choice2": "Quaid-e-Azam",
+        "Choice3": "Moulvi Tameez-ud-Din",
+        "Choice4": "Sardar Abdur Rab Nishtar",
+        "Question": "Who was the first President of the Constituent Assembly of Pakistan?",
+        "id": 376
+    },
+    {
+        "Answer": "9 years",
+        "Categ": "pakistan",
+        "Choice1": "5 years",
+        "Choice2": "7 years",
+        "Choice3": "9 years",
+        "Choice4": "11 years",
+        "Question": "After how many years Pakistan got its first constitution?",
+        "id": 377
+    },
+    {
+        "Answer": "Objective Resolution",
+        "Categ": "pakistan",
+        "Choice1": "Representative Act",
+        "Choice2": "Pakistan Act",
+        "Choice3": "Independence Act",
+        "Choice4": "Objective Resolution",
+        "Question": "What document was firstly drafted to give pace to constitution making process?",
+        "id": 378
+    },
+    {
+        "Answer": "12th March 1949",
+        "Categ": "pakistan",
+        "Choice1": "14th February 1949",
+        "Choice2": "12th March 1949",
+        "Choice3": "9th June 1949",
+        "Choice4": "15th August 1949",
+        "Question": "When the Constituent Assembly passed the Objective Resolution?",
+        "id": 379
+    },
+    {
+        "Answer": "Bombay",
+        "Categ": "pakistan",
+        "Choice1": "Delhi",
+        "Choice2": "Bombay",
+        "Choice3": "Kanpur",
+        "Choice4": "Allahabad",
+        "Question": "In which of the following cities Indian National Congress was found?",
+        "id": 380
+    },
+    {
+        "Answer": "Dhaka",
+        "Categ": "pakistan",
+        "Choice1": "Delhi",
+        "Choice2": "Lahore",
+        "Choice3": "Dhaka",
+        "Choice4": "Allahabad",
+        "Question": "In which of the following cities All India Muslim League was found?",
+        "id": 381
+    },
+    {
+        "Answer": "Lord Curzon",
+        "Categ": "pakistan",
+        "Choice1": "Lord Curzon",
+        "Choice2": "Lord Wavell",
+        "Choice3": " Lord Minto",
+        "Choice4": "Lord Algan",
+        "Question": "Who was the Viceroy of India at the time of partition of Bengal?",
+        "id": 382
+    },
+    {
+        "Answer": "Sir Agha Khan",
+        "Categ": "pakistan",
+        "Choice1": "Sir Agha Khan",
+        "Choice2": " Nawab Waqar ul Mulk",
+        "Choice3": "Nawab Saleem ullah Khan",
+        "Choice4": "None of them",
+        "Question": "Who was the first President of All India Muslim League?",
+        "id": 383
+    },
+    {
+        "Answer": "1889",
+        "Categ": "pakistan",
+        "Choice1": "1886",
+        "Choice2": "1887",
+        "Choice3": "1888",
+        "Choice4": "1889",
+        "Question": "In which year Ali Garh Trusteeship bill was passed?",
+        "id": 384
+    },
+    {
+        "Answer": "1897",
+        "Categ": "pakistan",
+        "Choice1": "1895",
+        "Choice2": "1896",
+        "Choice3": "1897",
+        "Choice4": "1898",
+        "Question": "In which year Syed Jamal-u-din Afghani died?",
+        "id": 385
+    },
+    {
+        "Answer": "Nisar Ali",
+        "Categ": "pakistan",
+        "Choice1": "Nisar Ali",
+        "Choice2": " Sayed Ahmad",
+        "Choice3": "Muhammad Ali",
+        "Choice4": "None of them",
+        "Question": "What was the real name of Titu Mir?",
+        "id": 386
+    },
+    {
+        "Answer": "Khyber Pass",
+        "Categ": "pakistan",
+        "Choice1": "Khunjerab Pass",
+        "Choice2": "Khyber Pass",
+        "Choice3": "Tochi Pass",
+        "Choice4": "Gomal Pass",
+        "Question": "Which pass connects Pakistan with Afghanistan?",
+        "id": 387
+    },
+    {
+        "Answer": "Skaser",
+        "Categ": "pakistan",
+        "Choice1": "Nanga Parbat",
+        "Choice2": "Skaser",
+        "Choice3": "Malka Parbat",
+        "Choice4": "Everest",
+        "Question": "The highest peak of Salt Range is?",
+        "id": 388
+    },
+    {
+        "Answer": "Kirthar Range",
+        "Categ": "pakistan",
+        "Choice1": "Himalaya",
+        "Choice2": "Karakoram Range",
+        "Choice3": "Kirthar Range",
+        "Choice4": "Salt Range",
+        "Question": "Which mountain range is located in Sindh Province?",
+        "id": 389
+    },
+    {
+        "Answer": "Chaghi Hills",
+        "Categ": "pakistan",
+        "Choice1": "Kohe-e-Sufaid",
+        "Choice2": "Chaghi Hills",
+        "Choice3": "Toba Kakar",
+        "Choice4": "Raskoh",
+        "Question": "Pakistan conducted nuclear tests on May 28, 1998 at?",
+        "id": 390
+    },
+    {
+        "Answer": "205,344 Sq Km",
+        "Categ": "pakistan",
+        "Choice1": "74,521 Km",
+        "Choice2": "40,914 Km",
+        "Choice3": "347,190 Sq Km",
+        "Choice4": "205,344 Sq Km",
+        "Question": "What is the total area of Punjab Province?",
+        "id": 391
+    },
+    {
+        "Answer": "Gilgit",
+        "Categ": "pakistan",
+        "Choice1": "Ghanchay",
+        "Choice2": "Nagar",
+        "Choice3": "Chilas",
+        "Choice4": "Gilgit",
+        "Question": "The capital city of Gilgit Baltistan is?",
+        "id": 392
+    },
+    {
+        "Answer": "Quaid-e-Azam",
+        "Categ": "pakistan",
+        "Choice1": "Liaquat Ali Khan",
+        "Choice2": "Z.A Sulehri",
+        "Choice3": "Quaid-e-Azam",
+        "Choice4": " None of them",
+        "Question": "Who was the founder of Daily English Newspaper Dawn?",
+        "id": 393
+    },
+    {
+        "Answer": "Karachi",
+        "Categ": "pakistan",
+        "Choice1": "Lahore",
+        "Choice2": "Gwadar",
+        "Choice3": "Karachi",
+        "Choice4": "None of them",
+        "Question": "Pakistan Steel Mills is located in?",
+        "id": 394
+    },
+    {
+        "Answer": "Kh. Nazim-ud-Din",
+        "Categ": "pakistan",
+        "Choice1": "Ch Muhammad Ali",
+        "Choice2": "Kh. Nazim-ud-Din",
+        "Choice3": "Liaquat Ali Khan",
+        "Choice4": "Feroze Khan Noon",
+        "Question": "Who was the second Prime Minister of Pakistan?",
+        "id": 395
+    },
+    {
+        "Answer": "Islamabad Capital Territory",
+        "Categ": "pakistan",
+        "Choice1": "Islamabad capital total",
+        "Choice2": " Islamabad city tribes",
+        "Choice3": "Islamabad Capital Territory",
+        "Choice4": "Islamabad city territory",
+        "Question": "ICT stands for?",
+        "id": 396
+    },
+    {
+        "Answer": "Khutba-Hajjat-ul-Vida",
+        "Categ": "pakistan",
+        "Choice1": "International Charter",
+        "Choice2": "U.N. Charter",
+        "Choice3": "Khutba-Hajjat-ul-Vida",
+        "Choice4": "French Constitution",
+        "Question": "First Charter of Human Rights is?",
+        "id": 397
+    },
+    {
+        "Answer": "371",
+        "Categ": "pakistan",
+        "Choice1": "275",
+        "Choice2": "371",
+        "Choice3": "237",
+        "Choice4": "100",
+        "Question": "The members of Punjab Assembly are?",
+        "id": 398
+    },
+    {
+        "Answer": "5 years",
+        "Categ": "pakistan",
+        "Choice1": "4 years",
+        "Choice2": "5 years",
+        "Choice3": "6 years",
+        "Choice4": "3 years",
+        "Question": "Tenure of National and Provincial Assemblies is?",
+        "id": 399
+    },
+    {
+        "Answer": "Two",
+        "Categ": "pakistan",
+        "Choice1": "One",
+        "Choice2": "Two",
+        "Choice3": "Three",
+        "Choice4": "Four",
+        "Question": "Number of houses of Pakistan’s Majlis-e-Shura (Parliament) is?",
+        "id": 400
+    },
+    {
+        "Answer": "President",
+        "Categ": "pakistan",
+        "Choice1": "Army Chief",
+        "Choice2": "Prime Minister",
+        "Choice3": "President",
+        "Choice4": "Governor",
+        "Question": "The Supreme commander of Pakistan Armed Forces is?",
+        "id": 401
+    },
+    {
+        "Answer": "Sui Northern Gas Pipelines limited",
+        "Categ": "pakistan",
+        "Choice1": "Sui Northern Gas Pipelines Lahore",
+        "Choice2": "Sui Northern Gas Pipelines limited",
+        "Choice3": "Sui Northern Gas Pakistan limited",
+        "Choice4": " Sui Northern Gas Punjab limited",
+        "Question": "SNGPL stands for?",
+        "id": 402
+    },
+    {
+        "Answer": "Faisalabad",
+        "Categ": "pakistan",
+        "Choice1": "Faisalabad",
+        "Choice2": "Rawalpindi",
+        "Choice3": "Sialkot",
+        "Choice4": "Hyderabad",
+        "Question": "The third largest city of Pakistan is",
+        "id": 403
+    },
+    {
+        "Answer": "1951",
+        "Categ": "pakistan",
+        "Choice1": "1950",
+        "Choice2": "1951",
+        "Choice3": "1952",
+        "Choice4": "1953",
+        "Question": "First Census was held in Pakistan in the year?",
+        "id": 404
+    },
+    {
+        "Answer": "Muhammad Bin Qasim",
+        "Categ": "pakistan",
+        "Choice1": "Mahmood Ghaznavi",
+        "Choice2": "Zaheer-ud-Din Baber",
+        "Choice3": "Muhammad Bin Qasim",
+        "Choice4": "Aurangzeb Alamgir",
+        "Question": "The Muslims came to Sindh in 712 A.D.under the leadership of?",
+        "id": 405
+    },
+    {
+        "Answer": "Chaj",
+        "Categ": "pakistan",
+        "Choice1": "Gandhara",
+        "Choice2": "Chaj",
+        "Choice3": "Taxila",
+        "Choice4": "Harrapa",
+        "Question": "The area between rivers Jhelum and Chenab is called?",
+        "id": 406
+    },
+    {
+        "Answer": "Lahore",
+        "Categ": "pakistan",
+        "Choice1": "Gujranwala",
+        "Choice2": "Multan",
+        "Choice3": "Karachi",
+        "Choice4": "Lahore",
+        "Question": "The largest Railway workshop Mughalpura is situated in?",
+        "id": 407
+    },
+    {
+        "Answer": "Sahiwal",
+        "Categ": "pakistan",
+        "Choice1": "Multan",
+        "Choice2": "Okara",
+        "Choice3": "Lahore",
+        "Choice4": "Sahiwal",
+        "Question": "The ruins of Harrapa are situated in district?",
+        "id": 408
+    },
+    {
+        "Answer": "Painting",
+        "Categ": "pakistan",
+        "Choice1": "Construction",
+        "Choice2": "Music",
+        "Choice3": "Painting",
+        "Choice4": "None of them",
+        "Question": "Abdul Rehman Chughtai was attached with the art of?",
+        "id": 409
+    },
+    {
+        "Answer": "Pakistan",
+        "Categ": "pakistan",
+        "Choice1": "India",
+        "Choice2": "Iran",
+        "Choice3": "Pakistan",
+        "Choice4": "None of them",
+        "Question": "Which is the sixth most populated country of the world?",
+        "id": 410
+    },
+    {
+        "Answer": "Punjab",
+        "Categ": "pakistan",
+        "Choice1": "Sindh",
+        "Choice2": "Gilgit",
+        "Choice3": "KPK",
+        "Choice4": "Punjab",
+        "Question": "Thal desert is located in?",
+        "id": 411
+    },
+    {
+        "Answer": "Dhaka",
+        "Categ": "pakistan",
+        "Choice1": "Madras",
+        "Choice2": "Karachi",
+        "Choice3": "Dhaka",
+        "Choice4": "Delhi",
+        "Question": "The founder of All India Muslim League Nawab Salimullah Khan belonged to?",
+        "id": 412
+    },
+    {
+        "Answer": "Baba Farid",
+        "Categ": "pakistan",
+        "Choice1": "Baba Farid",
+        "Choice2": "Shah Hussain",
+        "Choice3": "Bullhay Shah",
+        "Choice4": "None of them",
+        "Question": "Who is the first Punjab poet?",
+        "id": 413
+    },
+    {
+        "Answer": "Major Raja Aziz Bhatti",
+        "Categ": "pakistan",
+        "Choice1": "Major Raja Aziz Bhatti",
+        "Choice2": "Major Tufail",
+        "Choice3": "Lalik Jan",
+        "Choice4": "Mulla Faqir",
+        "Question": "Who was the hero of Pak India 1965 war?",
+        "id": 414
+    },
+    {
+        "Answer": "Shah Abdul Latif Bhatai",
+        "Categ": "pakistan",
+        "Choice1": "Khushal Khan Khattak",
+        "Choice2": "Waris Shah",
+        "Choice3": "Makhdum Muhammad Hashim",
+        "Choice4": "Shah Abdul Latif Bhatai",
+        "Question": "The name of poet whose collection of poetry is called “Shah jo Risalu”?",
+        "id": 415
+    },
+    {
+        "Answer": "Pata Khazana",
+        "Categ": "pakistan",
+        "Choice1": "Pata Khazana",
+        "Choice2": "Tazkra-tul-Aulia",
+        "Choice3": "Jat di Kartut",
+        "Choice4": "Aasar-ul-Sanadeed",
+        "Question": "Which is the first book of Pushto language?",
+        "id": 416
+    },
+    {
+        "Answer": "Army",
+        "Categ": "pakistan",
+        "Choice1": "Wth",
+        "Choice2": "Arms",
+        "Choice3": "Army",
+        "Choice4": "Literature",
+        "Question": "Urdu is a word of Turkish language, it means?",
+        "id": 417
+    },
+    {
+        "Answer": "Shaikh Muhammad Ikram",
+        "Categ": "pakistan",
+        "Choice1": "Amir Khusro",
+        "Choice2": "Shaikh Muhammad Ikram",
+        "Choice3": "Mir Taqi Mir",
+        "Choice4": "Khawaja Mir Dard",
+        "Question": "Who wrote “Mauj-e-Kausar”?",
+        "id": 418
+    },
+    {
+        "Answer": "Sindhi",
+        "Categ": "pakistan",
+        "Choice1": "Punjabi",
+        "Choice2": "Kashmiri",
+        "Choice3": "Sindhi",
+        "Choice4": "Balochi",
+        "Question": "Name the language in which the Holy Quran was translated for the first time in India?",
+        "id": 419
+    },
+    {
+        "Answer": "1967",
+        "Categ": "pakistan",
+        "Choice1": "1940",
+        "Choice2": "1950",
+        "Choice3": "1967",
+        "Choice4": "1970",
+        "Question": "Madr-e-Millat Fatima Jinnah died in the year?",
+        "id": 420
+    },
+    {
+        "Answer": "Urdu",
+        "Categ": "pakistan",
+        "Choice1": "English",
+        "Choice2": "Hindi",
+        "Choice3": "Urdu",
+        "Choice4": "Punjabi",
+        "Question": "Ahmad Shah Pitras Bukhari was a famous writer of ______ language.",
+        "id": 421
+    },
+    {
+        "Answer": "Quaid-e-Azam",
+        "Categ": "pakistan",
+        "Choice1": "Quaid-e-Azam",
+        "Choice2": "Malik Ghulam Muhammad",
+        "Choice3": "Liaquat Ali Khan",
+        "Choice4": "Allama Muhammad Iqbal",
+        "Question": "Who inaugurated the State Bank of Pakistan?",
+        "id": 422
+    },
+    {
+        "Answer": "Punjab",
+        "Categ": "pakistan",
+        "Choice1": "Gilgit Baltistan",
+        "Choice2": "KPK",
+        "Choice3": "Punjab",
+        "Choice4": "Sindh",
+        "Question": "Sardar Abdur Rub Nishtar was the Governor of?",
+        "id": 423
+    },
+    {
+        "Answer": "PK",
+        "Categ": "pakistan",
+        "Choice1": "PAK",
+        "Choice2": "PK",
+        "Choice3": " PAK 1",
+        "Choice4": "None of them",
+        "Question": "National code of Pakistan is?",
+        "id": 424
+    },
+    {
+        "Answer": "Khyber Pakhtunkhwa",
+        "Categ": "pakistan",
+        "Choice1": "Khyber Pakhtunkhwa",
+        "Choice2": "Punjab",
+        "Choice3": "Sindh",
+        "Choice4": "Balochistan",
+        "Question": "Where is Warsak Dam of Pakistan situated?",
+        "id": 425
+    },
+    {
+        "Answer": "Neptune",
+        "Categ": "EveryDay Science",
+        "Choice1": "Mercury",
+        "Choice2": "Pluto",
+        "Choice3": "Neptune",
+        "Choice4": "Uranus",
+        "Question": "Which is the outermost planet in the solar system?",
+        "id": 426
+    },
+    {
+        "Answer": "rickets",
+        "Categ": "EveryDay Science",
+        "Choice1": "scurvy",
+        "Choice2": "rickets",
+        "Choice3": "night blindness",
+        "Choice4": "osteomalacia",
+        "Question": "Severe deficiency of Vitamin D results in __________.",
+        "id": 427
+    },
+    {
+        "Answer": "80%",
+        "Categ": "EveryDay Science",
+        "Choice1": "70%",
+        "Choice2": "75%",
+        "Choice3": "80%",
+        "Choice4": "90%",
+        "Question": "Milk contains water",
+        "id": 428
+    },
+    {
+        "Answer": "Coulomb",
+        "Categ": "EveryDay Science",
+        "Choice1": "Ampere",
+        "Choice2": "Coulomb",
+        "Choice3": "Ohm",
+        "Choice4": "Volt",
+        "Question": "The SI unit of charge is __________?",
+        "id": 429
+    },
+    {
+        "Answer": "shorter",
+        "Categ": "EveryDay Science",
+        "Choice1": "shorter",
+        "Choice2": "shortest",
+        "Choice3": "longer",
+        "Choice4": "longest",
+        "Question": "Very High Frequency (VHF) have __________ wavelengths?",
+        "id": 430
+    },
+    {
+        "Answer": "Convex",
+        "Categ": "EveryDay Science",
+        "Choice1": "concave",
+        "Choice2": "Convex",
+        "Choice3": "diverging",
+        "Choice4": "none of these",
+        "Question": "Long-sight defect could be corrected by using __________ lens?",
+        "id": 431
+    },
+    {
+        "Answer": "Night blindness",
+        "Categ": "EveryDay Science",
+        "Choice1": "Night blindness",
+        "Choice2": "rickets",
+        "Choice3": "scurvy",
+        "Choice4": "hair fall",
+        "Question": "Deficiency of Vitamin-A results in __________?",
+        "id": 432
+    },
+    {
+        "Answer": "increase",
+        "Categ": "EveryDay Science",
+        "Choice1": "also decrease",
+        "Choice2": "increase",
+        "Choice3": "remains constant",
+        "Choice4": "none of these",
+        "Question": "For a fixed mass of gass at constant temperature, if we decrease volume, the pressure will _________?",
+        "id": 433
+    },
+    {
+        "Answer": "120",
+        "Categ": "EveryDay Science",
+        "Choice1": "60",
+        "Choice2": "120",
+        "Choice3": "180",
+        "Choice4": "240",
+        "Question": "The lifespan of Red Blood Cells is __________ days?",
+        "id": 434
+    },
+    {
+        "Answer": "1 g/cm3",
+        "Categ": "EveryDay Science",
+        "Choice1": "1 g/cm3",
+        "Choice2": "1.5 g/cm3",
+        "Choice3": "2 g/cm3",
+        "Choice4": "none of these",
+        "Question": "The density of water is __________?",
+        "id": 435
+    },
+    {
+        "Answer": "Bacquerel",
+        "Categ": "EveryDay Science",
+        "Choice1": "Kelvin",
+        "Choice2": "Thomson",
+        "Choice3": "Rutherford",
+        "Choice4": "Bacquerel",
+        "Question": "Radioactivity was discovered by __________?",
+        "id": 436
+    },
+    {
+        "Answer": "battery",
+        "Categ": "EveryDay Science",
+        "Choice1": "motor",
+        "Choice2": "generator",
+        "Choice3": "moving-coil meter",
+        "Choice4": "battery",
+        "Question": "A device which converts chemical energy into electrical energy is called __________?",
+        "id": 437
+    },
+    {
+        "Answer": "Star",
+        "Categ": "EveryDay Science",
+        "Choice1": "Star",
+        "Choice2": "Planet",
+        "Choice3": "Asteroid",
+        "Choice4": "Meteor",
+        "Question": "The Sun is a __________?",
+        "id": 438
+    },
+    {
+        "Answer": "Ammonia",
+        "Categ": "EveryDay Science",
+        "Choice1": "Nitrogen",
+        "Choice2": "Carbon dioxide",
+        "Choice3": "Methane",
+        "Choice4": "Ammonia",
+        "Question": "The gas used in a refrigerator to cool water is___________?",
+        "id": 439
+    },
+    {
+        "Answer": "5",
+        "Categ": "EveryDay Science",
+        "Choice1": "4",
+        "Choice2": "5",
+        "Choice3": "6",
+        "Choice4": "7",
+        "Question": "The average adult has a blood volume of about __________ liters.",
+        "id": 440
+    },
+    {
+        "Answer": "Hydrogen",
+        "Categ": "EveryDay Science",
+        "Choice1": "Oxygen",
+        "Choice2": "Hydrogen",
+        "Choice3": "Carbon Dioxide",
+        "Choice4": "Silicon",
+        "Question": "The most abundant element in the universe is __________.",
+        "id": 441
+    },
+    {
+        "Answer": "Oxygen",
+        "Categ": "EveryDay Science",
+        "Choice1": "Oxygen",
+        "Choice2": "Hydrogen",
+        "Choice3": "Carbon Dioxide",
+        "Choice4": "Silicon",
+        "Question": "The most abundant element in the Earth’s crust is __________?",
+        "id": 442
+    },
+    {
+        "Answer": "15,000 to 20,000",
+        "Categ": "EveryDay Science",
+        "Choice1": "5,000 to 10,000",
+        "Choice2": "10,000 to 15,000",
+        "Choice3": "15,000 to 20,000",
+        "Choice4": "20,000 to 25,000",
+        "Question": "Each day human body breathe in __________ liters of air.",
+        "id": 443
+    },
+    {
+        "Answer": "rickets",
+        "Categ": "EveryDay Science",
+        "Choice1": "night blindness",
+        "Choice2": "rickets",
+        "Choice3": "scurvy",
+        "Choice4": "hair fall",
+        "Question": "Deficiency of Vitamin-D results in __________?",
+        "id": 444
+    },
+    {
+        "Answer": "pascal",
+        "Categ": "EveryDay Science",
+        "Choice1": "pascal",
+        "Choice2": "joule",
+        "Choice3": "tesla",
+        "Choice4": "henry",
+        "Question": "The SI unit of “pressure” is _________.",
+        "id": 445
+    },
+    {
+        "Answer": "Osmium",
+        "Categ": "EveryDay Science",
+        "Choice1": "Platinum",
+        "Choice2": "Copper",
+        "Choice3": "Steel",
+        "Choice4": "Osmium",
+        "Question": "The most densest substance on the Earth is __________.",
+        "id": 446
+    },
+    {
+        "Answer": "convex lens",
+        "Categ": "EveryDay Science",
+        "Choice1": "convex lens",
+        "Choice2": "concave lens",
+        "Choice3": "condenser lens",
+        "Choice4": "none of these",
+        "Question": "A camera uses a __________ to form an image.",
+        "id": 447
+    },
+    {
+        "Answer": "All are conductors",
+        "Categ": "EveryDay Science",
+        "Choice1": "Aluminium",
+        "Choice2": "Gold",
+        "Choice3": "Graphite",
+        "Choice4": "All are conductors",
+        "Question": "Which from the following is NOT a conductor?",
+        "id": 448
+    },
+    {
+        "Answer": "Compressed Natural Gas",
+        "Categ": "EveryDay Science",
+        "Choice1": "Converted Natural Gas",
+        "Choice2": "Conduced Natural Gas",
+        "Choice3": "onducted Natural Gas",
+        "Choice4": "Compressed Natural Gas",
+        "Question": "CNG stands for?",
+        "id": 449
+    },
+    {
+        "Answer": "7",
+        "Categ": "EveryDay Science",
+        "Choice1": "5",
+        "Choice2": " 6",
+        "Choice3": "7",
+        "Choice4": "8",
+        "Question": "When white light is passed through a prism, it splits into __________ colours.",
+        "id": 450
+    },
+    {
+        "Answer": "10-9 meter",
+        "Categ": "EveryDay Science",
+        "Choice1": "10-3 meter",
+        "Choice2": "10-6 meter",
+        "Choice3": "10-9 meter",
+        "Choice4": "10-12 meter",
+        "Question": "1 nanometer = ?",
+        "id": 451
+    },
+    {
+        "Answer": "Pyrometer",
+        "Categ": "EveryDay Science",
+        "Choice1": "Pyroscope",
+        "Choice2": "Pyrometer",
+        "Choice3": "Seismograph",
+        "Choice4": "Xylometer",
+        "Question": "Instrument used for measuring very high temperature is __________?",
+        "id": 452
+    },
+    {
+        "Answer": "Longitudinal",
+        "Categ": "EveryDay Science",
+        "Choice1": "Transverse",
+        "Choice2": "Electromagnetic",
+        "Choice3": "Longitudinal",
+        "Choice4": "none of these",
+        "Question": "Sound waves are _________ waves.",
+        "id": 453
+    },
+    {
+        "Answer": "5 – 21 days",
+        "Categ": "EveryDay Science",
+        "Choice1": "1 – 5 days",
+        "Choice2": "3 – 7 days",
+        "Choice3": "4 – 8 days",
+        "Choice4": "5 – 21 days",
+        "Question": "The lifespan of White Blood Cells is __________ day(s)?",
+        "id": 454
+    },
+    {
+        "Answer": "plasma",
+        "Categ": "EveryDay Science",
+        "Choice1": "plasma",
+        "Choice2": "platelets",
+        "Choice3": "blood cells",
+        "Choice4": "None of these",
+        "Question": "The fluid part of blood is known as __________?",
+        "id": 455
+    },
+    {
+        "Answer": "Salt",
+        "Categ": "EveryDay Science",
+        "Choice1": "Salt",
+        "Choice2": "Chlorine",
+        "Choice3": "Carbon dioxide",
+        "Choice4": "Water",
+        "Question": "During winter in cold countries, the __________ is mixed to melt the ice on the icy roads.",
+        "id": 456
+    },
+    {
+        "Answer": "Sea water",
+        "Categ": "EveryDay Science",
+        "Choice1": "River water",
+        "Choice2": "Canal water",
+        "Choice3": "Sea water",
+        "Choice4": "Water in a lake",
+        "Question": "In a very low temperature which from the following will freeze at last?",
+        "id": 457
+    },
+    {
+        "Answer": "Venus",
+        "Categ": "EveryDay Science",
+        "Choice1": "Venus",
+        "Choice2": "Mercury",
+        "Choice3": "Mars",
+        "Choice4": "Moon",
+        "Question": "The nearest planet to the Earth is _________?",
+        "id": 458
+    },
+    {
+        "Answer": "Mercury",
+        "Categ": "EveryDay Science",
+        "Choice1": "Jupiter",
+        "Choice2": "Venus",
+        "Choice3": "Mars",
+        "Choice4": "Mercury",
+        "Question": "The planet that moves round the Sun at the highest speed is_________?",
+        "id": 459
+    },
+    {
+        "Answer": "Highly elliptical",
+        "Categ": "EveryDay Science",
+        "Choice1": "Elliptical",
+        "Choice2": "Highly elliptical",
+        "Choice3": "Circular",
+        "Choice4": "Parabolic",
+        "Question": "In general, Comets have __________ orbits",
+        "id": 460
+    },
+    {
+        "Answer": "Global Positioning System",
+        "Categ": "EveryDay Science",
+        "Choice1": "Global Poles System",
+        "Choice2": "Global PolySiliconium Store",
+        "Choice3": "Global Positioning System",
+        "Choice4": "Global Position Structure",
+        "Question": "GPS is an abbreviation for?",
+        "id": 461
+    },
+    {
+        "Answer": "Loss of Electrons",
+        "Categ": "EveryDay Science",
+        "Choice1": "Gain of Electrons",
+        "Choice2": "Loss of Electrons",
+        "Choice3": "Gain of Protons",
+        "Choice4": "Loss of Protons",
+        "Question": "Oxidation is a chemical reaction involving the __________?",
+        "id": 462
+    },
+    {
+        "Answer": "Oxygen – Carbon dioxide",
+        "Categ": "EveryDay Science",
+        "Choice1": "Oxygen – Carbon dioxide",
+        "Choice2": "Carbon dioxide – Oxygen",
+        "Choice3": "Oxygen – Carbon monoxide",
+        "Choice4": "Carbon monoxide – Oxygen",
+        "Question": "At night, Plants intake __________ and release __________?",
+        "id": 463
+    },
+    {
+        "Answer": "Kidneys",
+        "Categ": "EveryDay Science",
+        "Choice1": "Kidneys",
+        "Choice2": "Lungs",
+        "Choice3": "Large intestine",
+        "Choice4": "Liver",
+        "Question": "Urine is produced in __________?",
+        "id": 464
+    },
+    {
+        "Answer": "Kidneys",
+        "Categ": "EveryDay Science",
+        "Choice1": "Lungs",
+        "Choice2": "Liver",
+        "Choice3": "Heart",
+        "Choice4": "Kidneys",
+        "Question": "Blood is cleaned by __________?",
+        "id": 465
+    },
+    {
+        "Answer": "Venus",
+        "Categ": "EveryDay Science",
+        "Choice1": "Mercury",
+        "Choice2": "Venus",
+        "Choice3": "Mars",
+        "Choice4": "Jupiter",
+        "Question": "The planet which is easily visible from the Earth is?",
+        "id": 466
+    },
+    {
+        "Answer": "Jupiter",
+        "Categ": "EveryDay Science",
+        "Choice1": "Saturn",
+        "Choice2": "Venus",
+        "Choice3": "Mars",
+        "Choice4": "Jupiter",
+        "Question": "The Great Spot is on the planet __________?",
+        "id": 467
+    },
+    {
+        "Answer": "Jupiter",
+        "Categ": "EveryDay Science",
+        "Choice1": "Mars",
+        "Choice2": "Saturn",
+        "Choice3": "Uranus",
+        "Choice4": "Jupiter",
+        "Question": "The bodyguard of the Earth is __________ that save the Earth from many Comets and Asteroids.",
+        "id": 468
+    },
+    {
+        "Answer": "5",
+        "Categ": "EveryDay Science",
+        "Choice1": "3",
+        "Choice2": "4",
+        "Choice3": "5",
+        "Choice4": "6",
+        "Question": "The planets visible to us without using a telescope are __________?",
+        "id": 469
+    },
+    {
+        "Answer": "Blood glucose level",
+        "Categ": "EveryDay Science",
+        "Choice1": "Blood glucose level",
+        "Choice2": "The body pH value",
+        "Choice3": "Amount of hemoglobin",
+        "Choice4": "Salinity in Urine",
+        "Question": "Biosensor is used to measure?",
+        "id": 470
+    },
+    {
+        "Answer": "Conceited",
+        "Categ": "Synonyms",
+        "Choice1": "Conceited",
+        "Choice2": "Humble",
+        "Choice3": "Progressive",
+        "Choice4": "Noble",
+        "Question": "Synonym of ARROGANT is _____________?",
+        "id": 471
+    },
+    {
+        "Answer": "Watchful",
+        "Categ": "Synonyms",
+        "Choice1": "Intelligent",
+        "Choice2": "Energetic",
+        "Choice3": "Observant",
+        "Choice4": "Watchful",
+        "Question": "Synonym of ALERT is _____________?",
+        "id": 472
+    },
+    {
+        "Answer": "Misappropriate",
+        "Categ": "Synonyms",
+        "Choice1": "Remunerate",
+        "Choice2": "Clear",
+        "Choice3": "Balance",
+        "Choice4": "Misappropriate",
+        "Question": "Synonym of EMBEZZLE is _____________?",
+        "id": 473
+    },
+    {
+        "Answer": "Short",
+        "Categ": "Synonyms",
+        "Choice1": "Small",
+        "Choice2": "Short",
+        "Choice3": "Little",
+        "Choice4": "Limited",
+        "Question": "Synonym of BRIEF is _____________?",
+        "id": 474
+    },
+    {
+        "Answer": "Abuse",
+        "Categ": "Synonyms",
+        "Choice1": "Abuse",
+        "Choice2": "Appreciate",
+        "Choice3": "Copy",
+        "Choice4": "Encourage",
+        "Question": "Synonym of Vituperate is _____________?",
+        "id": 475
+    },
+    {
+        "Answer": "Unreliable",
+        "Categ": "Synonyms",
+        "Choice1": "Dishonest",
+        "Choice2": "Honest",
+        "Choice3": "Reliable",
+        "Choice4": "Unreliable",
+        "Question": "Synonym of Incredulous is _____________?",
+        "id": 476
+    },
+    {
+        "Answer": "Puzzle",
+        "Categ": "Synonyms",
+        "Choice1": "Question",
+        "Choice2": "Puzzle",
+        "Choice3": "Answer",
+        "Choice4": "Content",
+        "Question": "Synonym of Enigma is _____________?",
+        "id": 477
+    },
+    {
+        "Answer": "Cyclic",
+        "Categ": "Synonyms",
+        "Choice1": "Direct",
+        "Choice2": "Strong",
+        "Choice3": "Cyclic",
+        "Choice4": "Weak",
+        "Question": "Synonym of CIRCUITOUS is _____________?",
+        "id": 478
+    },
+    {
+        "Answer": "very thin",
+        "Categ": "Synonyms",
+        "Choice1": "very fat",
+        "Choice2": "very thin",
+        "Choice3": "very small",
+        "Choice4": "very heavy",
+        "Question": "Synonym of EMACIATED is _____________?",
+        "id": 479
+    },
+    {
+        "Answer": "Laxity",
+        "Categ": "Synonyms",
+        "Choice1": "Serenity",
+        "Choice2": "Laxity",
+        "Choice3": "Active",
+        "Choice4": "Bold",
+        "Question": "Synonym of LETHARGY is _____________?",
+        "id": 480
+    },
+    {
+        "Answer": "Representative",
+        "Categ": "Synonyms",
+        "Choice1": "Representative",
+        "Choice2": "Officer",
+        "Choice3": "Member",
+        "Choice4": "Servant",
+        "Question": "Synonym of DELEGATE is _____________?",
+        "id": 481
+    },
+    {
+        "Answer": "Perilous",
+        "Categ": "Synonyms",
+        "Choice1": "Safe",
+        "Choice2": "Brittle",
+        "Choice3": "Perilous",
+        "Choice4": "none of these",
+        "Question": "Synonym of PRECARIOUS is _____________?",
+        "id": 482
+    },
+    {
+        "Answer": "Lie",
+        "Categ": "Synonyms",
+        "Choice1": "Truth",
+        "Choice2": "Early",
+        "Choice3": "Lie",
+        "Choice4": "Delay",
+        "Question": "Synonym of PREVARICATE is _____________?",
+        "id": 483
+    },
+    {
+        "Answer": "Ooze",
+        "Categ": "Synonyms",
+        "Choice1": "Ooze",
+        "Choice2": "Overflow",
+        "Choice3": "Wither",
+        "Choice4": "Evaporate",
+        "Question": "Synonym of EXUDE is _____________?",
+        "id": 484
+    },
+    {
+        "Answer": "Fanatic",
+        "Categ": "Synonyms",
+        "Choice1": "Fanatic",
+        "Choice2": "Apathy",
+        "Choice3": "Liberal",
+        "Choice4": "Impious",
+        "Question": "Synonym of ZEALOT is _____________?",
+        "id": 485
+    },
+    {
+        "Answer": "Enthusiasm",
+        "Categ": "Synonyms",
+        "Choice1": "Passive",
+        "Choice2": "Enthusiasm",
+        "Choice3": "Disgust",
+        "Choice4": "Various",
+        "Question": "Synonym of ZEST is _____________?",
+        "id": 486
+    },
+    {
+        "Answer": "Require",
+        "Categ": "Synonyms",
+        "Choice1": "Require",
+        "Choice2": "Extra",
+        "Choice3": "Unwanted",
+        "Choice4": "Muted",
+        "Question": "Synonym of YEARN is _____________?",
+        "id": 487
+    },
+    {
+        "Answer": "Shout",
+        "Categ": "Synonyms",
+        "Choice1": "Shackle",
+        "Choice2": "Hitch",
+        "Choice3": "Whisper",
+        "Choice4": "Shout",
+        "Question": "Synonym of YELL is _____________?",
+        "id": 488
+    },
+    {
+        "Answer": "Harness",
+        "Categ": "Synonyms",
+        "Choice1": "Detach",
+        "Choice2": "Harness",
+        "Choice3": "Release",
+        "Choice4": "Liberate",
+        "Question": "Synonym of YOKE is _____________?",
+        "id": 489
+    },
+    {
+        "Answer": "Heroism",
+        "Categ": "Synonyms",
+        "Choice1": "Stable",
+        "Choice2": "Coward",
+        "Choice3": "Heroism",
+        "Choice4": "Fear",
+        "Question": "Synonym of VALOUR is _____________?",
+        "id": 490
+    },
+    {
+        "Answer": "Roving",
+        "Categ": "Synonyms",
+        "Choice1": "Roving",
+        "Choice2": "Stable",
+        "Choice3": "Honoured",
+        "Choice4": "Stubborn",
+        "Question": "Synonym of VAGRANT is _____________?",
+        "id": 491
+    },
+    {
+        "Answer": "Prudent",
+        "Categ": "Synonyms",
+        "Choice1": "Heedless",
+        "Choice2": "Prudent",
+        "Choice3": "Reckless",
+        "Choice4": "Negligent",
+        "Question": "Synonym of WARY is _____________?",
+        "id": 492
+    },
+    {
+        "Answer": "Decline",
+        "Categ": "Synonyms",
+        "Choice1": "Employ",
+        "Choice2": "Decline",
+        "Choice3": "Rise",
+        "Choice4": "Revive",
+        "Question": "Synonym of WANE _____________?",
+        "id": 493
+    },
+    {
+        "Answer": "Exert",
+        "Categ": "Synonyms",
+        "Choice1": "Abstain",
+        "Choice2": "Avoid",
+        "Choice3": "Forgo",
+        "Choice4": "Exert",
+        "Question": "Synonym of WIELD _____________?",
+        "id": 494
+    },
+    {
+        "Answer": "Destruction",
+        "Categ": "Synonyms",
+        "Choice1": "Built",
+        "Choice2": "Implement",
+        "Choice3": "Destruction",
+        "Choice4": "Fresh",
+        "Question": "The synonyms of Catastrophe is__________?",
+        "id": 495
+    },
+    {
+        "Answer": "Scorn",
+        "Categ": "Synonyms",
+        "Choice1": "love",
+        "Choice2": "Scorn",
+        "Choice3": "Accept",
+        "Choice4": "Luddite",
+        "Question": "The Synonyms of Disdain is_____________?",
+        "id": 496
+    },
+    {
+        "Answer": "Stubborn",
+        "Categ": "Synonyms",
+        "Choice1": "Agree",
+        "Choice2": "Scorn",
+        "Choice3": "Stubborn",
+        "Choice4": "Soft",
+        "Question": "The Synonyms of OBSTINATE is____________?",
+        "id": 497
+    },
+    {
+        "Answer": "A confused mixture",
+        "Categ": "Synonyms",
+        "Choice1": "Fear of strangers",
+        "Choice2": "A confused mixture",
+        "Choice3": "Free of cost",
+        "Choice4": "Synopsis",
+        "Question": "The Synonym of Farrago is_____________?",
+        "id": 498
+    },
+    {
+        "Answer": "Unprincipled politician",
+        "Categ": "Synonyms",
+        "Choice1": "Unprincipled politician",
+        "Choice2": "Sneak",
+        "Choice3": "Garrulous",
+        "Choice4": "None of above",
+        "Question": "The Synonym of ‘snollygoster’ is_________?",
+        "id": 499
+    },
+    {
+        "Answer": "Accept",
+        "Categ": "Synonyms",
+        "Choice1": "Accept",
+        "Choice2": "Acceptable",
+        "Choice3": "Condomn",
+        "Choice4": "Condemn",
+        "Question": "The Synonyms of CONDONE is__________?",
+        "id": 500
+    },
+    {
+        "Answer": "Immature",
+        "Categ": "Synonyms",
+        "Choice1": "Mature",
+        "Choice2": "Immature",
+        "Choice3": "purity",
+        "Choice4": "power",
+        "Question": "The Synonym of Puerile is______________?",
+        "id": 501
+    },
+    {
+        "Answer": "Diminish",
+        "Categ": "Synonyms",
+        "Choice1": "Postpone",
+        "Choice2": "Abandon",
+        "Choice3": "Diminish",
+        "Choice4": "Increase",
+        "Question": "Synonym of ABATE is _____________?",
+        "id": 502
+    },
+    {
+        "Answer": "Pleasant",
+        "Categ": "Synonyms",
+        "Choice1": "Unpleasant",
+        "Choice2": "Pleasant",
+        "Choice3": "Heart",
+        "Choice4": "Love",
+        "Question": "Synonym of Cordial is _____________?",
+        "id": 503
+    },
+    {
+        "Answer": "Flattery",
+        "Categ": "Synonyms",
+        "Choice1": "Flattery",
+        "Choice2": "Embezzle",
+        "Choice3": "Knowledge",
+        "Choice4": "Satiate",
+        "Question": "Synonym of Cajole is _____________?",
+        "id": 504
+    },
+    {
+        "Answer": "Victory",
+        "Categ": "Synonyms",
+        "Choice1": "Victory",
+        "Choice2": "Victim",
+        "Choice3": "Violence",
+        "Choice4": "Its Name of US President",
+        "Question": "Synonym of Triumph is _____________?",
+        "id": 505
+    },
+    {
+        "Answer": "Airtight",
+        "Categ": "Synonyms",
+        "Choice1": "Airtight",
+        "Choice2": "Imitate",
+        "Choice3": "Unsettled",
+        "Choice4": "Open",
+        "Question": "Synonym of Hermetic is _____________?",
+        "id": 506
+    },
+    {
+        "Answer": "Fake",
+        "Categ": "Synonyms",
+        "Choice1": "Fake",
+        "Choice2": "Deplorable",
+        "Choice3": "Purse",
+        "Choice4": "Robust",
+        "Question": "Synonym of SHAM",
+        "id": 507
+    },
+    {
+        "Answer": "Cautiously",
+        "Categ": "Synonyms",
+        "Choice1": "Cautiously",
+        "Choice2": "Retrospectively",
+        "Choice3": "Hectically",
+        "Choice4": "Carelessly",
+        "Question": "Synonym of GINGERLY",
+        "id": 508
+    },
+    {
+        "Answer": "Tame",
+        "Categ": "Synonyms",
+        "Choice1": "Tame",
+        "Choice2": "Stingy",
+        "Choice3": "Jab",
+        "Choice4": "Frail",
+        "Question": "Synonym of MEEK",
+        "id": 509
+    },
+    {
+        "Answer": "Bony",
+        "Categ": "Synonyms",
+        "Choice1": "Weighty",
+        "Choice2": "Bony",
+        "Choice3": "Fatty",
+        "Choice4": "Big statement",
+        "Question": "Synonym of GAUNT",
+        "id": 510
+    },
+    {
+        "Answer": "Minor role",
+        "Categ": "Synonyms",
+        "Choice1": "Funny character",
+        "Choice2": "Minor role",
+        "Choice3": "Type of Fiction",
+        "Choice4": "Sharp tool",
+        "Question": "Synonyms of CAMEO",
+        "id": 511
+    },
+    {
+        "Answer": "Commonplace",
+        "Categ": "Synonyms",
+        "Choice1": "Minor",
+        "Choice2": "Sad",
+        "Choice3": "Commonplace",
+        "Choice4": "Swindler",
+        "Question": "Synonym of TRITE_____________?",
+        "id": 512
+    },
+    {
+        "Answer": "Tasty",
+        "Categ": "Synonyms",
+        "Choice1": "Tasty",
+        "Choice2": "Old",
+        "Choice3": "Filthy",
+        "Choice4": "Bumpy",
+        "Question": "Synonym of Scrumptious _____________?",
+        "id": 513
+    },
+    {
+        "Answer": "Affability",
+        "Categ": "Synonyms",
+        "Choice1": "Affability",
+        "Choice2": "Big",
+        "Choice3": "Turbulent",
+        "Choice4": "Grope",
+        "Question": "Synonym of Bonhomie______________?",
+        "id": 514
+    },
+    {
+        "Answer": "Cajole",
+        "Categ": "Synonyms",
+        "Choice1": "Fast",
+        "Choice2": "Cajole",
+        "Choice3": "Waive",
+        "Choice4": "Slander",
+        "Question": "Synonym of Wheedle ___________________?",
+        "id": 515
+    },
+    {
+        "Answer": "To Prolong",
+        "Categ": "Synonyms",
+        "Choice1": "To Promote",
+        "Choice2": "To Prolong",
+        "Choice3": "To proactive",
+        "Choice4": "To Provide",
+        "Question": "Synonym of Prolix______________?",
+        "id": 516
+    },
+    {
+        "Answer": "Clever",
+        "Categ": "Synonyms",
+        "Choice1": "Clever",
+        "Choice2": "thin",
+        "Choice3": "Fast",
+        "Choice4": "Slow",
+        "Question": "Synonym of Canny_____________?",
+        "id": 517
+    },
+    {
+        "Answer": "To chase",
+        "Categ": "Synonyms",
+        "Choice1": "To chase",
+        "Choice2": "To fix",
+        "Choice3": "To divert",
+        "Choice4": "To disturb",
+        "Question": "Synonym of Trail_________?",
+        "id": 518
+    },
+    {
+        "Answer": "postpone",
+        "Categ": "Synonyms",
+        "Choice1": "cancel",
+        "Choice2": "discuss",
+        "Choice3": "reconsider",
+        "Choice4": "postpone",
+        "Question": "Synonym of Shelve_____________________?",
+        "id": 519
+    },
+    {
+        "Answer": "Hand to hand",
+        "Categ": "Synonyms",
+        "Choice1": "Hand to hand",
+        "Choice2": "Street to street",
+        "Choice3": "District to district",
+        "Choice4": "City to city",
+        "Question": "Synonym of “Mano a Mano”",
+        "id": 520
+    },
+    {
+        "Answer": "Condense",
+        "Categ": "Antonyms",
+        "Choice1": "Congest",
+        "Choice2": "Conclude",
+        "Choice3": "Convert",
+        "Choice4": "Condense",
+        "Question": "Antonym of EXPAND is _____________?",
+        "id": 521
+    },
+    {
+        "Answer": "Natural",
+        "Categ": "Antonyms",
+        "Choice1": "Red",
+        "Choice2": "Solid",
+        "Choice3": "Truthful",
+        "Choice4": "Natural",
+        "Question": "Antonym of ARTIFICIAL is ______________?",
+        "id": 522
+    },
+    {
+        "Answer": "Tiny",
+        "Categ": "Antonyms",
+        "Choice1": "Fragile",
+        "Choice2": "Weak",
+        "Choice3": "Tiny",
+        "Choice4": "Soft",
+        "Question": "Antonym of ENORMOUS is_____________?",
+        "id": 523
+    },
+    {
+        "Answer": "Manifest",
+        "Categ": "Antonyms",
+        "Choice1": "Hermetic",
+        "Choice2": "Manifest",
+        "Choice3": "Pedantic",
+        "Choice4": "Occult",
+        "Question": "Antonym of RECONDITE is_____________?",
+        "id": 524
+    },
+    {
+        "Answer": "Apathy",
+        "Categ": "Antonyms",
+        "Choice1": "Apathy",
+        "Choice2": "Nerve",
+        "Choice3": "Initiative",
+        "Choice4": "Sagacity",
+        "Question": "Antonym of GUMPTION is _____________?",
+        "id": 525
+    },
+    {
+        "Answer": "Joy",
+        "Categ": "Antonyms",
+        "Choice1": "Hurt",
+        "Choice2": "Irk",
+        "Choice3": "Joy",
+        "Choice4": "Huff",
+        "Question": "Antonym of PIQUE is _____________?",
+        "id": 526
+    },
+    {
+        "Answer": "Homespun",
+        "Categ": "Antonyms",
+        "Choice1": "Homespun",
+        "Choice2": "Cheerful",
+        "Choice3": "Inelegant",
+        "Choice4": "Sincere",
+        "Question": "Antonym of SARTORIAL is _____________?",
+        "id": 527
+    },
+    {
+        "Answer": "Unyielding",
+        "Categ": "Antonyms",
+        "Choice1": "Pliable",
+        "Choice2": "Pliant",
+        "Choice3": "Quiet",
+        "Choice4": "Unyielding",
+        "Question": "Antonym of DOCILE is _____________?",
+        "id": 528
+    },
+    {
+        "Answer": "Inexpert",
+        "Categ": "Antonyms",
+        "Choice1": "Inexpert",
+        "Choice2": "Acute",
+        "Choice3": "Active",
+        "Choice4": "Able",
+        "Question": "Antonym of DEXTEROUS is _____________?",
+        "id": 529
+    },
+    {
+        "Answer": "Prolong",
+        "Categ": "Antonyms",
+        "Choice1": "Cramp",
+        "Choice2": "Prolong",
+        "Choice3": "Chop",
+        "Choice4": "Clip",
+        "Question": "Antonym of CURTAIL is _____________?",
+        "id": 530
+    },
+    {
+        "Answer": "Regular",
+        "Categ": "Antonyms",
+        "Choice1": "Bent",
+        "Choice2": "Devious",
+        "Choice3": "Regular",
+        "Choice4": "Atypical",
+        "Question": "Antonym of DEVIANT is _____________?",
+        "id": 531
+    },
+    {
+        "Answer": "Stiff",
+        "Categ": "Antonyms",
+        "Choice1": "Docile",
+        "Choice2": "Pliable",
+        "Choice3": "Stiff",
+        "Choice4": "Supple",
+        "Question": "Antonym of DUCTILE is _____________?",
+        "id": 532
+    },
+    {
+        "Answer": "Wise",
+        "Categ": "Antonyms",
+        "Choice1": "Trivial",
+        "Choice2": "Silly",
+        "Choice3": "Petty",
+        "Choice4": "Wise",
+        "Question": "Antonym of FRIVOLOUS is _____________?",
+        "id": 533
+    },
+    {
+        "Answer": "Attach",
+        "Categ": "Antonyms",
+        "Choice1": "Attach",
+        "Choice2": "Detach",
+        "Choice3": "Discourage",
+        "Choice4": "Halt",
+        "Question": "Antonym of WEAN is _____________?",
+        "id": 534
+    },
+    {
+        "Answer": "Thrifty",
+        "Categ": "Antonyms",
+        "Choice1": "Spendthrift",
+        "Choice2": "Squandering",
+        "Choice3": "Thrifty",
+        "Choice4": "Wanton",
+        "Question": "Antonym of PRODIGAL is _____________?",
+        "id": 535
+    },
+    {
+        "Answer": "Apparent",
+        "Categ": "Antonyms",
+        "Choice1": "Misty",
+        "Choice2": "Apparent",
+        "Choice3": "Murky",
+        "Choice4": "Shadowy",
+        "Question": "Antonym of NEBULOUS is _____________?",
+        "id": 536
+    },
+    {
+        "Answer": "Whole",
+        "Categ": "Antonyms",
+        "Choice1": "Bit",
+        "Choice2": "Bug",
+        "Choice3": "Insect",
+        "Choice4": "Whole",
+        "Question": "Antonym of MITE is _____________?",
+        "id": 537
+    },
+    {
+        "Answer": "Dictated",
+        "Categ": "Antonyms",
+        "Choice1": "Punish",
+        "Choice2": "Dictated",
+        "Choice3": "Grand",
+        "Choice4": "Small",
+        "Question": "Antonym of TACIT is _____________?",
+        "id": 538
+    },
+    {
+        "Answer": "Vivacious",
+        "Categ": "Antonyms",
+        "Choice1": "Vivacious",
+        "Choice2": "Witty",
+        "Choice3": "Empty",
+        "Choice4": "Full",
+        "Question": "Antonym of DOLEFUL is _____________?",
+        "id": 539
+    },
+    {
+        "Answer": "Generosity",
+        "Categ": "Antonyms",
+        "Choice1": "Verbosity",
+        "Choice2": "Generosity",
+        "Choice3": "Clan",
+        "Choice4": "Tenderness",
+        "Question": "Antonym of PARSIMONY is _____________?",
+        "id": 540
+    },
+    {
+        "Answer": "Truthful",
+        "Categ": "Antonyms",
+        "Choice1": "Credit",
+        "Choice2": "Clean",
+        "Choice3": "Truthful",
+        "Choice4": "Dishonest",
+        "Question": "Antonym of FALLACIOUS is _____________?",
+        "id": 541
+    },
+    {
+        "Answer": "Unimportant",
+        "Categ": "Antonyms",
+        "Choice1": "Unimportant",
+        "Choice2": "Hindmost",
+        "Choice3": "Disposed",
+        "Choice4": "Mature",
+        "Question": "Antonym of FOREMOST is _____________?",
+        "id": 542
+    },
+    {
+        "Answer": "Active",
+        "Categ": "Antonyms",
+        "Choice1": "Asleep",
+        "Choice2": "Active",
+        "Choice3": "Deactivated",
+        "Choice4": "Fallow",
+        "Question": "Antonym of QUIESCENT is _____________?",
+        "id": 543
+    },
+    {
+        "Answer": "Cultured",
+        "Categ": "Antonyms",
+        "Choice1": "Smutty",
+        "Choice2": "Uncultured",
+        "Choice3": "Uncultured",
+        "Choice4": "Cultured",
+        "Question": "Antonym of PHILISTINE is _____________?",
+        "id": 544
+    },
+    {
+        "Answer": "Generous",
+        "Categ": "Antonyms",
+        "Choice1": "Generous",
+        "Choice2": "Chintzy",
+        "Choice3": "Closefisted",
+        "Choice4": "Skimpy",
+        "Question": "Antonym of NIGGARDLY is _____________?",
+        "id": 545
+    },
+    {
+        "Answer": "Unscramble",
+        "Categ": "Antonyms",
+        "Choice1": "Slant",
+        "Choice2": "Unscramble",
+        "Choice3": "Obscure",
+        "Choice4": "Pervert",
+        "Question": "Antonym of GARBLED is _____________?",
+        "id": 546
+    },
+    {
+        "Answer": "Alert",
+        "Categ": "Antonyms",
+        "Choice1": "Doting",
+        "Choice2": "Anile",
+        "Choice3": "Alert",
+        "Choice4": "Ancient",
+        "Question": "Antonym of SENILE is _____________?",
+        "id": 547
+    },
+    {
+        "Answer": "Moderate",
+        "Categ": "Antonyms",
+        "Choice1": "Dizzying",
+        "Choice2": "Wasteful",
+        "Choice3": "Wanton",
+        "Choice4": "Moderate",
+        "Question": "Antonym of INORDINATE is _____________?",
+        "id": 548
+    },
+    {
+        "Answer": "Vague",
+        "Categ": "Antonyms",
+        "Choice1": "Evident",
+        "Choice2": "Obvious",
+        "Choice3": "Explicit",
+        "Choice4": "Vague",
+        "Question": "Antonym of LUCID is _____________?",
+        "id": 549
+    },
+    {
+        "Answer": "Disgorge",
+        "Categ": "Antonyms",
+        "Choice1": "Disgorge",
+        "Choice2": "Disrupt",
+        "Choice3": "Absorb",
+        "Choice4": "Devour",
+        "Question": "Antonym of INGEST is _____________?",
+        "id": 550
+    },
+    {
+        "Answer": "Sad",
+        "Categ": "Antonyms",
+        "Choice1": "Roused",
+        "Choice2": "Blissful",
+        "Choice3": "Sad",
+        "Choice4": "Happy",
+        "Question": "Antonym of ELATED is _____________?",
+        "id": 551
+    },
+    {
+        "Answer": "Boost",
+        "Categ": "Antonyms",
+        "Choice1": "Asperse",
+        "Choice2": "Besmirch",
+        "Choice3": "Boost",
+        "Choice4": "Vilify",
+        "Question": "Antonym of DENIGRATE is _____________?",
+        "id": 552
+    },
+    {
+        "Answer": "Fresh",
+        "Categ": "Antonyms",
+        "Choice1": "Old",
+        "Choice2": "Fresh",
+        "Choice3": "Tale",
+        "Choice4": "Break",
+        "Question": "The antonyms of Stale is____________?",
+        "id": 553
+    },
+    {
+        "Answer": "Small",
+        "Categ": "Antonyms",
+        "Choice1": "Big",
+        "Choice2": "Giant",
+        "Choice3": "Small",
+        "Choice4": "Low",
+        "Question": "The antonym of Mammoth is___________?",
+        "id": 554
+    },
+    {
+        "Answer": "Rigid",
+        "Categ": "Antonyms",
+        "Choice1": "Yielding",
+        "Choice2": "Rigid",
+        "Choice3": "Mold-able",
+        "Choice4": "Supple",
+        "Question": "Antonym of Elastic is _____________?",
+        "id": 555
+    },
+    {
+        "Answer": "Hostile",
+        "Categ": "Antonyms",
+        "Choice1": "Peacful",
+        "Choice2": "Hostile",
+        "Choice3": "Dominant",
+        "Choice4": "Tuneful",
+        "Question": "Antonym of Harmonious is _____________?",
+        "id": 556
+    },
+    {
+        "Answer": "Serious",
+        "Categ": "Antonyms",
+        "Choice1": "Teasing",
+        "Choice2": "Serious",
+        "Choice3": "Tongue-in-check",
+        "Choice4": "Copy",
+        "Question": "Antonym of Facetious is _____________?",
+        "id": 557
+    },
+    {
+        "Answer": "Thrifty",
+        "Categ": "Antonyms",
+        "Choice1": "Wildly extravagant",
+        "Choice2": "Dissolute",
+        "Choice3": "Dissipated",
+        "Choice4": "Thrifty",
+        "Question": "“Profligate” Antonym _________?",
+        "id": 558
+    },
+    {
+        "Answer": "Depredation",
+        "Categ": "Antonyms",
+        "Choice1": "Lexicon",
+        "Choice2": "Balm",
+        "Choice3": "Hoarding",
+        "Choice4": "Depredation",
+        "Question": "What is antonyms of word Restoration?",
+        "id": 559
+    },
+    {
+        "Answer": "Decent",
+        "Categ": "Antonyms",
+        "Choice1": "Abusive",
+        "Choice2": "Ribald",
+        "Choice3": "Decent",
+        "Choice4": "Mitigate",
+        "Question": "Antonym of SCURRILOUS is_____________?",
+        "id": 560
+    }
+]

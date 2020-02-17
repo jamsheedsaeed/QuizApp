@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Quiz Start</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+        <style>
+        
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+</style>
+        </style>
+    </head>
+    <body onload="countdownTimeStart()">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+  
+   <!-- Card Code -->
+
+
+        <div class="card rounded  border-primary mb-6" style="max-width: 50rem;justify-content: center; margin: 0 auto;float: none;margin-top: 50px;max-height: max-content;roun">
+                  <div class="card-header bg-dark text-white"  >GK Quiz</div>
+                  <div class="card-body text-primary">
+                
+                  <p class="card-text" style="font-size: 30px;" id="demo"></p>
+                  <div class="container">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                        <span class="sr-only">70% Complete</span>
+                      </div>
+                    </div>
+                  </div>
+                  <h5  id="questionArea" class="card-title" style="color: red;"><%= result[0].Question %></h5>
+
+                  <label id="first" class="container"><%= result[0].Choice1 %>
+                    <input type="checkbox"  id="c1">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label id="second" class="container" ><%= result[0].Choice2 %>
+                    <input type="checkbox" id="c2">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label id="third" class="container"><%= result[0].Choice3 %>
+                    <input type="checkbox" id="c3">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label id="fourth" class="container"><%= result[0].Choice4 %>
+                    <input type="checkbox" id="c4">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <br>
+                  <button type="submit" id="myButtonNexte" class="btn btn-lg btn-primary">Next</button>
+                  <button type="submit" id="myButtonReplace" class="btn btn-lg btn-primary">Replace</button>
+
+                  <label style="color: #ffffff;" id="answer" ><%= result[0].Answer %>
+                  </label>
+
+                  
+
+                  <b style="color: white;">Quiz score:</b><p style="color: white;" id="computerScore">0</p>
+                
+                  <b style="color: white;">Questions Count:</b><p style="color: white;" id="questioncount">0</p>
+                  
+
+
+                  <p class="card-text" style="color: black;">
+
+                  </p>  
+
+                  </div>
+              </div>
+
+              <script>
+
+
+                $(document).ready(function(){
+                
+                  $("#myButtonNexte").click(function(){
+                    CheckCorrecAnswer();
+                    $.ajax({url: "/getRandomQuestions", success: function(result){
+                
+                     // console.log("Value is: "+value);
+                     var value1 =  $('#c1').is(':checked'); 
+                      var value2 =  $('#c2').is(':checked');
+                      var value3 =  $('#c3').is(':checked');
+                      var value4 =  $('#c4').is(':checked');
+
+                      if(value1 == false && value2 == false && value3 ==false && value4 ==false){
+                        alert('Please Select Any One Option!');
+                      }else{
+                          $("#questionArea").html(result.question.Question);
+                          $('#first').html("<input type='checkbox' id='c1'><span class='checkmark'></span>"+result.question.Choice1);
+                          $("#second").html("<input type='checkbox' id='c2'><span class='checkmark'></span>"+result.question.Choice2); 
+                          $("#third").html("<input type='checkbox' id='c3'><span class='checkmark'></span>"+result.question.Choice3);
+                          $("#fourth").html("<input type='checkbox' id='c4'><span class='checkmark'></span>"+result.question.Choice4);
+                          $("#answer").html(result.question.Answer);
+                          questioncount();
+                      }
+
+                     
+                     
+
+                    }});
+                  });
+                });
+
+                function rps() {
+                  var computerScore = document.getElementById('computerScore');
+                  var number = computerScore.innerHTML;
+                  number++;
+                  computerScore.innerHTML = number;
+                }
+
+                function questioncount() {
+                  var computerScore = document.getElementById('questioncount');
+                  var number = computerScore.innerHTML;
+                  if(number == 0){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "5%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "5%";
+                  }
+                  if(number == 1){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "10%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "10%";
+                  }
+                  if(number == 2){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "15%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "15%";
+                  }
+
+                  if(number == 3){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "20%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "20%";
+                  }
+
+                  if(number == 4){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "25%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "25%";
+                  }
+
+                  if(number == 5){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "30%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "30%";
+                  }
+
+                  if(number == 6){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "35%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "35%";
+                  }
+
+                  if(number == 7){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "40%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "40%";
+                  }
+                  if(number == 8){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "45%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "45%";
+                  }
+                  if(number == 9){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "50%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "50%";
+                  }
+                  if(number == 10){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "55%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "55%";
+                  }
+                  if(number == 11){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "60%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "60%";
+                  }
+                  if(number == 12){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "65%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "65%";
+                  }
+                  if(number == 13){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "70%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "70%";
+                  }
+                  if(number == 14){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "75%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "75%";
+                  }
+                  if(number == 15){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "80%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "80%";
+                  }
+
+                  if(number == 16){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "85%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "85%";
+                  }
+                  if(number == 17){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "90%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "90%";
+                  }
+                  if(number == 18){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "95%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "95%";
+                  }
+                  if(number >= 19){
+                    document.getElementsByClassName("progress-bar")[0].style.width = "100%";
+                    document.getElementsByClassName("progress-bar")[0].innerHTML = "100%";
+                    Checkrightwrong();                   
+                  }else{
+                    number++;
+                  }
+                  computerScore.innerHTML = number;
+                }
+
+                function Checkrightwrong(){ 
+                  var computerScore = document.getElementById('computerScore');
+                  var number = computerScore.innerHTML;
+                  var wrong = 20 - number;
+                  alert('Your Final Score is: '+number+ '\n'+ 'Wrong Answers: '+wrong);
+                  window.location= '/';
+                }
+
+
+                function CheckCorrecAnswer(){
+                  
+                      var ch1 = document.getElementById("first").innerText;
+                      var ch2 = document.getElementById("second").innerText;
+                      var ch3 = document.getElementById("third").innerText;
+                      var ch4 = document.getElementById("fourth").innerText;
+                      var answer = document.getElementById("answer").innerText;
+                      console.log("Answer of this Question is   "+  answer);
+                      var value1 =  $('#c1').is(':checked'); 
+                      var value2 =  $('#c2').is(':checked');
+                      var value3 =  $('#c3').is(':checked');
+                      var value4 =  $('#c4').is(':checked');
+
+                      if(value1 == true || value2 == true || value3 ==true || value4 ==true){
+
+                        var correctanswer =1 ;
+                      var wrong ;
+                      if((value1 == true) && (ch1 == answer)){
+                        parseInt(correctanswer++); 
+                        rps();
+                        alert('Correct!');
+                      }
+                      else if((value2 == true) && (ch2 == answer)){
+                        parseInt(correctanswer++); 
+                        rps();
+                        alert('Correct!');
+                      }
+                      else if((value3 == true) && (ch3 == answer)){
+                        parseInt(correctanswer++); 
+                        rps();
+                        alert('Correct!');
+                      }
+                      else if((value4 == true) && (ch4 == answer)){
+                        parseInt(correctanswer++); 
+                        rps();
+                        alert('Correct!');
+                      }
+                      else{
+                        alert('False');
+                        wrong++;
+                      }
+
+                      }
+
+                    
+                 // console.log('function called correct answer'+ answer);
+                }
+                
+
+
+            let questionCounter = 0;
+            function countdownTimeStart(){
+
+              window.history.pushState(null, "/getQuestions", window.location.href);        
+        window.onpopstate = function() {
+            window.history.pushState(null, "/getQuestions", window.location.href);
+        };
+
+             
+                var countDownDate = new Date("Feb 13, 2025 11:30:00").getTime();
+                
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+                
+                    // Get todays date and time
+                    var now = new Date().getTime();
+   
+                    // Find the distance between now an the count down date
+                    var distance = countDownDate - now;
+                 
+                    // Time calculations for days, hours, minutes and seconds
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                    // Output the result in an element with id="demo"
+                    document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
+                    
+                    // If the count down is over, write some text 
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                    }
+                }, 1000);
+                }
+
+              </script>
+
+
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
