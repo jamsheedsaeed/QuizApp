@@ -62,6 +62,10 @@
 .container input:checked ~ .checkmark:after {
   display: block;
 }
+.green
+        {
+            background-color: green;
+        }
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
@@ -74,6 +78,8 @@
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+
+  
 }
 </style>
         </style>
@@ -138,7 +144,7 @@
                     <span class="checkmark"></span>
                   </label>
                   <label id="second" class="container" ><%= result[0].Choice2 %>
-                    <input type="checkbox" id="c2">
+                    <input type="checkbox"  id="c2">
                     <span class="checkmark"></span>
                   </label>
                   <label id="third" class="container"><%= result[0].Choice3 %>
@@ -175,6 +181,24 @@
               <script>
 
 
+            $(document).ready(function(){
+                
+                $("#myButtonReplace").click(function(){
+                  $.ajax({url: "/getRandomQuestions", success: function(result){
+              
+                        $("#questionArea").html(result.question.Question);
+                        $('#first').html("<input type='checkbox' id='c1'><span class='checkmark'></span>"+result.question.Choice1);
+                        $("#second").html("<input type='checkbox' id='c2'><span class='checkmark'></span>"+result.question.Choice2); 
+                        $("#third").html("<input type='checkbox' id='c3'><span class='checkmark'></span>"+result.question.Choice3);
+                        $("#fourth").html("<input type='checkbox' id='c4'><span class='checkmark'></span>"+result.question.Choice4);
+                        $("#answer").html(result.question.Answer);
+     
+
+                  }});
+                });
+              });
+
+
                 $(document).ready(function(){
                 
                   $("#myButtonNexte").click(function(){
@@ -198,9 +222,6 @@
                           $("#answer").html(result.question.Answer);
                           questioncount();
                       }
-
-                     
-                     
 
                     }});
                   });
@@ -332,30 +353,35 @@
 
                       if(value1 == true || value2 == true || value3 ==true || value4 ==true){
 
-                        var correctanswer =1 ;
+                      var correctanswer =1 ;
                       var wrong ;
                       if((value1 == true) && (ch1 == answer)){
                         parseInt(correctanswer++); 
                         rps();
-                        alert('Correct!');
+                        //alert('Correct!');
+  
+                        
                       }
                       else if((value2 == true) && (ch2 == answer)){
                         parseInt(correctanswer++); 
                         rps();
-                        alert('Correct!');
+                       // alert('Correct!');
+
                       }
                       else if((value3 == true) && (ch3 == answer)){
                         parseInt(correctanswer++); 
                         rps();
-                        alert('Correct!');
+                        //alert('Correct!');
+  
                       }
                       else if((value4 == true) && (ch4 == answer)){
                         parseInt(correctanswer++); 
                         rps();
-                        alert('Correct!');
+                        //alert('Correct!');
+     
                       }
                       else{
-                        alert('False');
+                        //alert('False');
                         wrong++;
                       }
 

@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: quizapp
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 3000
+  selector:
+    name: quizapp

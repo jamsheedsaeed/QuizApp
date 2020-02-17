@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quizappdeployment
+  labels:
+    app: quizapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: quizapp
+  template:
+    metadata:
+      labels:
+        app: quizapp
+    spec:
+      containers:
+      - name: quizapp
+        image: jamsheedsaeed/quizimage
+        ports:
+        - containerPort: 3000

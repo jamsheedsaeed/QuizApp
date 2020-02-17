@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: quizapp
+spec:
+  hostNetwork: true
+  containers:
+    - name: quizapp
+      image: jamsheedsaeed/quizimage
+      ports:
+        - containerPort: 3000
+          hostPort: 3000
