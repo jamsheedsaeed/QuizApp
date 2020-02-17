@@ -2,7 +2,7 @@
   "name": "quizwebapp",
   "version": "1.0.0",
   "description": "My First Quiz App in Node.js",
-  "main": "app.js",
+  "main":"app.js",
   "scripts": {
     "start": "node app.js"
   },
