@@ -9,8 +9,7 @@ const views = path.join(__dirname, 'views');
 console.log(views);
 
 //Server Default Address
-const hostname = '127.0.0.1';
-const port = 8080;
+var port = process.env.PORT || 3000;
 
 // Set Default Directory for Viewa
 app.set('views', path.join(__dirname, 'views'));
@@ -29,6 +28,6 @@ app.get('/', function(req, res) {
 
 
 //Server Listen At Port number
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+  console.log('Server is live on port : ', port  );
 });
