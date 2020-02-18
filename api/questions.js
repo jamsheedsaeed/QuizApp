@@ -1,8 +1,11 @@
 const questions = require('../models/questions.js');
 var express = require('express');
+var pdfUtil = require('pdf-to-text');
 var app = express();
 var fs = require("fs");
 var result = [];
+var pdf_path = "./msoffice.pdf";
+var option = {from: 0, to: 10};
 
 exports.QuizPage = function (req, res) {
   console.log("\n *START* \n");
@@ -28,6 +31,17 @@ exports.QuizPage = function (req, res) {
     res.json({question:data});
 
   }
+
+  exports.ConvertPdF = function (req , res){
+    
+    pdfUtil.pdfToText(pdf_path, option, function(err, data) {
+      if (err) throw(err);
+      console.log(data); //print text     
+    });
+    
+
+  }
+  
 
 
 

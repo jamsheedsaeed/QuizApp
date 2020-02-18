@@ -2,7 +2,7 @@
   "name": "quizwebapp",
   "version": "1.0.0",
   "description": "My First Quiz App in Node.js",
-  "main":"app.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
@@ -14,6 +14,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "http": "0.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pdf-to-text": "0.0.7"
   }
 }

@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <title>Quiz Start</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+      
 
         <style>
         
@@ -66,6 +66,13 @@
         {
             background-color: green;
         }
+        .card {
+    background-color: white;
+    border: 2px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 2rem;
+}
+
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
@@ -83,50 +90,115 @@
 }
 </style>
         </style>
+   
     </head>
-    <body onload="countdownTimeStart()">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+    <body onload="countdownTimeStart()">
+   
+
+
+      <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+        <!-- The Modal -->
+    <div class="modal fade" id="myModalfinalscore" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Quiz Final Score</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <b id="corr">Correct Answers:</b><p id="corr1"></p>
+            <b id="wrongf">Wrong Answers</b><p id="wrong1"></p>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" id="btnClose" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" id="btnReview" class="btn btn-danger" data-dismiss="modal">Review</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
   
-   <!-- Card Code -->
+    <!-- The Modal -->
+    <div class="modal fade bd-example-modal-lg" style="overflow: auto;" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header" style="background-color: black;">
+            <h4 class="modal-title" style="color: white;">GK Questions</h4>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            <b id="q1" style="color: green;"><%= result[0].Question %></b><p id="ans1"><%= result[0].Answer %></p>
+
+            <b id="q2" style="color: green;"><%= result[0].Question %></b><p id="ans2"><%= result[0].Answer %></p>
+            <b id="q3" style="color: green;"><%= result[0].Question %></b><p id="ans3"><%= result[0].Answer %></p>
+            <b id="q4" style="color: green;"><%= result[0].Question %></b><p id="ans4"><%= result[0].Answer %></p>
+            <b id="q5" style="color: green;"><%= result[0].Question %></b><p id="ans5"><%= result[0].Answer %></p>
+            <b id="q6" style="color: green;"><%= result[0].Question %></b><p id="ans6"><%= result[0].Answer %></p>
+            <b id="q7" style="color: green;"><%= result[0].Question %></b><p id="ans7"><%= result[0].Answer %></p>
+            <b id="q8" style="color: green;"><%= result[0].Question %></b><p id="ans8"><%= result[0].Answer %></p>
+            <b id="q9" style="color: green;"><%= result[0].Question %></b><p id="ans9"><%= result[0].Answer %></p>
+            <b id="q10" style="color: green;"><%= result[0].Question %></b><p id="ans10"><%= result[0].Answer %></p>
+            <b id="q11" style="color: green;"><%= result[0].Question %></b><p id="ans11"><%= result[0].Answer %></p>
+            <b id="q12" style="color: green;"><%= result[0].Question %></b><p id="ans12"><%= result[0].Answer %></p>
+            <b id="q13" style="color: green;"><%= result[0].Question %></b><p id="ans13"><%= result[0].Answer %></p>
+            <b id="q14" style="color: green;"><%= result[0].Question %></b><p id="ans14"><%= result[0].Answer %></p>
+            <b id="q15" style="color: green;"><%= result[0].Question %></b><p id="ans15"><%= result[0].Answer %></p>
+            <b id="q16" style="color: green;"><%= result[0].Question %></b><p id="ans16"><%= result[0].Answer %></p>
+            <b id="q17" style="color: green;"><%= result[0].Question %></b><p id="ans17"><%= result[0].Answer %></p>
+            <b id="q18" style="color: green;"><%= result[0].Question %></b><p id="ans18"><%= result[0].Answer %></p>
+            <b id="q19" style="color: green;"><%= result[0].Question %></b><p id="ans19"><%= result[0].Answer %></p>
+            <b id="q20" style="color: green;"><%= result[0].Question %></b><p id="ans20"><%= result[0].Answer %></p>
+
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" id="btnClosemymodel" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
 
 
         <div class="card rounded  border-primary mb-6" style="max-width: 50rem;justify-content: center; margin: 0 auto;float: none;margin-top: 50px;max-height: max-content;roun">
-                  <div class="card-header bg-dark text-white"  >GK Quiz</div>
+                  <div class="card-header bg-dark text-white text-center">GK Quiz</div>
                   <div class="card-body text-primary">
                 
                   <p class="card-text" style="font-size: 30px;" id="demo"></p>
@@ -179,7 +251,7 @@
               </div>
 
               <script>
-
+           
 
             $(document).ready(function(){
                 
@@ -198,7 +270,35 @@
                 });
               });
 
+              
 
+              $(document).ready(function(){
+                
+                $("#btnClose").click(function(){
+                  window.location = "/";
+              });
+            });
+            
+            
+
+            $(document).ready(function(){
+                
+                $("#btnClosemymodel").click(function(){
+                  window.location = "/";
+              });
+            });
+            
+
+            $(document).ready(function(){
+                
+                $("#btnReview").click(function(){
+                  $('#myModal').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+                 
+              });
+            });
                 $(document).ready(function(){
                 
                   $("#myButtonNexte").click(function(){
@@ -244,84 +344,124 @@
                   if(number == 1){
                     document.getElementsByClassName("progress-bar")[0].style.width = "10%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "10%";
+                    document.getElementById('q2').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans2').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 2){
                     document.getElementsByClassName("progress-bar")[0].style.width = "15%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "15%";
+                    document.getElementById('q3').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans3').innerHTML =  document.getElementById('answer').innerHTML;
                   }
 
                   if(number == 3){
                     document.getElementsByClassName("progress-bar")[0].style.width = "20%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "20%";
+                    document.getElementById('q4').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans4').innerHTML =  document.getElementById('answer').innerHTML;
                   }
 
                   if(number == 4){
                     document.getElementsByClassName("progress-bar")[0].style.width = "25%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "25%";
+                    document.getElementById('q5').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans5').innerHTML =  document.getElementById('answer').innerHTML;
                   }
 
                   if(number == 5){
                     document.getElementsByClassName("progress-bar")[0].style.width = "30%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "30%";
+                    document.getElementById('q6').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans6').innerHTML =  document.getElementById('answer').innerHTML;
                   }
 
                   if(number == 6){
                     document.getElementsByClassName("progress-bar")[0].style.width = "35%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "35%";
+
+                    document.getElementById('q7').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans7').innerHTML =  document.getElementById('answer').innerHTML;
                   }
 
                   if(number == 7){
                     document.getElementsByClassName("progress-bar")[0].style.width = "40%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "40%";
+
+                    document.getElementById('q8').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans8').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 8){
                     document.getElementsByClassName("progress-bar")[0].style.width = "45%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "45%";
+                    document.getElementById('q9').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans9').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 9){
                     document.getElementsByClassName("progress-bar")[0].style.width = "50%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "50%";
+                    document.getElementById('q10').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans10').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 10){
                     document.getElementsByClassName("progress-bar")[0].style.width = "55%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "55%";
+                    document.getElementById('q11').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans11').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 11){
                     document.getElementsByClassName("progress-bar")[0].style.width = "60%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "60%";
+                    document.getElementById('q12').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans12').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 12){
                     document.getElementsByClassName("progress-bar")[0].style.width = "65%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "65%";
+                    document.getElementById('q13').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans13').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 13){
                     document.getElementsByClassName("progress-bar")[0].style.width = "70%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "70%";
+                    document.getElementById('q14').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans14').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 14){
                     document.getElementsByClassName("progress-bar")[0].style.width = "75%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "75%";
+                    document.getElementById('q15').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans15').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 15){
                     document.getElementsByClassName("progress-bar")[0].style.width = "80%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "80%";
+                    document.getElementById('q16').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans16').innerHTML =  document.getElementById('answer').innerHTML;
                   }
 
                   if(number == 16){
                     document.getElementsByClassName("progress-bar")[0].style.width = "85%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "85%";
+                    document.getElementById('q17').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans17').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 17){
                     document.getElementsByClassName("progress-bar")[0].style.width = "90%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "90%";
+                    document.getElementById('q18').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans18').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number == 18){
                     document.getElementsByClassName("progress-bar")[0].style.width = "95%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "95%";
+                    document.getElementById('q19').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans19').innerHTML =  document.getElementById('answer').innerHTML;
                   }
                   if(number >= 19){
                     document.getElementsByClassName("progress-bar")[0].style.width = "100%";
                     document.getElementsByClassName("progress-bar")[0].innerHTML = "100%";
+                    document.getElementById('q20').innerHTML =  document.getElementById('questionArea').innerHTML;
+                    document.getElementById('ans20').innerHTML =  document.getElementById('answer').innerHTML;
                     Checkrightwrong();                   
                   }else{
                     number++;
@@ -332,9 +472,15 @@
                 function Checkrightwrong(){ 
                   var computerScore = document.getElementById('computerScore');
                   var number = computerScore.innerHTML;
+                 document.getElementById('corr1').innerHTML = number;
                   var wrong = 20 - number;
-                  alert('Your Final Score is: '+number+ '\n'+ 'Wrong Answers: '+wrong);
-                  window.location= '/';
+                  document.getElementById('wrong1').innerHTML = wrong;
+                  $('#myModalfinalscore').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+                 // alert('Your Final Score is: '+number+ '\n'+ 'Wrong Answers: '+wrong);
+                 // window.location= '/';
                 }
 
 
@@ -396,6 +542,7 @@
             let questionCounter = 0;
             function countdownTimeStart(){
 
+            
               window.history.pushState(null, "/getQuestions", window.location.href);        
         window.onpopstate = function() {
             window.history.pushState(null, "/getQuestions", window.location.href);
@@ -429,7 +576,7 @@
                 }, 1000);
                 }
 
-              </script>
+              </script> 
 
 
         

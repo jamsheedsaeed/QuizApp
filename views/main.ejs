@@ -7,48 +7,36 @@
     <style></style>
     <body>
         <!-- Nav Bar Code -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+        <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+          <a class="navbar-brand" href="#">Exam Preparations</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
 
           <!-- --------------------------------------------------------------------- -->
           <h1 style="position:relative;padding-left: 30%;"></h1>
 
           <!-- Card Code -->
           <div class="card border-primary mb-6" style="max-width: 50rem;justify-content: center; margin: 0 auto;float: none;margin-top: 50px;max-height: max-content;">
-            <div class="card-header" style="margin: 0 auto;">WellCome To Our Quiz Mania</div>
+            <div class="card-header bg-dark text-white text-center">WellCome To Our Quiz Mania</div>
             <div class="card-body text-primary">
               <h5 class="card-title" style="color: red;">Quiz Instructions</h5>
               <p class="card-text" style="color: black;">The quizzes consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the module. No data will be collected on the website regarding your responses or how many times you take the quiz.
@@ -58,6 +46,7 @@
                 <br>
               </p>  
                <button type="button" id="myButton" class="btn btn-lg btn-primary">Start Quiz</button>
+               <button type="button" id="myButtonConvert" class="btn btn-lg btn-primary">Convert</button>
             </div>
           </div>
           <!-- --------------------------------------------------------------------- -->
@@ -68,6 +57,13 @@
               const button = document.getElementById('myButton');
               button.addEventListener('click', function(e) {
                 window.location = '/getQuestions';
+                console.log('button was clicked');
+              });
+
+
+              const button1 = document.getElementById('myButtonConvert');
+              button1.addEventListener('click', function(e) {
+                window.location = '/convertpdf';
                 console.log('button was clicked');
               });
           </script>
