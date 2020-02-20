@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+      .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: 50rem;
+       
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+        <a class="navbar-brand" href="#">Exam Preparations</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <%for(var i = 10 ; i <20; i++){%>
+
+        <%if(i == 0){%>
+          <div class="card rounded  border-light mb-2" style="margin-top: 50px;">
+            <div class="card-header bg-dark text-white">
+              Question  <%=i %>
+            </div>
+    
+            <div class="card-body">
+              <h5 class="card-title" style="color: green;"><%= result[i].Question %></h5>
+              <p class="card-text">A. <%= result[i].Choice1 %></p>
+              <p class="card-text">B. <%= result[i].Choice2 %></p>
+              <p class="card-text" style="color: red;">C. <%= result[i].Answer %></p>
+              <p class="card-text">D. <%= result[i].Choice4 %></p>
+            </div>
+            <div class="card-footer bg-transparent border-success">
+              <a href="">Report Question</a>
+              <a href="" >Comment</a>
+              <a href="" style="float: right;">Like</a>
+             
+            </div>
+          </div>
+        <%}else{%>
+     
+          
+        <div class="card rounded  border-light mb-2 ">
+          <div class="card-header bg-dark text-white">
+            Question  <%=i %>
+          </div>
+  
+          <div class="card-body">
+            <h5 class="card-title" style="color: green;"><%= result[i].Question %></h5>
+            <p class="card-text"><%= result[i].Choice1 %></p>
+            <p class="card-text"><%= result[i].Choice2 %></p>
+            <p class="card-text" style="color: red;"><%= result[i].Answer %></p>
+            <p class="card-text"><%= result[i].Choice4 %></p>
+          </div>
+          <div class="card-footer bg-transparent border-success">
+
+            <a href="">Report Question</a>
+            <a href="" >Comment</a>
+            <a href="" style="float: right;">Like</a>
+          </div>
+        </div>
+        <% } %>
+
+
+      <%}%>
+
+
+      <nav aria-label="Page navigation example" >
+        <ul class="pagination " style="margin-top: 15px;margin: 0 auto;justify-content: center;">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="/page1">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+ 
+
+
+</div>
+
+<script>
+    $(document).ready(function() {
+ // executes when HTML-Document is loaded and DOM is ready
+console.log("document is ready");
+  
+
+  $( ".card" ).hover(
+  function() {
+    $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+  }, function() {
+    $(this).removeClass('shadow-lg');
+  }
+);
+  
+// document ready  
+});
+
+</script>
+    
+</body>
+</html>

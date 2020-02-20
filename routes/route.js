@@ -6,7 +6,9 @@ var router = express.Router();
 var questions = require('../api/questions.js');
 router.get('/getQuestions',questions.QuizPage);
 router.get('/getRandomQuestions',questions.GetRandomQuestion);
-router.get('/convertpdf',questions.ConvertPdF);
+router.get('/preparequiz',questions.PrepareQuiz);
+router.get('/page1',questions.page1);
+
 
 
 module.exports = router;

@@ -1,0 +1,462 @@
+/************ This section is for the Chart information and the headers of the chart
+ ************ */
+#page-wrapper {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 2px 5px 5px 5px;
+   	border: 0px solid red;
+}
+
+#divCtrl {
+	border: 0px solid black;
+	padding: 0px 0px 0px 0px;
+	width: 300px;
+	height: 100%;
+	float: left;
+	overflow-y: auto;
+	/*margin: 0 auto;*/
+}
+
+.intro {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 10px 5px 10px;
+	background-color: #fcfcfc;	
+	clear: both;
+}
+
+.windowHeader {
+	font-size: 16px;
+	width: 200px;
+	font-weight: bold;
+	/*text-align: center;*/
+	padding: 0px 5px 5px 5px;
+	float:left;
+}
+
+.viewerTitle {
+	background-color: #FCFCFC; 
+	padding-left: 10px; 
+	padding-top: 10px; 
+	height: 60px; 
+	vertical-align: middle;
+}
+
+#icProgress {
+	width: 400px;
+	/*
+	height: 27px;
+	padding-top: 3px;
+	padding-left: 100px;*/
+	/*float: right;*/
+	visibility: visible;
+	float: left;
+}
+
+.progress1 {
+	width: 350px; 
+	font-size:14px; 
+	margin-left: 0px; 
+	float:left; 
+	color: #FF0000; 
+	clear: both; 
+	height:25px;
+}
+
+.modal-vertical-centered {
+	transform: translate(0, 50%) !important;
+	-ms-transform: translate(0, 50%) !important; /* IE 9 */
+	-webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.cCaption {
+	width: 300px; 
+	height: 20px; 
+	padding-top: 5px; 
+	padding-left: 15px;
+	font-size: 24px; 
+	font-weight: bold; 
+	float: left;
+}
+
+.barHeader {
+	width: 100%; 
+	height: 25px;
+	padding-left: 5px; 
+	padding-top: 1px;
+	padding-right: 5px;
+	background-color: #F5F5F5; 
+	font-size: 14px; 
+	/*color: #FFFFFF;*/
+	font-weight: bold; 
+	border-radius:6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;	
+}
+
+.SectionHeaderSign {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.iOpenFolder {
+	width: 20px; 
+	height: 20px; 
+	/*margin-left: 230px;*/
+	font-size: 24px; 
+	cursor: pointer; 
+}
+
+.iOpenFolder:hover{
+	border: 1px solid blue;
+	background-color: #C5DBEC; 
+}
+
+.left_wrap {
+    border: 0px solid #f00;
+    width: 310px;
+    height: 100%;
+    float: left;
+	font-style:normal; 
+	padding: 10px 5px 5px 10px; 
+	font-size: 14px;
+	float: left;
+}
+.right_wrap {
+    border: 0px solid #0f0;
+    width: 170px;
+    height: 100%;
+    float: left;
+    
+    padding: 10px 2px 5px 2px; 
+	font-size: 14px;
+	float: left;
+}
+.left1, .left2 {
+    float: left;
+    width: 49%;
+    border: 1px solid #000;
+    height: 40px;
+}
+
+.right1, .right2 {
+    border: 0px solid #000;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 2px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.file_error{
+	color:#FF0000;
+}
+
+.divSelectFile {
+	border-bottom: 2px solid black;
+	font-size: 16px; 
+	padding-bottom: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.segError {
+	font-size: 12px; 
+	width: 170px; 
+	color: #FF0000; 
+	height: 60px; 
+	font-style: italic;
+	float: left;
+	padding-left: 15px;
+}
+
+#las_track_list {
+	font-weight: normal;
+}
+
+.well_info {
+    background: #fcfcfc /*url('images/module.png') repeat-x left bottom*/;
+    margin-left: 5px auto;
+    padding-left: 0px;
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:6px;
+    font-size: 12px;
+    display:none;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+#lasViewer_header_wrapper {
+}
+.img:hover{
+	background-color:#FCFDFD;
+}
+/***** First, the section of the Chart information
+ ***** */
+#lasViewer_title {
+	border: 0px solid black;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+}
+/***** End of the first section: the Chart information
+ ***** */
+
+
+/***** Second, the section of the Header of every chemicals
+ ***** */
+#lasViewer_header{
+	border: 0px solid black;
+    padding: 0px 0px 0px 0px;
+	width: 100%;
+    height: 0px;
+    margin: 0 auto;
+}
+
+/** The sub headers of every chemicals: the number of sub headers is about the same as the number of charts 
+ ** */
+#header_1st, #header_2nd {
+    border: 1px solid black;
+    float: left;
+    height: 2125px;
+	color: white;
+    padding: 0 0 0 0;
+}
+
+#header_1st {
+    width: 80px;
+    /*background-color: #111;*/
+}
+
+#header_2nd {
+    width: 250px;
+    /*background-color: #777;*/
+}
+/** End of the sub headers of every chemicals 
+ ** */
+
+.tab1 {
+	height: 25px;
+	font-size: 12px; 
+	font-weight: bold; 
+	overflow: hidden; 
+	border: 1px dashed black; 
+	background-color: #DFEFFC; 
+	padding: 5px 5px 5px 5px;
+}
+
+/***** End of the second section: the Header of every chemicals
+ ***** */
+
+
+/************ End of the Chart information and the headers of the chart
+ ************ */
+
+
+#lvHeader {
+	background-image: url("../img/welllog_header3.png");
+	background-repeat: no-repeat;
+	height: 60px;
+	background-color: #0f2167;
+}
+#lv_toolbar {
+	height:32px; 
+	background-color: #5F6C94; 
+	border-top-width: 1px; 
+	border-top-style:solid; 
+	border-top-color: #FFFFFF;
+	padding-left: 300px;
+	padding-top: 2px;
+}
+
+.btn-primary{
+	background-color: #023467;
+	background-image: -webkit-linear-gradient(top,#023467 0,#023467 100%);
+	background-image: -linear-gradient(top,#023467 0,#023467 100%);
+}
+
+.popover-content {
+    color: #000000;
+    font-size: 12px;
+    padding: 2px 2px;
+}
+.lvButton{
+	padding: 2px 5px;
+}
+
+
+.lv_about {
+	color:#ffffff; 
+	padding-top:2px; 
+	padding-bottom: 2px;
+	margin-left: 2px; 
+	background-color: #023467;
+}
+
+.lasViewer_wrapper {
+    width: 100px;
+    border: 0px solid black;
+    float: left;
+    /*margin: 0 auto;*/
+    /*padding-left: 20px;*/
+}
+
+#btnResetZoom {
+	position: absolute;
+	left: 305px;
+	top: 160px;
+	padding: 3px;
+}
+
+.plotHeader {
+	height: 90px;
+	width: 100%;
+	float: left;
+}
+
+.plotHeader_border {
+	border-right: 1px solid black;
+}
+
+.plotBody {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.logListWarning {
+	display:none;
+}
+#helpTitle{
+	font-size: 16px;
+	font-style: italic;
+}
+
+.active-tooltip{
+}
+.popover-content {
+	font-weight: normal;
+}
+.minmaxInput {
+	font-size: 12px;
+	height: 20px;
+	padding: 1px 1px 1px 1px; 
+	width: 60px;	
+}
+
+.myDropDown {
+	height: 25px;
+	padding: 2px 2px 2px 2px;
+}
+
+.chart_graph {
+    border: 0px solid black;
+    float: left;
+    height: 3000px;
+	color: white;
+    padding: 0 0 0 0;
+}
+
+.hiddenPlotName {
+	color:#AAAAAA;	
+}
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+
+.chart_0_depth {
+	width: 30px;	
+    visibility: visible;
+}
+
+.chart_1_lgr {
+    width: 0px;
+    visibility: visible;
+}
+
+.chart_2_ref {
+	width: 0px;
+   	visibility: visible;
+}
+
+.chart_3_dual {
+    width: 0px; 
+   visibility: visible;
+}
+
+.chart_4_litho {
+    width: 0px;
+    visibility: visible;
+}
+
+.chart_7_sgr {
+    width: 0px;
+    visibility: visible;
+}
+
+.chart_8_sgr_ratio {
+    width: 0px;
+    visibility: visible;
+}
+
+.chart_9_custom {
+    width: 0px;
+    visibility: visible;
+}
+
+.chart_16_ctuk {
+	width: 0px;
+	visibility: visible;
+}
+
+.chart_18_formation {
+	width: 0px;
+	visibility: visible;
+}
+
+
+/*
+ * re-style bootstrap component
+ */
+.modal-content {
+	background-color: #5F6C94;
+}
+
+.modal-body {
+	background-color: #FFFFFF;
+}
+.modal-header {
+	padding:5px;
+}
+.modal-footer {
+	margin-top: 0px;
+}
+/*
+ *  end of re-style bootstrap component
+ */

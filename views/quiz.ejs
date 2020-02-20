@@ -250,7 +250,7 @@
                   </div>
               </div>
 
-              <script>
+              <script type='text/javascript'>
            
 
             $(document).ready(function(){
@@ -541,8 +541,7 @@
 
             let questionCounter = 0;
             function countdownTimeStart(){
-
-            
+       
               window.history.pushState(null, "/getQuestions", window.location.href);        
         window.onpopstate = function() {
             window.history.pushState(null, "/getQuestions", window.location.href);

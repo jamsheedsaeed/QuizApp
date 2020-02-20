@@ -1,208 +1,738 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Well Log Viewer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-html, body {
-  font-family: 'Lato', serif;  
-}
+    <!-- Bootstrap core CSS -->
+    <!--<link href="js/vendor/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="js/vendor/bootstrap-3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="shortcut icon" href="favicon.ico?v=2" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css">
 
-.navbar-default {
-  font-size: 1.15em;
-  font-weight: 400;
-  background-color: #006b96;
-  padding: 10px;
-  border: 0px;
-  border-radius: 0px;
-}
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css">
 
-.navbar-default .navbar-nav>li>a {
-  color: white;
-}
+    <link href="/static/js/vendor/jquery_ui/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/normalize.css">
 
-.navbar-default .navbar-nav>li>a:hover {
-  color: #cbf0ff;
-}
+    <link rel="stylesheet" href="/static/js/vendor/jqwidgets/widgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="/static/js/vendor/jqwidgets/widgets/styles/jqx.darkblue.css" type="text/css" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/lasviewer.css" />
 
-.navbar-default .navbar-brand {
-  color: #002433;
-}
+    <script src="/static/js/vendor/modernizr-2.7.1.min.js"></script>
+  </head>
+  <body style="margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom: 0px; background-color: #e7f2f6;">
+    <!--[if lt IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-.navbar-default .navbar-brand:hover {
-  color: #ffffff;
-  text-shadow: 1px -1px 8px #b3e9ff;
-}
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/bootstrap-3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jquery_ui/jquery-ui.js"></script>
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-  background-color: #004059;
-  color: white;
-}
+    <script type="text/javascript" src="/static/js/plugins.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/bootstrap-3.1.1/js/tooltip.js"></script>
 
-.navbar-default .navbar-toggle {
-  border: none;
-}
+    <script type="text/javascript" src="/static/js/vendor/Highcharts/js/highcharts.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/Highcharts/js/highcharts-more.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/Highcharts/js/modules/exporting.js"></script>
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border: none;
-}
+    <script type="text/javascript" src="/static/js/vendor/jqwidgets/widgets/jqxcore.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jqwidgets/widgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jqwidgets/widgets/jqxwindow.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jqwidgets/widgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="/static/js/vendor/jqwidgets/widgets/jqxpanel.js"></script>
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #002433;
-}
+    <script type="text/javascript" src="/static/js/xls/jszip.js"></script>
+    <script type="text/javascript" src="/static/js/xls/xlsx.js"></script>
+    <script type="text/javascript" src="/static/js/xls/xls.js"></script>
+    <script type="text/javascript" src="/static/js/xls/xlsx-reader.js"></script>
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
+    <script src="/static/js/las_resources.js"></script>
+    <script src="/static/js/las_help.js"></script>
+    <script src="/static/js/utils.js"></script>
+    <script src="/static/js/data_error.js"></script>
+    <script src="/static/js/las_list.js"></script>
+    <script src="/static/js/las_header.js"></script>
+    <script src="/static/js/las_data.js"></script>
+    <script src="/static/js/las_data_append.js"></script>
+    <script src="/static/js/las_chart.js"></script>
+    <script src="/static/js/las_charting_logs_header.js"></script>
+    <script src="/static/js/las_charting_logs.js"></script>
+    <script src="/static/js/las_excel.js"></script>
+    <script src="/static/js/las_main.js"></script>
+    <script src="/static/js/FileSaver.js"></script>
 
-.dropdown-menu {
-  background-color: #004059;
-  color: white;
-  border: 0px;
-  border-radius: 2px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+    <script type="text/javascript">
+      function DisplayIP(response) {
+        FILENAME = FILENAME + "_" + response.ip + ".las";
+      }
+    </script>
 
-.dropdown-menu>li>a {
-  background-color: #004059;
-  color: white;
-}
-
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-  background-color: #004059;
-  color:white;
-}
-
-.dropdown-menu .divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #003246;
-}
-
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #ffffff;
-}
-
-@media (max-width: 767px) { 
-  .dropdown-menu>li>a {
-    background-color: #006b96;
-    color: #ffffff;
-  }
-  .dropdown-menu>li>a:hover {
-    color: #ffffff;
-  }
-  
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: #ffffff;
-    background-color: transparent;
-  }
-  
-  .dropdown-menu .divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #005577;
-  }
-} /* END Media Query */
-
-    </style>
-</head>
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+    <!-- data dictionary for log list in different tracks -->
+    <div id="helpLogList" class="modal bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm" style="width: 450px;">
+        <div class="modal-content" style="top: 150px;">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">
+              ×
             </button>
-            <a class="navbar-brand" href="#">CORE</a>
+            <span id="helpTitle">Track Information</span>
           </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-               <li><a href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Dashboard</a></li>
-               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tasks <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Overview</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> New Task</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Categories</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Übersicht</a></li>
-                  <li><a href="#">New Contact</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Categories</a></li>
-                </ul>
-              </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notes <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">New Notiz</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Notebooks</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Accounts</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learnings <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">New Learning</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Categories</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">New Entry</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Topics</a></li>
-                </ul>
-            </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Links<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="http://www.google.ch" target="_blank">My Webmail</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="http://www.google.ch" target="_blank">Timelogger</a></li>
-                  <li><a href="http://www.cubetech.ch" target="_blank">cubetech.ch</a></li>
-               </ul>
-              </li>
-               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Jack Bass<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="http://www.fgruber.ch/" target="_blank"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> User Settings</a></li>
-                  <li><a href="/logout"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout</a></li>
-               </ul>
-              </li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-      
-      <div class="row">
-        <div class="col-md-12">
-            <div class="col-md-12">Simple Bootstrap Navigation with responsive Style. Easy to customize.</div>
+          
+          <div id="helpBody" class="modal-body">
+            <div class="row trackReference" style="display: none;">
+              <table class="table table-hover table-condensed"><tbody>
+              <thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+              <tr><td><b>CGR</b></td><td>Computed gamma ray log</td></tr>
+              <tr><td><b>SGR</b></td><td>Standard gamma ray log</td></tr>
+              <tr><td><b>GR</b></td><td>Gamma ray log</td></tr>
+              <tr><td><b>SP</b></td><td>Total Gamma Ray</td></tr>
+              <tr><td><b>CAL</b></td><td>Caliper log</td></tr>
+              </tbody></table>
+            </div>
+            
+            <div class="row trackDualInduction" style="display: none;">
+              <table class="table table-hover table-condensed"><tbody>
+              <thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+              <tr><td><b>SFLU</b></td><td>Spherically focused resistivity log</td></tr> 
+              <tr><td><b>ILM</b></td><td>Medium Induction Log</td></tr>
+              <tr><td><b>ILD</b></td><td>Depp Induction Log</td></tr>
+              <tr><td><b>AT10</b></td><td>Array Induction Resistivity A10</td></tr>
+              <tr><td><b>AT30</b></td><td>Array Induction Resistivity A30</td></tr>
+              <tr><td><b>AT60</b></td><td>Array Induction Resistivity A60</td></tr>
+              <tr><td><b>AT90</b></td><td>Array Induction Resistivity A90</td></tr>
+              </tbody></table>
+            </div>
+            
+            <div class="row trackLithoDensity" style="display: none;">
+              <table class="table table-hover table-condensed"><tbody>
+              <thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+              <tr><td><b>DPHI</b></td><td>Density porosity Log</td></tr>
+              <tr><td><b>NPHI</b></td><td>Neutron porosity Log</td></tr>
+              <tr><td><b>RHOB</b></td><td>Bulk density log</td></tr>
+              <tr><td><b>PE</b></td><td>Photo-electric index log</td></tr>
+              </tbody></table>
+            </div>
+            
+            <div class="row trackSpectralGammaRay" style="display: none;">
+              <table class="table table-hover table-condensed"><tbody>
+              <thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+              <tr><td><b>POTA</b></td><td>Potassium log</td></tr>
+              <tr><td><b>Uran</b></td><td>Uranium log</td></tr>
+              <tr><td><b>Thor</b></td><td>Thorium log</td></tr>
+              </tbody></table>
+            </div>
+
+            <div class="row trackSpectralGR_Ratio" style="display: none;">
+              <table class="table table-hover table-condensed"><tbody>
+              <thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+              <tr><td><b>Th/K</b></td><td>Thorium/Potassium log</td></tr>
+              <tr><td><b>Th/U</b></td><td>Thorium/Uranium log</td></tr>
+              </tbody></table>
+            </div>
+
+            <div class="row trackCustom1" style="display: none;">
+              <table class="table table-hover table-condensed"><tbody>
+              <thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+              <tr><td colspan="2">Not Available</td></tr>
+              </tbody></table>
+            </div>
+
+            <div class="row trackCTUK" style="display: none;">
+              <table class="table table-hover table-condensed">
+              <tr><td><img src="/static/img/th_u_k.png" /></td></tr>
+              </table>
+            </div>
+            
+            <div class="row trackFormation" style="display: none;">
+              <table class="table table-hover table-condensed">
+              <tr><td>Name indicates top of formation</td></tr>
+              </table>
+            </div>
+
+            <div class="row">
+              <form class="form-inline">
+                <div class="form-group">
+                  <label for="txtTrackNameNew">New Track Name:</label>
+                  <input type="text" class="form-control" id="txtTrackNameNew" style="width: 220px;">
+                </div>
+                <button id="btnTrackNameNew" type="button" class="btn btn-primary">Reset</button>
+              </form>              
+            </div>
+          </div>
         </div>
       </div>
-</body>
+    </div>
+
+    <!-- progress bar for reassign log lists to tracks -->
+    <div id="loading_progress" class="modal bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-vertical-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!--
+            <button class="close" data-dismiss="modal">
+            ×
+            </button>-->
+            <span><b>Status</b></span>
+          </div>
+          <div class="modal-body center-block">
+            <span id="txtProcess1"  class="center-block" style="color: #FF0000; text-align: center;">Data is being processed ......</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modalScatterplot" class="modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg"  style="width: 1000px;">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: #fcfcfc; text-align:center">
+            <button class="close" data-dismiss="modal">
+              ×
+            </button>
+            <span align="center"  style="font-size: 16px; font-weight: bold;">Scatter Plot</span>
+          </div>
+          <div class="modal-body"  style="font-size: 12px;height: 700px; overflow-y:auto; clear:both; padding: 5px 0px;">
+            <div class="row bg-warning text-warning" style="text-align: center; font-size: 14px; padding: 5px; margin: 0px; font-weight: bold;">
+              Specify the X and Y variable for a Scatter Plotter. X and Y variable can't be the same.
+            </div>
+            <div class="row" style="margin: 0px;">
+              <div class="col-md-4">
+                <div class="col-md-5" style="padding-top: 10px; font-weight: bold; font-size: 13px;">
+                  X-axis variable
+                </div>
+                <div class="col-md-6">
+                  <select id="scatterPlotX" class="form-control" style="float:right;"></select>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-md-5" style="padding-top: 10px; font-weight: bold; font-size: 13px;">
+                  Y-axis variable
+                </div>
+                <div class="col-md-6">
+                  <select id="scatterPlotY" class="form-control" style="float:right;"></select>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col-sm-3">
+                  <button id="btnScatterPlot" type="button" class="btn btn-primary" style="font-size: 14px; font-weight: bold;">
+                    Plot
+                  </button>
+                </div>
+                <div class="col-sm-6" style="padding: 5px 0px;">
+                  <span id="infoScatterPlot" class="bg-danger text-danger" style="display: none; font-size: 14px; padding: 3px 0px;">X and Y can't be same.</span>
+                </div>
+                <!--
+                <div class="col-sm-3">
+                  <button type="button" class="btn btn-default" data-dismiss="modal" style="font-weight: bold;">
+                    Close
+                  </button>
+                </div>
+                -->
+              </div>
+            </div>
+            <div class="row" id="scatterPlotChart" style="width: 950px; height: 610px; margin: 0px; padding-top: 15px;">
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- The list of logs -->
+    <div id="modalLogList" class="modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg"  style="width: 800px;">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: #fcfcfc; text-align:center;">
+            <button class="close" data-dismiss="modal">
+              ×
+            </button>
+            <span id="LogListTitle" align="center"  style="font-size: 16px; font-weight: bold">Logs in Uploaded File</span>
+          </div>
+          <div class="modal-body"  style="font-size: 12px;height: 610px; overflow-y:auto; clear:both">
+            <div id="unLogList" style="width: 750px; float: left;">
+  
+            </div>
+          </div>
+          <div class="modal-footer" style="background-color: #fcfcfc;">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+            <!--<button type="button" class="btn btn-primary" onclick="RePlotLogsList()" id="btnListSave">-->
+            <button type="button" class="btn btn-primary" id="btnListSave">
+              <!-- RePlotLogsList is defined in las_list.js -->
+              Save changes and plot
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div id="modalExcel" class="modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" style="width: 600px;">
+              <div class="modal-content">
+                <div class="modal-header" style="background-color: #fcfcfc; text-align:center">
+                  <button class="close" data-dismiss="modal">
+                    ×
+                  </button>
+                  <span id="modelExcelTitle" align="center"  style="font-size: 16px; font-weight: bold">Configure Excel Fields for Plotting</span>
+                </div>
+                <div class="modal-body"  style="font-size: 14px;height: 610px; overflow-y:auto; clear:both">
+                  <div id="excelSheetsList" class="row">
+                    <div class="col-sm-5">
+                      Step 1. Choose sheet
+                    </div>
+                    <div class="col-sm-7">
+                      <select id="sheet_name" class="form-control" style="float:right;">
+                        <option value="">-- Select a sheet to plot --</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div id="divStepFld" class="row" style="display: none;">
+                    <div class="col-sm-5">
+                      Step 2. Specify Step 
+                    </div>
+                    <div class="col-sm-7">
+                      <select id="fldNameStep" class="form-control" style="float:right;">
+                        <option value="">-- Select the Step field --</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div id="divDepthFld" class="row" style="display: none;">
+                    <div class="col-sm-5">
+                      Step 3. Choose Depth field
+                    </div>
+                    <div class="col-sm-7">
+                      
+                        <select id="fldNameDepth" class="form-control" style="float:right;">
+                          <option value="">-- Select the Depth field --</option>
+                        </select>
+                    </div>
+                  </div>
+                  <div class="row bg-warning text-danger" style="padding-left: 62px;">Both Step and Depth values must be in FEET.</div>
+                  
+                  <div id="excelFieldList" style="width: 550px; float: left;">
+                    Step 4. Fields that can be ploted. You can specify how to plot each field in next step.
+                    <div id="sheet_fields" style="padding-left: 50px;">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer" style="background-color: #fcfcfc;">
+                  <!--
+                  <button type="button" class="btn btn-default" data-dismiss="modal">
+                  Close
+                  </button>
+                  -->
+                  <button type="button" class="btn btn-primary" id="ExcelUpdate1">
+                    <!-- RePlotLogsList is defined in las_list.js -->
+                    Next
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <!-- Load las file window -->
+        <div id="loadingWindow">
+            <div style="background-color: #bfccd9;">
+                <div class="windowHeader">
+                    Well Log Viewer
+                </div>
+            </div>
+            <div class="divSelectFile">
+                <div class="intro">
+                    Well Profile from Log ASCII Standard (<b>LAS</b>) or EXCEL (<b>xlsx</b>) files
+                    <br >
+                </div>
+                <div class="intro" style="height:140px">
+                    <div style="width:150px; float: left; padding-top: 5px">
+                        <img src="/static/img/Las_icon.PNG">
+                    </div>
+                    <div style="float: left; height: 130px">
+                        The viewer automatically displays:
+                        <br>
+                        1. GR/SP/CAL/Temp Logs
+                        <br>
+                        2. Resistivity-Induction Logs
+                        <br>
+                        3. Porosity-Density-PE Logs
+                        <br>
+                        4. Spectral GR/Sonic Logs
+                        <br>
+                        5. Computed Logs
+                        <br>
+                        6. Formation  Logs
+                        <br>
+                    </div>
+                </div>
+                <div class="row" style="padding: 8px 5px;">
+                  <div class="col-sm-4" style="text-align: right;">Data locaton:</div>
+                  <div class="col-sm-7">
+                    <label class="radio-inline">
+                      <input type="radio" name="dataSourceType" id="dataSourceLocal" value="localsource" checked="checked"> User File
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="dataSourceType" id="dataSourceRemote" value="remotesource"> File Web Link
+                    </label>
+                  </div>
+                </div>
+                <div id="divLocalSource" ng-app="App" style="/*height:40px;*/" >
+                    <div ng-controller="ngCtrl_viewerdata">
+                        <form action="" method="post" enctype="multipart/form-data">
+                        <!--
+                        <div style="font-size: 12px; display: inline;">
+                            <input type="radio" id="radioButtoLas" name="fileTypes" style="display: inline;" checked="true">Upload LAS file
+                            <input type="radio" id="radioButtoExcel" name="fileTypes" style="display: inline;">Upload Excel file
+                        </div>
+                        -->
+                        <input id="uploadFile" placeholder="Choose File" disabled="disabled" class="form-control" style="display:inline; height:30px; width:250px; font-size: 14px;"/>
+                        <div id="btnSearchLasfile" class="fileUpload btn btn-primary">
+                            <span>Search</span>
+                            <input id="fileInput" type="file" class="upload" accept=".las,.xlsx">
+                        </div>
+                        
+                        <button type="button" id="loadFile" class="btn btn-primary" style="display: none;">
+                            Plot
+                        </button>
+                        <button type="button" id="appendStep0" class="btn btn-primary" style="display: none;">
+                            Next
+                        </button>
+                        <button type="button" id="canelFile" class="btn btn-primary" style="visibility: visible; float: right">
+                            Cancel
+                        </button>
+                        
+                        <!-- plot type: new or append -->
+                        <div id="divExcelProcessing" style="padding-top:5px; font-size: 12px; color:red; display: none;">
+                            Prepocessing EXCEL file...    
+                        </div>
+                        
+                        <div id="plotOptions" style="font-size: 13px; display: none;">
+                            Plot options:
+                            <input type="radio" id="radioButtonPlotNew" name="plotOptions1" style="display: inline;">Plot as new graph
+                            <input type="radio" id="radioButtonPlotAppend" name="plotOptions1" style="display: inline;">Append to current graph
+                        </div>
+                        <!-- end: plot type: new or append -->
+                        <!--
+                        <div id="excelSheets" style="display: none; font-size: 12px">
+                            Sheet Name: 
+                            <select id="sheet_name" class="form-control sheet_select" ng-change="updateJSONString()" ng-model="selectedSheetName" required="true" ng-required="true" ng-options="sheetName as sheetName for (sheetName, sheetData) in sheets">
+                                <option value="">---- Select a sheet ----</option>
+                            </select>
+                            <div style="font-size: 12px; display: inline; margin-left: 70px;">
+                                <input type="checkbox" id="excel_firstRow" style="display: inline; margin-right: 5px;" checked="true">First row include field names
+                            </div>
+                            
+                        </div>
+                        -->
+                        </form>
+                    </div>
+                </div>
+                
+                <div id="divRemoteSource" style="display: none;">
+                  <form class="form-inline">
+                    <div class="form-group">
+                      <label for="txtRemoteFileUrl">URL:</label>
+                      <input type="text" class="form-control" id="txtRemoteFileUrl" placeholder="http://www.wvulogviewer.org/data/Braun 2.las" value="http://www.wvulogviewer.org/data/Braun 2.las" style="width: 360px;">
+                    </div>
+                    <div class="form-group">
+                      <button type="button" id="loadFileRemote" class="btn btn-primary" style="display: block;">
+                        Plot
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div id="sampleLas" style="height: 40px; font-size: 12px; line-height: 20px;">
+                    <a href="data/4704105432.las" target="_blank" title="Right click and save as LAS file" alt="Right click and save as LAS file">Download a sample LAS file</a><br>
+                    <a href="data/Spreasheet Data Sample.xlsx" target="_blank" title="Right click and save as LAS file" alt="Right click and save as LAS file">Download a sample EXCEL file</a>
+                </div>
+                <div id="icProgress" class="center-block">
+                    <span id="txtProcess" class="center-block" style="color: #FF0000; text-align: center;">Data is being processed ......</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load Well Top information Window -->
+        <div id="loadingTopInfo">
+            <div style="background-color: #bfccd9;">
+                <div class="windowHeader">
+                    Load Well Log Top Information
+                </div>
+            </div>
+            <div class="divSelectFile" style="overflow-y: hidden">
+                <div style="font-size:13px; font-style: italic; background-color: #fcfcfc;">
+                    <b>The formation top text (.txt) file should be in the following format</b>
+                    (formation name and depth are seperated by colon (:)).
+                </div>
+                <div id="wt_sample" class="intro" style="margin:auto; height: 130px"></div>
+                <div style="float: right; height: 20px; padding-top: 10px; font-size: 12px;">
+                    <a href="data/4704105432_Tops.txt" target="_blank" title="Right click to save file to you local machine" alt="Right click to save file to you local machine">A sample well top file</a>
+                </div>
+                <div style="padding: 5px 10px 5px 20px;">
+                    Upload formation top file
+                    <br>
+                    <input id="uploadTopFile" placeholder="Choose File" disabled="disabled" style="height:30px; width: 150px;" />
+                    <div class="fileUpload btn  btn-primary">
+                        <span>Search</span>
+                        <input id="fileWellTop" type="file" class="upload" accept="text/*"/>
+                    </div>
+                    <button type="button" id="loadTopFile" class="btn btn-primary" style="visibility: hidden">
+                        Upload
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="busyModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Reloading ...</h4>
+                    </div>
+                    <div class="modal-body">
+                        It might take a while.
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="modal" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title">About WVU Well Log Viewer</h4>
+                    </div>
+                    <div class="modal-body">
+                        For content, technical, or accessibility questions, contact:
+                        <br>
+                        <br>
+                        <b>Email</b>: natcarb@mail.wvu.edu
+                        <br>
+                        <br>
+                        <b>Telephone</b> : 304-293-6694
+                        <br>
+                        <br>
+                        <b>Mailing Address</b>:
+                        <address>
+                            West Virginia GIS Technical Center
+                            <br>
+                            Department of Geology and Geography
+                            <br>
+                            West Virginia University
+                            <br>
+                            330 Brooks Hall, PO Box 6300
+                            <br>
+                            Morgantown, WV 26506-6300
+                            <br>
+                            <br>
+                        </address>
+                        <b>WVU Well Log Viewer</b> has been created <a href="http://wvgis.wvu.edu" target="_blank">West Virginia GIS Technical Center</a>, <a href="http://www.geo.wvu.edu" target="_blank">Department of Geology and Geography</a>, <a href="http://wvu.edu" target="_blank">West Virginia University</a>, Morgantown, West Virginia. Well log viewer is an online tool to quickly visualize and interpret well log data. User can upload a las file to the log viewer and visualize logs in different tracks. At present, viewer can display Gamma Ray logs, Caliper logs, Spectral Gamma ray (Potassium, Uranium and Thorium) logs, Induction logs, Litho-Density (Density porosity, Neutron porosity, Bulk density and PE index) logs, Formation tops. Apart from this the user can also click on “Assign tracks” and choose different tracks for specific log. Ata present a maximum of 5 logs can be plotted in a single track.  Apart from this the viewer interprets the spectral gamma ray and plots colorlith for Th/U-Th/K which makes it visually easier to identify Leached-U and Fixed-U zones.
+                        <br>
+                        <br>
+                        <b>Disclaimer</b>: The Log Viewer was prepared as an account of work sponsored by an agency of the U.S. Government. Neither the U.S. Government nor any agency thereof, nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the U.S. Government or any agency thereof. The views and opinions of authors expressed herein do not necessarily state or reflect those of the U.S. Government or any agency thereof.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="helpDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title">Help on using the Viewer</h4>
+                    </div>
+                    <div class="modal-body">
+                        <a href="doc/WVU_Well_Log_Viewer_UsersGuide.pdf" target="_blank">WVU Well Log Viewer User Guide</a><br />
+                        <a href="doc/WVU_Well_Log_Viewer_Brochure.pdf" target="_blank">WVU Well Log Viewer Brochure</a><br /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-wrapper">
+            <div id="lvHeader">
+                <nav class="top-bar" style="float: right; height:60px;">
+                    <ul style="line-height:60px">
+                        <li style="display: inline; margin-right: 10px;">
+                            <a href="http://wvgis.wvu.edu/" class="custombutton"><img src="/static/img/logos/tc_logo.png" height="38" width="38" target="_blank"></a>
+                        </li>
+                        <li style="display: inline; margin-right: 10px;">
+                            <a href="http://wvu.edu/" class="custombutton"><img src="/static/img/logos/WVU_Logo.png" height="30" width="30" target="_blank"></a>
+                        </li>
+                        <li style="display: inline; margin-right: 10px;">
+                            <a href="http://www.energy.gov/" ><img src="/static/img/logos/DOE_logo.png" height="35" width="35" target="_blank"></a>
+                        </li>+
+                        <li style="display: inline; margin-right: 10px;">
+                            <a href="http://www.netl.doe.gov/" ><img src="/static/img/logos/NETL_Splash.png"  height="35" width="40" target="_blank"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row"></div>
+
+            <div id="lv_toolbar">
+                <div style="float:left">
+                    <button id="iconOpen" type="button" class="btn btn-primary" style="padding: 2px 2px;">
+                        <span class="glyphicon glyphicon-upload lvButton"  data-toggle="popover" data-placement="bottom" data-content="Upload LAS file"></span>
+                        <span data-toggle="popover" data-placement="bottom" data-content="Upload LAS file or Excel (.xlsx) file">Upload File</span>
+                    </button>
+                    <button id="iconOpenLogList" type="button" class="btn  btn-primary"  style="padding: 2px 2px;">
+                        <span class="glyphicon glyphicon-barcode lvButton" data-toggle="popover" data-placement="bottom" data-content="Assign curves into different tracks"></span>
+                        <span data-toggle="popover" data-placement="bottom" data-content="Assign curves into different tracks">Assign Tracks</span>
+                    </button>
+                    <button id="iconScatterPlot" type="button" class="btn  btn-primary"  style="padding: 2px 2px;">
+                        <span class="glyphicon glyphicon-barcode lvButton" data-toggle="popover" data-placement="bottom" data-content="Scatter Plot"></span>
+                        <span data-toggle="popover" data-placement="bottom" data-content="Scatter Plot">Scatter Plot</span>
+                    </button>
+                </div>
+                <div id="otherTools" style="float:right">
+                    <button id="btnDataDownload" type="button" class="btn btn-primary" style="padding: 2px 2px;">
+                        <a data-toggle="popover" data-placement="bottom" data-content="Download plotting data" style="color: #FFFFFF; text-decoration: none">Download Data</a>
+                    </button>
+                    <button type="button" class="btn btn-primary" style="padding: 2px 2px;">
+                        <a data-toggle="modal" data-target="#aboutModal" data-toggle="popover" data-placement="bottom" data-content="About the viewer" style="color: #FFFFFF; text-decoration: none">About</a>
+                    </button>
+                    <button type="button" class="btn  btn-primary"  style="padding: 2px 2px;">
+                        <a data-toggle="modal" data-target="#helpDialog" data-toggle="popover" data-placement="bottom" data-content="Help" style="color: #FFFFFF; text-decoration: none">Help</a>
+                    </button>
+                </div>
+            </div>
+            <div id="viewerBody">
+                <div id="divCtrl">
+                    <div id="cursor_info" class="well_info"></div>
+
+                    <div id="las_Well_info" class="well_info">
+                        <div class="barHeader" style="display: block;">
+                            <span id="wellInfoHeader" class="glyphicon glyphicon-chevron-down SectionHeaderSign "></span>Well Information
+                        </div>
+
+                        <div id="las_Well_info1"></div>
+                    </div>
+                    <!-- populated in las_header.js-->
+
+                    <div id="las_Well_top" class="well_info">
+                        <div class="barHeader" style="display: block;">
+                            <span id="wellTopHeader" class="glyphicon glyphicon-chevron-down SectionHeaderSign "></span>Formation Tops
+                        </div>
+                        <div id="las_Well_top1"></div>
+                        <div id="noTops" style="display: none; height:60px">
+                            <span class="segError">No formation tops. Click to upload formation top text (.txt) file.</span>
+                            <div id="iconNoTopOpen" class="iOpenFolder" style="margin-left: 230px; font-size:14px">
+                                <span class="glyphicon glyphicon-upload" data-toggle="popover" data-placement="bottom" data-content="Upload formation top file" style="font-size: 18px"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- populated in las_header.js-->
+
+                    <div id="las_Well_Curve_Info" class="well_info">
+                        <div class="barHeader" style="display: block;">
+                            <span id="curveInfoHeader" class="glyphicon glyphicon-chevron-right SectionHeaderSign "></span>Curve Information
+                        </div>
+                        <div id="las_Well_Curve_Info1"></div>
+                    </div>
+                    <!-- populated in las_header.js-->
+
+                    <div id="las_track_list" class="well_info">
+                        <div class="barHeader">
+                            <span id="trackOrders" class="glyphicon glyphicon-chevron-down SectionHeaderSign "></span>Track Orders
+                        </div>
+                        <div id="las_track_list1"></div>
+                    </div>
+                    <!-- populated in las_charting.js-->
+
+                </div>
+                <div id="lasViewer_wrapper">
+                    <div id="lasPlotHeader" class="plotHeader">
+                        <div id="chart_0_depth_0" class="plotHeader chart_0_depth"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_1_lgr_0" class="plotHeader chart_1_lgr">
+                          
+                        </div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_2_ref_0" class="plotHeader chart_2_ref"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_3_dual_0" class="plotHeader chart_3_dual"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_4_litho_0" class="plotHeader chart_4_litho"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_7_sgr_0" class="plotHeader chart_7_sgr"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_8_sgr_ratio_0" class="plotHeader chart_8_sgr_ratio"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_9_custom1_0" class="plotHeader chart_9_custom"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_16_ctuk_0" class="plotHeader chart_16_ctuk"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_18_formation_0" class="plotHeader chart_18_formation"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+                        <button id="btnResetZoom" type="button" class="btn btn-danger btn-sm" style="font-weight: bold;">
+                            Reset Zoom
+                        </button>
+                    </div>
+                    <div id="lasPlotBody" class="plotBody">
+                        <div id="chart_0_depth" class="chart_0_depth"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_1_lgr" class="chart_1_lgr"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+                        
+                        <div id="chart_2_ref" class="chart_2_ref"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_3_dual" class="chart_3_dual"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_4_litho" class="chart_4_litho"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_7_sgr" class="chart_7_sgr"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+                        
+                        <div id="chart_8_sgr_ratio" class="chart_8_sgr_ratio"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_9_custom1" class="chart_9_custom"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_16_ctuk" class="chart_16_ctuk"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+
+                        <div id="chart_18_formation" class="chart_18_formation"></div>
+                        <!-- triggered in las_chating.js and populated in las_charting_log.js-->
+                        <div id="fileDisplayArea" style="width:0px;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Bootstrap core JavaScript
+    </body>
 </html>

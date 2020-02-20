@@ -31,6 +31,43 @@ exports.QuizPage = function (req, res) {
     res.json({question:data});
 
   }
+  
+  exports.page1 = function (req, res) {
+    console.log("\n *START* \n");
+  var contents = fs.readFileSync("./questions.json");
+
+  var jsonContent = JSON.parse(contents);
+  console.log("Output Content : \n"+ contents);
+ 
+  for(var i in jsonContent){
+      var a=jsonContent[i]
+      result.push(a);
+   }
+   console.log(result[0].Question);
+  console.log("\n *EXIT* \n");
+  res.render('page1', {
+    result
+  });
+
+    }
+  exports.PrepareQuiz = function (req, res) {
+    console.log("\n *START* \n");
+  var contents = fs.readFileSync("./questions.json");
+
+  var jsonContent = JSON.parse(contents);
+  console.log("Output Content : \n"+ contents);
+ 
+  for(var i in jsonContent){
+      var a=jsonContent[i]
+      result.push(a);
+   }
+   console.log(result[0].Question);
+  console.log("\n *EXIT* \n");
+  res.render('prepareoptions', {
+    result
+  });
+
+    }
 
   exports.ConvertPdF = function (req , res){
     
